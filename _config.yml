@@ -1,1 +1,11 @@
-theme: jekyll-theme-cayman
+theme: minima
+
+header_pages:
+  - members.md
+  - projects.md
+  - publication.md
+  - joinus.md
+  - contact.md
+
+title: RebelsNLU at JAIST
+author: Naoya Inoue
