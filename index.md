@@ -9,8 +9,8 @@ layout: home
 </p>
 
 
-<p align="center" style="font-weight:bold">
-Reading between the Lines
+<p align="center" style="font-size:2.0em">
+Reading between the Lines <br />
 for Natural Language Understanding Lab
 </p>
 
