@@ -5,7 +5,7 @@ title: Members
 
 # Faculty/Staff
 
-- [Associate Professor Naoya Inoue](https://naoya-i.github.io/)
+- <img src="./imgs/profile/naoya9ss.jpeg" style="width:50px; object-fit:cover; border-radius:50%;"/> [Associate Professor Naoya Inoue](https://naoya-i.github.io/) (founder)
 
 
 # Students
