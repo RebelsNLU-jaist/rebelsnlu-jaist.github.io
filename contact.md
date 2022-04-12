@@ -5,8 +5,8 @@ title: Contact
 
 # Affiliation
 
-- School of Information Science, Japan Advanced Institute of Science and Technology (JAIST)
+- <a href="https://www.jaist.ac.jp/english/areas/information-science.html">School of Information Science</a>, <a href="https://www.jaist.ac.jp/english/">Japan Advanced Institute of Science and Technology (JAIST)</a>
 
 
 # Founder
-- [Naoya Inoue](https://naoya-i.github.io/)
+- Associate Professor [Naoya Inoue](https://naoya-i.github.io/)
