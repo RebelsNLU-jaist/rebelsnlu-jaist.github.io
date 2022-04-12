@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Members
+title: People
 ---
 
 # Faculty/Staff
@@ -13,3 +13,11 @@ title: Members
 No students at the moment.
 I'm actively recruting highly motivated students worldwide.
 See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details!
+
+
+<!-- # PhD Students -->
+
+
+<!-- # Masters Students -->
+
+
