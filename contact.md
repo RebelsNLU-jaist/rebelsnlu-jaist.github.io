@@ -9,4 +9,4 @@ title: Contact
 
 
 # Founder
-- Associate Professor [Naoya Inoue](https://naoya-i.github.io/)
+- [Associate Professor Naoya Inoue](https://naoya-i.github.io/)
