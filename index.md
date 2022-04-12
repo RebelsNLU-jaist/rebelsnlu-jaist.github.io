@@ -9,7 +9,12 @@ layout: home
 </p>
 
 
-# Reading between the Lines for Natural Language Understanding Lab
+<p align="center" style="font-weight:bold">
+Reading between the Lines
+for Natural Language Understanding Lab
+</p>
+
+# Introduction
 
 RebelsNLU is a research lab at <a href="https://www.jaist.ac.jp/english/">Japan Advanced Institute of Science and Technology</a>, run by <a href="https://naoya-i.github.io/">Associate Professor Naoya Inoue</a>.
 We study how to create machines that can understand our human language.
