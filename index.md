@@ -4,6 +4,10 @@ layout: home
 
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 
+<p align="center">
+  <img src="./imgs/rebels_logo.jpeg" />
+</p>
+
 
 # Reading between the Lines for Natural Language Understanding Lab
 
