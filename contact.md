@@ -9,5 +9,5 @@ title: Contact
 - [Computing Science Research Area](https://www.jaist.ac.jp/english/areas/cs/), [Japan Advanced Institute of Science and Technology (JAIST)](https://www.jaist.ac.jp/english/)
 
 
-# Founder
-- [Associate Professor Naoya Inoue](https://naoya-i.github.io/)
+# Point of Contact
+- [Associate Professor Naoya Inoue](https://naoya-i.github.io/): naoya-i aaaatttaatat jaist.ac.jp
