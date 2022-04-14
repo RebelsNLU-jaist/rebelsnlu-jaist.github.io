@@ -11,7 +11,7 @@ Interested in joining our lab? Thanks so much for your interest!
 It is very important to see if your working style matches our lab.
 Currently, I'm hosting one-on-one free discussion hours, where we will be relaxed and informally discuss anything related to the lab (for example, about me, research topics, skills needed, etc.) possibly with coffee/tea.
 Either online or offline is fine.
-Feel free to [contact me via email](https://rebelsnlu-jaist.github.io/contact.html).
+Feel free to [contact me via email](https://rebelsnlu-jaist.github.io/contact.html) (もちろん日本語でもOKです！).
 
 
 # Step 2: Apply for the lab
