@@ -10,4 +10,4 @@ title: Contact
 
 
 # Point of Contact
-- [Associate Professor Naoya Inoue](https://naoya-i.github.io/): naoya-i aaaatttaatat jaist.ac.jp
+- [Associate Professor Naoya Inoue](https://naoya-i.github.io/) (founder): naoya-i aaaatttaatat jaist.ac.jp
