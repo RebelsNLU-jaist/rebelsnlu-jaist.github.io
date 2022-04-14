@@ -21,4 +21,4 @@ Related papers: [Inoue et al. ACL2020](https://aclanthology.org/2020.acl-main.60
 
 When we write argumentative texts (e.g. essays), we usually leave background knowledge that we expect the reader to have implicit. For machines to fully understand such texts, it is crucial to auto-complete such background knowledge. We study the problem of analyzing argumentative texts as one important application of our technology. The research questions here include: How can we recognize a relationship between claims and premises? How can we assess argumentative texts and recognize their weaknesses? What part of the texts should be revised to strengthen the argument?
 
-Related papers: [Singh et al. ArgMin2021](https://aclanthology.org/2021.argmining-1.6/), Sultana et al. LREC2022, Singh et al. LREC2022, Naito et al. LREC2022
+Related papers: [Singh et al. ArgMin2021](https://aclanthology.org/2021.argmining-1.6/), Mim et al. LREC2022, Singh et al. LREC2022, Naito et al. LREC2022
