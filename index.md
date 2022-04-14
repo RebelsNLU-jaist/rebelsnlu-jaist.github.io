@@ -16,7 +16,7 @@ for Natural Language Understanding Lab <br />
 </p>
 
 <p align="center" style="font-size:1.5em">
-<span class="label danger">BREAKING NEWS</span>
+<span class="label danger">Dear potential students:</span>
 </p>
 
 I'm hosting informal discussion hours for 展開配属 (本配属) at JAIST (appointment required). See [here](https://rebelsnlu-jaist.github.io/joinus.html) for more details.
