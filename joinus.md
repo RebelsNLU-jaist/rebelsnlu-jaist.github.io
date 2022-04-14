@@ -6,7 +6,7 @@ title: Join us!
 Interested in joining our lab? Thanks so much for your interest!
 
 
-# 1. Talk to us
+# Step 1: Talk to us
 
 It is very important to see if your working style matches our lab.
 Currently, I'm hosting one-on-one free discussion hours, where we will be relaxed and informally discuss anything related to the lab (for example, about me, research topics, skills needed, etc.) possibly with coffee/tea.
@@ -14,7 +14,7 @@ Either online or offline is fine.
 Feel free to [contact me via email](https://rebelsnlu-jaist.github.io/contact.html).
 
 
-# 2. Apply for the lab
+# Step 2: Apply for the lab
 
 If you really think that you want to work with us after the talk session, apply for it! There are several ways to work with us.
 
