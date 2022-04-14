@@ -14,6 +14,10 @@ Reading between the Lines <br />
 for Natural Language Understanding Lab
 </p>
 
+# <span class="label danger">BREAKING NEWS</span>
+
+I'm hosting informal discussion hours for 展開配属 (本配属) at JAIST (appointment required). See [here](https://rebelsnlu-jaist.github.io/joinus.html) for more details.
+
 # Introduction
 
 RebelsNLU is a research lab for Artificial Intelligence (AI) and Natural Language Processing (NLP), run by <a href="https://naoya-i.github.io/">Associate Professor Naoya Inoue</a> at <a href="https://www.jaist.ac.jp/english/">Japan Advanced Institute of Science and Technology (JAIST)</a>.
@@ -24,5 +28,5 @@ Our ultimate goal is to equip machines with an ability to *infer something*--mak
 
 # News
 
-- 2022/04/14: I'm hosting informal discussion hours for 本配属/展開配属 at JAIST (appointment required). See [here](https://rebelsnlu-jaist.github.io/joinus.html) for more details.
+- 2022/04/14: I'm hosting informal discussion hours for 展開配属 (本配属) at JAIST (appointment required). See [here](https://rebelsnlu-jaist.github.io/joinus.html) for more details.
 - 2022/04/01: Born!
