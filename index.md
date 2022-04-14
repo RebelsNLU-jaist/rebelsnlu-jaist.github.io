@@ -15,7 +15,9 @@ for Natural Language Understanding Lab <br />
 (言語推論研究室)
 </p>
 
-# <span class="label danger">BREAKING NEWS</span>
+<p align="center">
+<span class="label danger">BREAKING NEWS</span>
+</p>
 
 I'm hosting informal discussion hours for 展開配属 (本配属) at JAIST (appointment required). See [here](https://rebelsnlu-jaist.github.io/joinus.html) for more details.
 
