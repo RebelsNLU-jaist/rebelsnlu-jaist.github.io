@@ -24,4 +24,5 @@ Our ultimate goal is to equip machines with an ability to *infer something*--mak
 
 # News
 
-- 2022/4/1: Born!
+- 2022/04/14: I'm hosting informal discussion hours for 本配属/展開配属 at JAIST (appointment required). See [here](https://rebelsnlu-jaist.github.io/joinus.html) for more details.
+- 2022/04/01: Born!
