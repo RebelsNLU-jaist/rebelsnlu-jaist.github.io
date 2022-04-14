@@ -21,7 +21,7 @@ If you really think that you want to work with us after the talk session, apply 
 
 ## For JAIST students
 
-You can choose our lab as 展開配属/本配属 lab.
+You can choose our lab as 展開配属 (本配属) lab.
 But, please note that the seats are limited: if there are many competitors, there is no 100% guarantee that you will be assigned to our lab by university regulation.
 
 ## For non-JAIST students
