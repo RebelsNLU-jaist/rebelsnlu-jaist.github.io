@@ -10,7 +10,7 @@ Recent advances in Deep Learning have a large impact on NLP, resulting in more a
 Related papers: [Inoue et al. EMNLP2021](https://aclanthology.org/2021.emnlp-main.490/)
 
 
-# Creating Linguistic Resources for Natural Language Understanding
+# Linguistic Resources for Natural Language Understanding
 
 To objectively measure the progress of research, we need a quantitative evaluation measure indicating the quality of our models. Our research questions include: On what condition can we say the model has successfully read between the lines? How can we quantitatively measure it? Can we create such a benchmark dataset at scale?
 
