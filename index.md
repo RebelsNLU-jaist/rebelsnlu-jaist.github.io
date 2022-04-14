@@ -15,7 +15,7 @@ for Natural Language Understanding Lab <br />
 (言語推論研究室)
 </p>
 
-<p align="center">
+<p align="center" style="font-size:1.5em">
 <span class="label danger">BREAKING NEWS</span>
 </p>
 
