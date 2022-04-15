@@ -14,6 +14,8 @@ Related papers: [Inoue et al. EMNLP2021](https://aclanthology.org/2021.emnlp-mai
 
 # Linguistic Resources for Natural Language Understanding
 
+<img src="imgs/fig_bench.png" style="width:400px" />
+
 To objectively measure the progress of research, we need a quantitative evaluation measure indicating the quality of our models. Our research questions include: On what condition can we say the model has successfully read between the lines? How can we quantitatively measure it? Can we create such a benchmark dataset at scale?
 
 Related papers: [Inoue et al. ACL2020](https://aclanthology.org/2020.acl-main.602/), [井之上2020](https://www.jstage.jst.go.jp/article/jnlp/27/3/27_665/_article/-char/ja)
