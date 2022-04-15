@@ -15,9 +15,8 @@ for Natural Language Understanding Lab <br />
 (言語推論研究室)
 </p>
 
-<p align="center" style="font-size:1.0em;color:red">
-Dear potential students: I'm hosting informal discussion hours for 展開配属 (本配属) at JAIST (appointment required). See [here](https://rebelsnlu-jaist.github.io/joinus.html) for more details.
-</p>
+<span style="font-size:1.0em;color:red">Dear potential students:</span> I'm hosting informal discussion hours for 展開配属 (本配属) at JAIST (appointment required). See [here](https://rebelsnlu-jaist.github.io/joinus.html) for more details.
+
 
 # Introduction
 
