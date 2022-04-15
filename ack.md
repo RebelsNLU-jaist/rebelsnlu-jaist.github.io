@@ -3,8 +3,6 @@ layout: page
 title: Acknowledgments
 ---
 
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-
 # Grants
 
 - Naoya Inoue (PI). Developing Flexible Inference Mechanism by Embedding Causality Knowledge into Continuous Space (事象間関係知識の連続空間への埋め込みによる柔軟な推論機構の開発). Japan Society for the Promotion of Science (JSPS) Grants-in-Aid for Scientific Research (KAKENHI 若手研究). 19K20332. 2019/04-2020/3, 2022/6/1- (freezed), 4,160,000JPY.
