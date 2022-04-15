@@ -5,6 +5,8 @@ title: Projects
 
 # Explainable Question Answering
 
+<img src="imgs/fig_xqa.png" />
+
 Recent advances in Deep Learning have a large impact on NLP, resulting in more accurate NLP systems. However, for the systems to be more robust for unseen input texts, it is crucial for the systems to logically come up with an answer. Furthermore, when the systems are deployed in the real world, it is required for them to explain their own decision as well as answer given questions. In this project, we explore: How can we design such a computational model to do this? How can we train such a model with a machine learning algorithm? How do we imitate human reasoning?
 
 Related papers: [Inoue et al. EMNLP2021](https://aclanthology.org/2021.emnlp-main.490/), [井之上2021](https://www.jstage.jst.go.jp/article/jnlp/29/1/29_237/_article/-char/ja/)
@@ -18,6 +20,8 @@ Related papers: [Inoue et al. ACL2020](https://aclanthology.org/2020.acl-main.60
 
 
 # Argumentation Analysis and Assessment
+
+<img src="imgs/fig_arg.png" style="width:400px" />
 
 When we write argumentative texts (e.g. essays), we usually leave background knowledge that we expect the reader to have implicit. For machines to fully understand such texts, it is crucial to auto-complete such background knowledge. We study the problem of analyzing argumentative texts as one important application of our technology. The research questions here include: How can we recognize a relationship between claims and premises? How can we assess argumentative texts and recognize their weaknesses? What part of the texts should be revised to strengthen the argument?
 
