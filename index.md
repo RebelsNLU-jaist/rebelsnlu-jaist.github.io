@@ -2,8 +2,6 @@
 layout: home
 ---
 
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-
 <p align="center">
   <img src="./imgs/rebels_logo_sq.png" style="width:300px"/>
 </p>
