@@ -1,4 +1,7 @@
-theme: minima
+plugins: jekyll-include-cache
+
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 header_pages:
   - members.md
