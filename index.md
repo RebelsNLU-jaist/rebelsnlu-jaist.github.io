@@ -26,5 +26,8 @@ Our ultimate goal is to equip machines with an ability to *infer something*--mak
 
 # News
 
+- 2022/5/22-2022/5/28: Naoya will give a poster presentation "Learning and Evaluating Character Representations in Novels" at [ACL2022](https://www.2022.aclweb.org/) -- See you in Dublin!
+- 2022/5/12: Naoya will give a talk "知識に根ざした機械読解に向けて" at [Shinra 2022 Kick-off Meeting](https://aip.riken.jp/events/event_136692/)
+- 2022/5/11: Naoya will give a talk "Summarize-then-Answer: Generating Concise Explanations for Multi-hop Reading Comprehension 〜論文にまとめるまでの経緯を添えて〜" at [NLP Colloquium](https://nlp-colloquium-jp.github.io/)
 - 2022/04/14: I'm hosting informal discussion hours for 展開配属 (本配属) at JAIST (appointment required). See [here](https://rebelsnlu-jaist.github.io/joinus.html) for more details.
 - 2022/04/01: Born!
