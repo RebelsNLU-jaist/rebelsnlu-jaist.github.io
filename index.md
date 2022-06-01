@@ -30,5 +30,5 @@ Our ultimate goal is to equip machines with an ability to *infer something*--mak
 - 2022/5/21: Naoya will host an informal talk session in [JAIST Open Campus](https://jaist.ac.jp/event/opencampus220521/)
 - 2022/5/12: Naoya will give a talk "知識に根ざした機械読解に向けて" at [Shinra 2022 Kick-off Meeting](https://aip.riken.jp/events/event_136692/)
 - 2022/5/11: Naoya will give a talk "Summarize-then-Answer: Generating Concise Explanations for Multi-hop Reading Comprehension 〜論文にまとめるまでの経緯を添えて〜" at [NLP Colloquium](https://nlp-colloquium-jp.github.io/)
-- 2022/04/14: I'm hosting informal discussion hours for 展開配属 (本配属) at JAIST (appointment required). See [here](https://rebelsnlu-jaist.github.io/joinus.html) for more details.
+- 2022/04/14-2022/05/21: I'm hosting informal discussion hours for 展開配属 (本配属) at JAIST (appointment required). See [here](https://rebelsnlu-jaist.github.io/joinus.html) for more details.
 - 2022/04/01: Born!
