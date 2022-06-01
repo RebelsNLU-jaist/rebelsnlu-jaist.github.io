@@ -8,8 +8,10 @@ Interested in joining our lab? Thanks so much for your interest!
 
 # Step 1: Talk to us
 
-It is very important to see if your working style and research interest matches our lab.
-I'm accepting one-on-one free discussion hours, where we will be relaxed and informally discuss anything related to the lab (for example, about me, research topics, skills needed) possibly with coffee/tea.
+It is very important to see if your research interest and working style match our lab.
+I'm accepting one-on-one casual discussion hours, where we will be relaxed and informally discuss anything related to the lab (for example, about me, research topics, skills needed) possibly with coffee/tea.
+Thourgh the conversation, you can probe our lab to see if your are a good fit to our lab.
+
 Either online or offline is fine.
 Feel free to [contact me via email](https://rebelsnlu-jaist.github.io/contact.html) (もちろん日本語でもOKです！).
 
