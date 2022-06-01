@@ -8,15 +8,15 @@ Interested in joining our lab? Thanks so much for your interest!
 
 # Step 1: Talk to us
 
-It is very important to see if your working style matches our lab.
-Currently, I'm hosting one-on-one free discussion hours, where we will be relaxed and informally discuss anything related to the lab (for example, about me, research topics, skills needed) possibly with coffee/tea.
+It is very important to see if your working style and research interest matches our lab.
+I'm accepting one-on-one free discussion hours, where we will be relaxed and informally discuss anything related to the lab (for example, about me, research topics, skills needed) possibly with coffee/tea.
 Either online or offline is fine.
 Feel free to [contact me via email](https://rebelsnlu-jaist.github.io/contact.html) (もちろん日本語でもOKです！).
 
 
 # Step 2: Apply for the lab
 
-If you really think that you want to work with us after the talk session, apply for it! There are several ways to work with us.
+Still interested in joining us after the talk session? Apply for it! There are several ways to join us.
 
 
 **For JAIST students**
@@ -26,5 +26,5 @@ But, please note that the seats are limited: if there are many competitors, ther
 
 **For non-JAIST students**
 
-See [here](https://www.jaist.ac.jp/english/admissions/) for admissions.
-More information will be available soon.
+See [here](https://www.jaist.ac.jp/english/admissions/) for admissions (日本語版は[こちら](https://www.jaist.ac.jp/education/procedures/)).
+
