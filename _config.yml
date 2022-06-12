@@ -1,16 +1,36 @@
-#plugins:
-#  - jekyll-include-cache
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+  - jekyll-redirect-from
+  
+#theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
 
-theme: minima
-# remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+lang: en
+direction: ltr
+url: https://rebelsnlu-jaist.github.io
+fixed_navbar: top
+hide_footer: true
 
-header_pages:
-  - members.md
-  - projects.md
-  - publication.md
-  - ack.md
-  - joinus.md
-  - contact.md
+paginate: 2
+paginate_path: "/news/page:num/"
 
 title: RebelsNLU
 author: Naoya Inoue
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      hero_height: is-fullwidth
+  - scope:
+      path: ""
+      type: posts
+    values:
+      hero_height: is-fullwidth
+      image: /imgs/posts/new.png
