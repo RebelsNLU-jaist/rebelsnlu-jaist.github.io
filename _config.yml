@@ -16,7 +16,7 @@ url: https://rebelsnlu-jaist.github.io
 fixed_navbar: top
 hide_footer: true
 
-paginate: 2
+paginate: 10
 paginate_path: "/news/page:num/"
 
 title: RebelsNLU
@@ -27,6 +27,7 @@ defaults:
       path: ""
       type: pages
     values:
+      hero_image: /imgs/hero-sep.jpg
       hero_height: is-fullwidth
   - scope:
       path: ""

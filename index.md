@@ -2,9 +2,8 @@
 layout: page
 title: RebelsNLU / 言語推論研究室
 subtitle: Reading between the Lines for<br /> Natural Language Understanding
-hero_image: /imgs/hero.jpg
+hero_image: /imgs/hero-sep.jpg
 hero_height: is-medium
-hero_darken: true
 ---
 
 <!-- <p align="center">
