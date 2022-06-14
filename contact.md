@@ -7,6 +7,7 @@ title: Contact
 
 Room I-51, 1-1 Asahidai, Nomi, Ishikawa, 923-1292 Japan.
 
+
 # Affiliation
 
 - [School of Information Science](https://www.jaist.ac.jp/english/areas/information-science.html), [Japan Advanced Institute of Science and Technology (JAIST)](https://www.jaist.ac.jp/english/)

@@ -34,14 +34,12 @@ title: People
 
 # Students
 
-No students at the moment.
-I'm actively recruting highly motivated students worldwide.
-See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details!
+## PhD Students
+
+I'm actively recruting highly motivated PhD students worldwide!
+See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details.
 
 
-<!-- # PhD Students -->
+## Masters Students
 
-
-<!-- # Masters Students -->
-
-
+Coming very soon...
