@@ -14,10 +14,10 @@ hero_height: is-medium
   <div class="column">
     <div class="content">
       <h1>Welcome!</h1>
+      <p>
         <p align="center">
           <img src="/imgs/rebels_logo_sq.png" style="width:200px"/>
         </p>
-      <p>
         <b>RebelsNLU</b> is a research lab for Artificial Intelligence (AI) and Natural Language Processing (NLP), run by <a href="https://naoya-i.github.io">Associate Professor Naoya Inoue</a> at <a href="https://www.jaist.ac.jp/english/">Japan Advanced Institute of Science and Technology (JAIST)</a>.
       </p>
       <p>
