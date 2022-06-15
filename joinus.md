@@ -39,5 +39,5 @@ It's so sad.
 However, here is some *good news*.
 There are multiple university schemes to avoid this.
 For example, you can consider applying for "Examination for Admission on Recommendation for Overseas Residents" ([Master's](https://www.jaist.ac.jp/english/admissions/application-guide/guide-m.html) or [Doctoral](https://www.jaist.ac.jp/english/admissions/application-guide/guide-d.html)) or [配属研究室入学前内定制度](https://www.jaist.ac.jp/education/procedures/lab-assignment.html).
-Please read carefully [these documents](https://www.jaist.ac.jp/english/admissions/) for more details about the admissions (日本語版は[こちら](https://www.jaist.ac.jp/education/procedures/)) and find out a suitable scheme for you.
+Please read carefully [these documents](https://www.jaist.ac.jp/english/admissions/) (日本語版は[こちら](https://www.jaist.ac.jp/admissions/)) for more details about the admissions and find out a suitable scheme for you.
 
