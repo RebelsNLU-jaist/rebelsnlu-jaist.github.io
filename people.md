@@ -85,11 +85,11 @@ See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details
             <div class="media">
                 <div class="media-left">
                     <figure class="image is-48x48">
-                    <img src="./imgs/profile/erika_yanagisawa.jpeg" style="width:50px; object-fit:cover; border-radius:50%;"/>
+                    <img src="./imgs/profile/yuting_shi.jpeg" style="width:50px; object-fit:cover; border-radius:50%;"/>
                     </figure>
                 </div>
                 <div class="media-content">
-                    <p class="title is-4"><a href="./">Erika Yanagisawa</a></p>
+                    <p class="title is-4"><a href="./">Yuting Shi</a></p>
                     <p class="subtitle is-6">M1</p>
                 </div>
             </div>
@@ -103,11 +103,11 @@ See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details
             <div class="media">
                 <div class="media-left">
                     <figure class="image is-48x48">
-                    <img src="./imgs/profile/yuting_shi.jpeg" style="width:50px; object-fit:cover; border-radius:50%;"/>
+                    <img src="./imgs/profile/erika_yanagisawa.jpeg" style="width:50px; object-fit:cover; border-radius:50%;"/>
                     </figure>
                 </div>
                 <div class="media-content">
-                    <p class="title is-4"><a href="./">Yuting Shi</a></p>
+                    <p class="title is-4"><a href="./">Erika Yanagisawa</a></p>
                     <p class="subtitle is-6">M1</p>
                 </div>
             </div>
