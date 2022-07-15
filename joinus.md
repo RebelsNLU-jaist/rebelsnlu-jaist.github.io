@@ -40,9 +40,12 @@ But, please note that the seats are limited: if there are many competitors, ther
 TBA.
 
 
-## For non-JAIST students/社会人
+## For non-JAIST students
 
-[JAIST](http://www.jaist.ac.jp/english/) is a postgraduate university in Ishikawa, Japan.
+Our lab belongs to [JAIST](http://www.jaist.ac.jp/english/), a postgraduate university in Ishikawa, Japan.
+
+### As JAIST student
+
 JAIST has both master's program and doctoral program, and welcomes undergrad/grad students worldwide in Ishikawa campus and 社会人学生 in Tokyo satelite campus.
 
 NOTE: I have bad news and good news.
@@ -53,3 +56,7 @@ There are multiple university schemes to avoid this.
 For example, you can consider applying for "Examination for Admission on Recommendation for Overseas Residents" ([Master's](https://www.jaist.ac.jp/english/admissions/application-guide/guide-m.html) or [Doctoral](https://www.jaist.ac.jp/english/admissions/application-guide/guide-d.html)) or [配属研究室入学前内定制度](https://www.jaist.ac.jp/education/procedures/lab-assignment.html).
 Please read carefully [these documents](https://www.jaist.ac.jp/english/admissions/) (日本語版は[こちら](https://www.jaist.ac.jp/admissions/)) for more details about the admissions and find out a suitable scheme for you.
 
+### As internship student
+
+JAIST offers internship opportunities for 高専生.
+See [here](http://www.jaist.ac.jp/education/non-degree/internship.html) for more details.
