@@ -14,23 +14,38 @@ I offer several hints for this:
 
 - Go through every pages of [our website](https://rebelsnlu-jaist.github.io/). Who is working, how many students do they have? How often do they publish papers, which area, which conference? What expertise do they have? Are they rich (research fundings)? Do they enjoy the research? You can learn lots of things through these web pages.
 - Look at [the lab intro webpage at JAIST](https://www.jaist.ac.jp/english/laboratory/cs/inoue.html) (日本語版は[こちら](https://www.jaist.ac.jp/laboratory/cs/inoue.html)), where I describe basic skills I expect from you and general direction for supervision, let alone research direction.
-- Chat with me (either online or offline is fine). During the meeting, we will be relaxed and informally discuss anything related to the lab (for example, about me, research topics, skills needed) possibly with coffee/tea.
+
+
+# Step 2: Talk with Naoya
+
+If you pass the smell test, please contact Prof. Inoue to schedule a meeting (either online or offline is fine). During the meeting, we will be relaxed and informally discuss anything related to the lab (for example, about me, research topics, skills needed) possibly with coffee/tea.
 Thourgh the conversation, you can probe our lab to see if you are a good fit. Feel free to [contact me via email](https://rebelsnlu-jaist.github.io/contact.html) (もちろん日本語でもOK！). 
 
 
-# Step 2: Apply for the lab
+# Step 3: Apply for the lab
 
 Still interested in joining us after Step 1? Then apply for it! There are several ways to join us.
 
 
 ## For JAIST students
 
+### As main research
+
 You can choose our lab in the 展開配属 (本配属) application form.
 But, please note that the seats are limited: if there are many competitors, there is no 100% guarantee that you will be able to work with us because of the capacity.
 
-## For non-JAIST students/社会人
 
-[JAIST](http://www.jaist.ac.jp/english/) is a postgraduate university in Ishikawa, Japan.
+### As minor research (副テーマ研究)
+
+TBA.
+
+
+## For non-JAIST students
+
+Our lab belongs to [JAIST](http://www.jaist.ac.jp/english/), a postgraduate university in Ishikawa, Japan.
+
+### As JAIST student
+
 JAIST has both master's program and doctoral program, and welcomes undergrad/grad students worldwide in Ishikawa campus and 社会人学生 in Tokyo satelite campus.
 
 NOTE: I have bad news and good news.
@@ -41,3 +56,7 @@ There are multiple university schemes to avoid this.
 For example, you can consider applying for "Examination for Admission on Recommendation for Overseas Residents" ([Master's](https://www.jaist.ac.jp/english/admissions/application-guide/guide-m.html) or [Doctoral](https://www.jaist.ac.jp/english/admissions/application-guide/guide-d.html)) or [配属研究室入学前内定制度](https://www.jaist.ac.jp/education/procedures/lab-assignment.html).
 Please read carefully [these documents](https://www.jaist.ac.jp/english/admissions/) (日本語版は[こちら](https://www.jaist.ac.jp/admissions/)) for more details about the admissions and find out a suitable scheme for you.
 
+### As internship student
+
+JAIST offers internship opportunities for 高専生.
+See [here](http://www.jaist.ac.jp/education/non-degree/internship.html) for more details.
