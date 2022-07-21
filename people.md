@@ -77,6 +77,7 @@ See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details
   </div>
 
 </div>
+
 <div class="columns">
 
   <div class="column">
@@ -139,6 +140,47 @@ See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details
   </div>
   
   <div class="column">
+  </div>
+
+</div>
+
+## Internship Students
+
+<div class="columns">
+ <div class="column">
+    <div class="card">
+        <div class="card-content">
+            <div class="media">
+                <div class="media-left">
+                    <figure class="image is-48x48">
+                    <img src="./imgs/profile/takumi_kuroda.jpeg" style="width:50px; object-fit:cover; border-radius:50%;"/>
+                    </figure>
+                </div>
+                <div class="media-content">
+                    <p class="title is-4"><a href="./">Takumi Kuroda (8/1/2022-8/5/2022)</a></p>
+                    <p class="subtitle is-6">NIT, Tomakomai College (4th year)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+        <div class="card-content">
+            <div class="media">
+                <div class="media-left">
+                    <figure class="image is-48x48">
+                    <img src="./imgs/profile/ce_zhang.jpeg" style="width:50px; object-fit:cover; border-radius:50%;"/>
+                    </figure>
+                </div>
+                <div class="media-content">
+                    <p class="title is-4"><a href="./">Ce Zhang (8/17/2022-9/16/2022)</a></p>
+                    <p class="subtitle is-6">Hokuriku Univ. (B4)</p>
+                </div>
+            </div>
+        </div>
+    </div>
   </div>
 
 </div>
