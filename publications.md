@@ -10,6 +10,12 @@ title: Publications
 1. Shoichi Naito, Shintaro Sawada, Chihiro Nakagawa, Naoya Inoue, Kenshi Yamaguchi, Iori Shimizu, Farjana Sultana Mim, Keshav Singh and Kentaro Inui. TYPIC: A Corpus of Template-Based Diagnostic Comments on Argumentation. To appear in <i>Proceedings of the 13th Language Resources and Evaluation Conference (LREC2022)</i>, June 2022.
 1. Naoya Inoue, Charuta Pethe, Allen Kim and Steve Skiena. Learning and Evaluating Character Representations in Novels. In <i>Findings of the Association for Computational Linguistics: ACL2022</i>, May 2022. [paper](https://aclanthology.org/2022.findings-acl.81/)
 
+# Domestic conferences
+
+1. Keshav Singh, Naoya Inoue, Farjana Sultana Mim, Shoichi Naito and Kentaro Inui. Towards Explicating Implicit Reasoning in Arguments. NLP若手の会 第17回シンポジウム, August 2022.
+1. 王文質, Farjana Sultana Mim, 内藤昭一, Keshav Singh, 井之上直也, 乾健太郎. 論述文の深い論理構造の自動解析に向けて. NLP若手の会 第17回シンポジウム, August 2022.
+1. 原口大地, 白井清昭, 井之上直也. 論理的根拠に基づく頑健な機械読解に向けて. NLP若手の会 第17回シンポジウム, August 2022.
+
 # Invited Talks
 
 1. 井之上直也. 知識に根ざした機械読解に向けて. [森羅2022 キックオフミーティング](https://aip.riken.jp/events/event_136692/), May 2022.
