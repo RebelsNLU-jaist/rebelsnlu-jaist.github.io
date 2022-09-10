@@ -8,10 +8,9 @@ hero_height: is-medium
 
 <!-- <span style="font-size:1.0em;color:red">Dear potential students:</span> see [here](https://rebelsnlu-jaist.github.io/joinus.html) for more details. -->
 
-
 <div class="columns">
-
   <div class="column">
+  
     <div class="content">
       <h1>Welcome!</h1>
       <p>
@@ -31,7 +30,7 @@ hero_height: is-medium
   <div class="column is-one-third">
     <div class="card">
       <div class="card-content has-text-centered p-0">
-        <a class="twitter-timeline" href="https://twitter.com/rebelsnlu_jaist?ref_src=twsrc%5Etfw">Tweets by rebelsnlu_jaist</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a class="twitter-timeline" data-height="600px" href="https://twitter.com/rebelsnlu_jaist?ref_src=twsrc%5Etfw">Tweets by rebelsnlu_jaist</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
   </div>
