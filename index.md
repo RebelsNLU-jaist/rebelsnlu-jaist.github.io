@@ -31,8 +31,7 @@ hero_height: is-medium
   <div class="column is-one-third">
     <div class="card">
       <div class="card-content has-text-centered p-0">
-        <a class="twitter-timeline" href="https://twitter.com/rebelsnlu_jaist" data-width="100%" data-height="45vh" data-link-color="#829333">Tweets by rebelsnlu_jaist</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a class="twitter-timeline" href="https://twitter.com/rebelsnlu_jaist?ref_src=twsrc%5Etfw">Tweets by rebelsnlu_jaist</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
   </div>
