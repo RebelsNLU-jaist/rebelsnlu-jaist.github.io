@@ -163,7 +163,7 @@ See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details
             <div class="media">
                 <div class="media-left">
                     <figure class="image is-48x48">
-                    <img src="./imgs/profile/linh_hoai_luu.jpeg" style="width:50px; object-fit:cover; border-radius:50%;"/>
+                    <img src="./imgs/profile/linh_hoai_luu.jpg" style="width:50px; object-fit:cover; border-radius:50%;"/>
                     </figure>
                 </div>
                 <div class="media-content">
