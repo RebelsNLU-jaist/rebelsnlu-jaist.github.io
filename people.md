@@ -3,7 +3,9 @@ layout: page
 title: People
 ---
 
-<img src="./imgs/allmembers.jpg" style="width:100%;"/>
+<div style="text-align:center">
+ <img src="./imgs/allmembers.jpg" style="width:768px;"/>
+</div>
 
 # Faculty/Staff
 
