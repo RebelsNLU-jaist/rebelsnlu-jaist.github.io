@@ -3,6 +3,8 @@ layout: page
 title: People
 ---
 
+<img src="./imgs/allmembers.jpg" style="width:100%;"/>
+
 # Faculty/Staff
 
 <div class="columns">
