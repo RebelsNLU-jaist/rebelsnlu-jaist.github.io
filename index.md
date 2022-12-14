@@ -17,7 +17,7 @@ hero_height: is-medium
         <p align="center">
           <img src="/imgs/rebels_logo_sq.png" style="width:200px"/>
         </p>
-        <b>RebelsNLU</b> is a research lab for Artificial Intelligence (AI) and Natural Language Processing (NLP), run by <a href="https://naoya-i.github.io">Associate Professor Naoya Inoue</a> at <a href="https://www.jaist.ac.jp/english/">Japan Advanced Institute of Science and Technology (JAIST)</a>.
+        <b>RebelsNLU</b> is an international research lab for Artificial Intelligence (AI) and Natural Language Processing (NLP), run by <a href="https://naoya-i.github.io">Associate Professor Naoya Inoue</a> at <a href="https://www.jaist.ac.jp/english/">Japan Advanced Institute of Science and Technology (JAIST)</a>.
       </p>
       <p>
         We study how to create machines that can understand our human language.
