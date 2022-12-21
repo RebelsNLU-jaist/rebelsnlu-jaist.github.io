@@ -18,6 +18,7 @@ title: Publications
 
 # Invited Talks
 
+1. 井之上直也. 説明可能で合理的な推論ができる自然言語処理へのいざない. [名古屋地区NLPセミナー](https://sites.google.com/site/nagoyanlpseminar/), December 2022.
 1. Naoya Inoue. Beyond Performance Benchmarking: Towards Explainable and Rationalized NLP Systems. Advanced AI
 Autumn School at Thai Binh Duong University, October 2022. [slides](https://drive.google.com/file/d/1sRe0XivgeWXsTGzw4mUoVBk27khcCYCp/view?usp=sharing)
 1. 井之上直也. 知識に根ざした機械読解に向けて. [森羅2022 キックオフミーティング](https://aip.riken.jp/events/event_136692/), May 2022.
