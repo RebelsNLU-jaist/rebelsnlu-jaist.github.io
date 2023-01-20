@@ -18,8 +18,10 @@ title: Publications
 
 # Invited Talks
 
-1. 井之上直也. 説明可能で合理的な推論ができる自然言語処理へのいざない. [名古屋地区NLPセミナー](https://sites.google.com/site/nagoyanlpseminar/), December 2022.
-1. Naoya Inoue. Beyond Performance Benchmarking: Towards Explainable and Rationalized NLP Systems. Advanced AI
+1. 井之上直也. 説明生成NLPの最前線 〜Lang&Roboとの接点を添えて〜. [第11回 Language and Robotics研究会](https://langrobo.connpass.com/event/271156/), January 2023.
+2. 井之上直也. パネリスト at パネルディスカッション「構造化知識を使った言語処理応用」. [森羅2022最終報告会](http://shinra-project.info/shinra2022/shinra2022-final-report-workshop/), January 2023.
+3. 井之上直也. 説明可能で合理的な推論ができる自然言語処理へのいざない. [名古屋地区NLPセミナー](https://sites.google.com/site/nagoyanlpseminar/), December 2022.
+4. Naoya Inoue. Beyond Performance Benchmarking: Towards Explainable and Rationalized NLP Systems. Advanced AI
 Autumn School at Thai Binh Duong University, October 2022. [slides](https://drive.google.com/file/d/1sRe0XivgeWXsTGzw4mUoVBk27khcCYCp/view?usp=sharing)
 1. 井之上直也. 知識に根ざした機械読解に向けて. [森羅2022 キックオフミーティング](https://aip.riken.jp/events/event_136692/), May 2022.
 1. 井之上直也. Summarize-then-Answer: Generating Concise Explanations for Multi-hop Reading Comprehension 〜論文にまとめるまでの経緯を添えて〜. [NLPコロキウム](https://nlp-colloquium-jp.github.io/schedule/2022-05-11_naoya-inoue/), May 2022.
