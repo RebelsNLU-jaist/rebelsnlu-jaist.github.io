@@ -13,6 +13,12 @@ title: Publications
 
 # Domestic conferences
 
+1. 原口大地, 白井清昭, 井之上直也. 一般性を考慮した言語処理モデルのShortcut Reasoningの自動検出. 言語処理学会第29回年次大会論文集, 4 pages, March 2023.
+1. 石井愛, 井之上直也, 関根聡. 根拠を説明可能な質問応答システムのための日本語マルチホップQAデータセット構築. 言語処理学会第29回年次大会論文集, 4 pages, March 2023.
+1. 大内啓樹, 進藤裕之, 若宮翔子, 松田裕貴, 井之上直也, 東山翔平, 中村哲, 渡辺太郎. 地球の歩き方旅行記データセット. 言語処理学会第29回年次大会論文集, 4 pages, March 2023.
+1. Camélia Guerraoui, Paul Reisert, Keshav Singh, Farjana Sultana Mim, Naoya Inoue, Shoichi Naito, Wenzhi Wang, Kentaro Inui. Explain to Me What Is Wrong With My Arguments: A Survey about Explanations in Argumentation. 言語処理学会第29回年次大会論文集, 4 pages, March 2023.
+1. Keshav Singh, Naoya Inoue, Paul Reisert, Farjana Sultana Mim, Shoichi Naito, Camélia Guerraoui, Wenzhi Wang, Kentaro Inui. Improving Evidence Detection with Domain-specific Implicit Reasonings. 言語処理学会第29回年次大会論文集, 4 pages, March 2023.
+1. Wenzhi Wang, Paul Reisert, Naoya Inoue, Shoichi Naito, Camélia Guerraoui, Keshav Singh, Kentaro Inui. Towards Creating Analytic Dimensions for Evaluating the Quality of Debate Counter-Arguments. 言語処理学会第29回年次大会論文集, 4 pages, March 2023.
 1. Keshav Singh, Naoya Inoue, Farjana Sultana Mim, Shoichi Naito and Kentaro Inui. Towards Explicating Implicit Reasoning in Arguments. NLP若手の会 第17回シンポジウム, August 2022.
 1. 王文質, Farjana Sultana Mim, 内藤昭一, Keshav Singh, 井之上直也, 乾健太郎. 論述文の深い論理構造の自動解析に向けて. NLP若手の会 第17回シンポジウム, August 2022.
 1. 原口大地, 白井清昭, 井之上直也. 論理的根拠に基づく頑健な機械読解に向けて. NLP若手の会 第17回シンポジウム, August 2022.
