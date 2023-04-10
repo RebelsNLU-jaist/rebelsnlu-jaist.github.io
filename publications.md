@@ -11,6 +11,10 @@ title: Publications
 1. Shoichi Naito, Shintaro Sawada, Chihiro Nakagawa, Naoya Inoue, Kenshi Yamaguchi, Iori Shimizu, Farjana Sultana Mim, Keshav Singh and Kentaro Inui. TYPIC: A Corpus of Template-Based Diagnostic Comments on Argumentation. In <i>Proceedings of the 13th Language Resources and Evaluation Conference (LREC2022)</i>, pp. 5916-5928, June 2022. [paper](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.636)
 1. Naoya Inoue, Charuta Pethe, Allen Kim and Steve Skiena. Learning and Evaluating Character Representations in Novels. In <i>Findings of the Association for Computational Linguistics: ACL2022</i>, May 2022. [paper](https://aclanthology.org/2022.findings-acl.81)
 
+# Review Articles
+
+1. 乾 健太郎, 石井 雄隆, 松林 優一郞, 井之上 直也, 内藤 昭一, 磯部 順子, 舟山 弘晃, 菊地 正弥. 自然言語処理×教育における説明能力 -説明できるライティング評価技術への新しい展開-. 2023 年 16 巻 4 号 p. 289-300. 電子情報通信学会 基礎・境界ソサイエティ Fundamentals Review, 2023. [paper](https://www.jstage.jst.go.jp/article/essfr/16/4/16_289/_article/-char/ja)
+
 # Domestic conferences
 
 1. 尾崎大晟, 中川智皓, 内藤昭一, 井之上直也, 山口健史. 大規模言語モデルが生成した反論文の品質評価. To appear in 人工知能学会全国大会 (第37回) 論文集, 4 pages, June 2023.
