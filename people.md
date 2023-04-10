@@ -9,34 +9,38 @@ title: People
 
 # Faculty/Staff
 
-<div class="columns">
- <div class="column">
-    <div class="card">
-    <div class="card-content">
-        <div class="media">
-        <div class="media-left">
-            <figure class="image is-48x48">
-            <img src="./imgs/profile/naoya9ss.jpeg" style="width:50px; object-fit:cover; border-radius:50%;"/>
-            </figure>
-        </div>
-        <div class="media-content">
-            <p class="title is-4"><a href="https://naoya-i.github.io/">Naoya Inoue</a></p>
-            <p class="subtitle is-6">Associate Professor (founder)</p>
-        </div>
-        </div>
-    </div>
-    </div>
-  </div>
-
-  <div class="column">
-  </div>
-</div>
+<img src="./imgs/profile/naoya9ss.jpeg" style="width:50px; object-fit:cover; border-radius:50%;"/>
+<a href="https://naoya-i.github.io/">Naoya Inoue</a> (Associate Professor/founder)
 
 
 # Students
 
 ## PhD Students
 
+<div class="columns">
+ <div class="column">
+    <div class="card">
+        <div class="card-content">
+            <div class="media">
+                <div class="media-left">
+                    <figure class="image is-48x48">
+                    <img src="./imgs/profile/default.jpeg" style="width:50px; object-fit:cover; border-radius:50%;"/>
+                    </figure>
+                </div>
+                <div class="media-content">
+                    <p class="title is-4"><a href="./">Jin Tao</a></p>
+                    <p class="subtitle is-6">D1</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+ 
+ <div class="column">
+ </div>
+ 
+</div>
+ 
 I'm actively recruting highly motivated PhD students worldwide!
 See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details.
 
@@ -55,7 +59,7 @@ See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details
                 </div>
                 <div class="media-content">
                     <p class="title is-4"><a href="./">Bowen Gao</a></p>
-                    <p class="subtitle is-6">M1 (Apr.)</p>
+                    <p class="subtitle is-6">M2</p>
                 </div>
             </div>
         </div>
@@ -73,7 +77,7 @@ See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details
                 </div>
                 <div class="media-content">
                     <p class="title is-4"><a href="./">Shotaro Kitamura</a></p>
-                    <p class="subtitle is-6">M1 (Apr.)</p>
+                    <p class="subtitle is-6">M2</p>
                 </div>
             </div>
         </div>
@@ -95,7 +99,7 @@ See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details
                 </div>
                 <div class="media-content">
                     <p class="title is-4"><a href="./">Yuting Shi</a></p>
-                    <p class="subtitle is-6">M1 (Apr.)</p>
+                    <p class="subtitle is-6">M2</p>
                 </div>
             </div>
         </div>
@@ -113,7 +117,7 @@ See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details
                 </div>
                 <div class="media-content">
                     <p class="title is-4"><a href="./">Erika Yanagisawa</a></p>
-                    <p class="subtitle is-6">M1 (Apr.)</p>
+                    <p class="subtitle is-6">M2</p>
                 </div>
             </div>
         </div>
@@ -180,6 +184,21 @@ See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details
   </div>
   
   <div class="column">
+    <div class="card">
+        <div class="card-content">
+            <div class="media">
+                <div class="media-left">
+                    <figure class="image is-48x48">
+                    <img src="./imgs/profile/default.jpg" style="width:50px; object-fit:cover; border-radius:50%;"/>
+                    </figure>
+                </div>
+                <div class="media-content">
+                    <p class="title is-4"><a href="./">Houjing Wei</a></p>
+                    <p class="subtitle is-6">M1</p>
+                </div>
+            </div>
+        </div>
+    </div>   
   </div>
 
 </div>
@@ -198,7 +217,7 @@ See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details
                 </div>
                 <div class="media-content">
                     <p class="title is-4"><a href="./">Gaiki Ito</a></p>
-                    <p class="subtitle is-6">M1 (Apr.)</p>
+                    <p class="subtitle is-6">M2</p>
                 </div>
             </div>
         </div>
@@ -206,6 +225,21 @@ See [Join us](https://rebelsnlu-jaist.github.io/joinus.html) for further details
   </div>
   
   <div class="column">
+    <div class="card">
+        <div class="card-content">
+            <div class="media">
+                <div class="media-left">
+                    <figure class="image is-48x48">
+                    <img src="./imgs/profile/default.jpeg" style="width:50px; object-fit:cover; border-radius:50%;"/>
+                    </figure>
+                </div>
+                <div class="media-content">
+                    <p class="title is-4"><a href="./">Naohiro Kaide</a></p>
+                    <p class="subtitle is-6">M1</p>
+                </div>
+            </div>
+        </div>
+    </div>   
   </div>
 
 </div>
