@@ -220,6 +220,8 @@ GEM
     minitest (5.15.0)
     nokogiri (1.13.6-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.6-x86_64-darwin)
+      racc (~> 1.4)
     octokit (4.24.0)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
@@ -261,6 +263,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  universal-darwin-24
 
 DEPENDENCIES
   bulma-clean-theme
