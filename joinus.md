@@ -3,60 +3,57 @@ layout: page
 title: Join us!
 ---
 
-# Step 1: Pass the smell-test
+# ✅ STEP 1: Smell-test: matching is all you need
 
 Interested in joining our lab? Thank you very much for your interest!
 
-Since you are going to spend a long time with us, it is very important for you to make sure if you are comfortable working in our lab.
-Here, the criteria of comfortableness varies: your research interest, lab environment, your expectation, working style, etc.
-So I (very, very) strongly recommend you to make the best effort to probe our lab using the five senses!! (Otherwise, we both will be unhappy)
+Since you are going to spend a long time with us, it is very important for you to make sure if you are comfortable working in our lab. Here, the criteria of comfortableness varies: your research interest, lab environment, your expectation, working style, etc. So I (very, very) strongly recommend you to make the best effort to probe our lab using the five senses (otherwise, we both will be unhappy)!
+
 I offer several hints for this:
 
-- Go through every pages of [our website](https://rebelsnlu-jaist.github.io/). Who is working, how many students do they have? How often do they publish papers, which area, which conference? What expertise do they have? Are they rich (research fundings)? Do they enjoy the research? You can learn lots of things through these web pages.
-- Look at [the lab intro webpage at JAIST](https://www.jaist.ac.jp/english/laboratory/cs/inoue.html) (日本語版は[こちら](https://www.jaist.ac.jp/laboratory/cs/inoue.html)), where I describe basic skills I expect from you and general direction for supervision, let alone research direction.
+- Go through every pages of [our website](/). Who is working, how many students do they have? How often do they publish papers, which area, which conference? What expertise do they have? Are they rich (research fundings)? Do they enjoy the research? [What do they do daily](https://rebelsnlu.super.site/lab-activities)? You can learn lots of things through these web pages.
+- Read [the lab intro webpage at JAIST](https://www.jaist.ac.jp/english/laboratory/cs/inoue.html) (日本語版は[こちら](https://www.jaist.ac.jp/laboratory/cs/inoue.html)), where I describe basic skills I expect from you and general direction for supervision, let alone research direction.
 
-
-# Step 2: Talk with Naoya
-
-If you pass the smell test, please contact Prof. Inoue to schedule a meeting (either online or offline is fine). During the meeting, we will be relaxed and informally discuss anything related to the lab (for example, about me, research topics, skills needed) possibly with coffee/tea.
-Thourgh the conversation, you can probe our lab to see if you are a good fit. Feel free to [contact me via email](https://rebelsnlu-jaist.github.io/contact.html) (もちろん日本語でもOK！). 
-
-
-# Step 3: Apply for the lab
-
-Still interested in joining us after Step 1? Then apply for it! There are several ways to join us.
-
+# ✅ STEP 2: Find out how to join us
 
 ## For JAIST students
 
-### As main research
-
-You can choose our lab in the 展開配属 (本配属) application form.
-But, please note that the seats are limited: if there are many competitors, there is no 100% guarantee that you will be able to work with us because of the capacity.
-
-
-### As minor research (副テーマ研究)
-
-TBA.
-
+> **WARNING:** We only accept students who have contacted Prof. Inoue before enrolling at JAIST. This policy ensures that (a) there is a good match between students and the lab and that (b) Prof. Inoue can dedicate sufficient time to supervising each student.
 
 ## For non-JAIST students
 
-Our lab belongs to [JAIST](http://www.jaist.ac.jp/english/), a postgraduate university in Ishikawa, Japan.
+Our lab belongs to [JAIST](http://www.jaist.ac.jp/english/), a postgraduate university in Ishikawa, Japan. JAIST has both master's program and doctoral program, and welcomes undergrad/grad students worldwide in Ishikawa campus and 社会人学生 in Tokyo satellite campus.
 
-### As JAIST student
+> **NOTE:** Ishikawa students accepted by regular examinations are not 100% guaranteed to be able to work with us (as mentioned above). However, you can avoid this by using the following university schemes:
 
-JAIST has both master's program and doctoral program, and welcomes undergrad/grad students worldwide in Ishikawa campus and 社会人学生 in Tokyo satelite campus.
+- Informal pre-approval system ([配属研究室入学前内定制度](https://www.jaist.ac.jp/education/procedures/lab-assignment.html))
+- For international students only: Examination for Admission on Recommendation for Overseas Residents ([Master's](https://www.jaist.ac.jp/english/admissions/application-guide/guide-m.html) or [Doctoral](https://www.jaist.ac.jp/english/admissions/application-guide/guide-d.html))
 
-NOTE: I have bad news and good news.
-The *bad news* is that if you are Ishikawa students accepted by regular examinations, then you are not 100% guraranteed to be able to work with the lab you want to work with after entering JAIST (as mentioned above).
-It's so sad.
-However, here is some *good news*.
-There are multiple university schemes to avoid this.
-For example, you can consider applying for "Examination for Admission on Recommendation for Overseas Residents" ([Master's](https://www.jaist.ac.jp/english/admissions/application-guide/guide-m.html) or [Doctoral](https://www.jaist.ac.jp/english/admissions/application-guide/guide-d.html)) or [配属研究室入学前内定制度](https://www.jaist.ac.jp/education/procedures/lab-assignment.html).
-Please read carefully [these documents](https://www.jaist.ac.jp/english/admissions/) (日本語版は[こちら](https://www.jaist.ac.jp/admissions/)) for more details about the admissions and find out a suitable scheme for you.
+> **WARNING:** Currently, we are NOT accepting 社会人修士課程学生 in the Tokyo satellite campus due to limited capacity. Contact us about 社会人博士課程学生.
 
-### As internship student
+Anyway, please carefully read [these documents](https://www.jaist.ac.jp/english/admissions/) (日本語版は[こちら](https://www.jaist.ac.jp/admissions/)) for more details about the admissions and find out a suitable scheme for you.
 
-JAIST offers internship opportunities for 高専生.
-See [here](http://www.jaist.ac.jp/education/non-degree/internship.html) for more details.
+[Here](https://www.jaist.ac.jp/english/studentlife/support/scholarships.html) is a useful guide for scholarship available in JAIST.
+
+# ✅ STEP 3: Talk to Prof. Inoue
+
+Please schedule a (possibly virtual) lab tour. By default, the meeting agenda is as follows:
+
+- Overview talk of our lab: our research projects and lab activity (10 min.)
+- Free discussion: why you are interested in our lab, your background, your research plan, anything else you want to ask, etc. (20 min.)
+
+> **IMPORTANT:** Before the meeting, please collect your thoughts about your research plan and what you want to ask about our lab. Through the conversation, we would like you to probe our lab to see if our lab is a good fit for you.
+
+How to make an appointment:
+
+- Find our available time from the calendar below.
+- Please [contact Prof. Inoue via email](/contact.html) (日本語可), indicating:
+  - You want to schedule a lab tour.
+  - How you want to join us (see STEP 2).
+  - Your date/time preference for the tour (30 min. window).
+
+We look forward to speaking with you!
+
+<div style="margin-top: 1rem;">
+  <iframe src="https://www.google.com/calendar/embed?src=naoya.inoue.lab@gmail.com&amp;mode=week&amp;ctz=Asia&amp;via=iframely" title="Lab tour availability calendar" style="width: 100%; height: 659px; border: 0;" loading="lazy"></iframe>
+</div>

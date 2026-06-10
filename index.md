@@ -1,51 +1,195 @@
 ---
 layout: page
-title: RebelsNLU / 言語推論研究室
-subtitle: Reading between the Lines for<br /> Natural Language Understanding
-hero_image: /imgs/hero-sep.jpg
-hero_height: is-medium
+title: RebelsNLU
+# subtitle: Reading between the Lines for Natural Language Understanding
+hero_height: is-hidden
 ---
 
-<!-- <span style="font-size:1.0em;color:red">Dear potential students:</span> see [here](https://rebelsnlu-jaist.github.io/joinus.html) for more details. -->
+<style>
+.home-hero-banner {
+  width: 100vw;
+  margin: -3rem calc(50% - 50vw) 2.5rem;
+  min-height: 300px;
+  padding: 42px clamp(24px, 5vw, 72px);
+  display: grid;
+  grid-template-columns: minmax(210px, 1fr) minmax(300px, 1.25fr) minmax(210px, 1fr);
+  align-items: center;
+  gap: clamp(24px, 4vw, 64px);
+  background: linear-gradient(180deg, #010716 0%, #001f54 46%, #075987 100%);
+}
 
-<div class="columns">
-  <div class="column">
-  
-    <div class="content">
-      <h1>Welcome!</h1>
-      <p>
-        <p align="center">
-          <img src="/imgs/rebels_logo_sq.png" style="width:200px"/>
-        </p>
-        <b>RebelsNLU</b> is an international research lab for Artificial Intelligence (AI) and Natural Language Processing (NLP), run by <a href="https://naoya-i.github.io">Associate Professor Naoya Inoue</a> at <a href="https://www.jaist.ac.jp/english/">Japan Advanced Institute of Science and Technology (JAIST)</a>.
-      </p>
-      <p>
-        We study how to create machines that can understand our human language.
-        Particularly, we are interested in reasoning skills for AI.
-        Our ultimate goal is to equip machines with an ability to <i>infer something</i>--making implicit things explicit and reading between the lines.
-      </p>
-    </div>
+.home-hero-logo {
+  display: flex;
+  align-items: center;
+}
+
+.home-hero-logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  filter:
+    drop-shadow(0 0 4px rgba(255, 255, 255, 0.95))
+    drop-shadow(0 0 12px rgba(255, 255, 255, 0.78));
+}
+
+.home-hero-logo.is-jaist {
+  justify-content: flex-start;
+}
+
+.home-hero-logo.is-jaist img {
+  width: min(300px, 28vw);
+}
+
+.home-hero-logo.is-rebels {
+  justify-content: flex-end;
+}
+
+.home-hero-logo.is-rebels img {
+  width: min(300px, 28vw);
+}
+
+.home-hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: clamp(1.35rem, 2vw, 2rem);
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+@media (max-width: 820px) {
+  .home-hero-banner {
+    min-height: auto;
+    padding: 34px 24px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .home-hero-logo,
+  .home-hero-logo.is-jaist,
+  .home-hero-logo.is-rebels {
+    justify-content: center;
+  }
+
+  .home-hero-logo.is-jaist img,
+  .home-hero-logo.is-rebels img {
+    width: min(280px, 72vw);
+  }
+}
+
+.research-overview {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  margin: 1.5rem auto;
+  border-radius: 6px;
+}
+
+.news-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.news-links a {
+  display: block;
+  padding: 0.85rem 1rem;
+  border: 1px solid #d7d7d7;
+  border-radius: 6px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.news-links a:hover {
+  border-color: #1f2933;
+  text-decoration: underline;
+}
+
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.quick-links a {
+  padding: 0.55rem 0.85rem;
+  border: 1px solid #d7d7d7;
+  border-radius: 6px;
+  color: inherit;
+}
+</style>
+
+<div class="home-hero-banner" aria-label="RebelsNLU affiliation banner">
+  <div class="home-hero-logo is-jaist">
+    <img src="imgs/jaist_logo.png" alt="JAIST logo">
   </div>
-
-  <div class="column is-one-third">
-    <div class="card">
-      <div class="card-content has-text-centered p-0">
-        <a class="twitter-timeline" data-height="600px" href="https://twitter.com/rebelsnlu_jaist?ref_src=twsrc%5Etfw">Tweets by rebelsnlu_jaist</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
-    </div>
+  <div class="home-hero-title">
+    Graduate School of Advanced Science and Technology<br>
+    <br>
+    Language Reasoning Laboratory
   </div>
-
+  <div class="home-hero-logo is-rebels">
+    <img src="/imgs/rebels_logo.png" alt="RebelsNLU logo">
+  </div>
 </div>
 
-## Past news
+**RebelsNLU** is an international research lab for Artificial Intelligence (AI) and Natural Language Processing (NLP), run by [Associate Professor Naoya Inoue](https://naoya-i.info/) at [Japan Advanced Institute of Science and Technology (JAIST)](https://www.jaist.ac.jp/english/) (since 2022). RebelsNLU is short for **Re**ading **be**tween the **L**ine**s** for **N**atural **L**anguage **U**nderstanding.
 
-- **05/22/2022**: Naoya will give a poster presentation "Learning and Evaluating Character Representations in Novels" at [ACL2022](https://www.2022.aclweb.org/) -- See you in Dublin!
-- **05/21/2022**: Naoya will host an informal talk session in [JAIST Open Campus](https://jaist.ac.jp/event/opencampus220521/).
-- **05/12/2022**: Naoya will give a talk "知識に根ざした機械読解に向けて" at [Shinra 2022 Kick-off Meeting](https://aip.riken.jp/events/event_136692/).
-- **05/11/2022**: Naoya will give a talk "Summarize-then-Answer: Generating Concise Explanations for Multi-hop Reading Comprehension 〜論文にまとめるまでの経緯を添えて〜" at [NLP Colloquium](https://nlp-colloquium-jp.github.io/).
-- **04/14/2022**: I'm hosting informal discussion hours for 展開配属 (本配属) at JAIST (appointment required) until 5/21. See [here](joinus.html) for more details.
-- **04/01/2022**: We are born!
+One important mission of a university research lab is to develop students’ skills. We design lab activities so that students can acquire general-purpose skills for problem-finding and problem-solving, let alone expertise in natural language processing research and its related areas.
+
+Through the lab activities, students will learn how to think critically, how to plan, how to present their work, how to dive into unknown fields, how to program, and how to work as a team. Our motto is that research is the best “on-the-job (OJT) training” for developing such skills (the founder Prof. Inoue's favorite word learned from his old mentor).
 
 
- <!-- <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a> -->
+## Activities
+Our lab implements many types of student-driven activities:
 
+- Paper skimming session in Lab Meeting (weekly): All lab members gather to discuss recent advancements in NLP research.
+- Poster session in Lab Meeting (monthly): Lab members present and discuss their research progress in depth.
+- Spotlight oral session in Lab Meeting (on demand): Members share insights from relatively complete work, offering learning opportunities for everyone.
+- Project/Paper Meeting: A dedicated time for students to share their projects and engage in intensive discussions about problems and potential solutions.
+- Study Groups (on-demand): Recognizing that knowledge fuels healthy research, we learn together—covering topics such as NLP fundamentals, programming, sparse autoencoders, and any other subjects of interest.
+- Social Gathering (on-demand): We celebrate various milestones and occasions—welcome parties, farewell parties, birthdays, year-end celebrations, New Year gatherings, and more.
+
+On top of these activities, students actively discuss with lab members, come up with innovative ideas, program these ideas as a computational model, and evaluate these ideas quantitatively and qualitatively. After a number of trials, someday, students will obtain interesting insights. They then write and submit a paper to academic conferences to improve the idea, communicating with researchers worldwide.
+
+To develop globally successful students, we use English, one of the most well-used languages in the world, as a common language in these activities.
+
+<!-- ## Research Direction
+
+We study how to create machines that can understand our human language. Particularly, we are interested in reasoning skills for AI. Our ultimate goal is to equip machines with an ability to infer something--making implicit things explicit and reading between the lines.
+
+<img class="research-overview" src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/70048022-8e6e-4270-8cf7-7e2c9f0f6bd7/Untitled/w=1920,quality=90,fit=scale-down" alt="RebelsNLU research overview"> -->
+
+## Latest News
+
+Latest updates are mirrored from our X/Twitter posts:
+
+<!-- <div class="news-links">
+  <a href="https://twitter.com/rebelsnlu_jaist/status/1981252753004646446">X/Twitter update: 1981252753004646446</a>
+  <a href="https://twitter.com/rebelsnlu_jaist/status/1934479054440456330">X/Twitter update: 1934479054440456330</a>
+  <a href="https://twitter.com/rebelsnlu_jaist/status/1909451952100192476">X/Twitter update: 1909451952100192476</a>
+  <a href="https://twitter.com/rebelsnlu_jaist/status/1909419444067282986">X/Twitter update: 1909419444067282986</a>
+  <a href="https://twitter.com/rebelsnlu_jaist/status/1909419545078771860">X/Twitter update: 1909419545078771860</a>
+  <a href="https://twitter.com/rebelsnlu_jaist/status/1884777519917990032">X/Twitter update: 1884777519917990032</a>
+  <a href="https://twitter.com/rebelsnlu_jaist/status/1868459764570841396">X/Twitter update: 1868459764570841396</a>
+  <a href="https://twitter.com/rebelsnlu_jaist/status/1852201332439929334">X/Twitter update: 1852201332439929334</a>
+  <a href="https://twitter.com/rebelsnlu_jaist/status/1850818257164644404">X/Twitter update: 1850818257164644404</a>
+  <a href="https://twitter.com/rebelsnlu_jaist/status/1847189787452887548">X/Twitter update: 1847189787452887548</a>
+</div> -->
+
+Older posts:
+
+- [2024 posts](https://rebelsnlu.super.site/older-2024-posts)
+- [2023 posts](https://rebelsnlu.super.site/older-2024-posts/2023-posts)
+- [2022 posts](https://rebelsnlu.super.site/older-2024-posts/2023-posts/2022-posts)
+
+## Quick Links
+
+<div class="quick-links">
+  <a href="/people.html">People</a>
+  <a href="/projects.html">Projects</a>
+  <a href="/publications.html">Publications</a>
+  <a href="/joinus.html">Join us!</a>
+  <a href="/contact.html">Contact</a>
+</div>

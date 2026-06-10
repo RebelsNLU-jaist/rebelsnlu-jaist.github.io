@@ -1,14 +1,18 @@
 - name: People
   link: /people.html
+
 - name: Research
   dropdown:
   - name: Projects
     link: /projects.html
   - name: Publications
     link: /publications.html
-  - name: Acknowledgements
-    link: ack.html
-- name: Join us!
-  link: /joinus.html
+  # - name: Acknowledgements
+  #   link: ack.html
+
 - name: Contact
-  link: contact.html
+  dropdown:
+  - name: Contact
+    link: /contact.html
+  - name: Join Us
+    link: /joinus.html
