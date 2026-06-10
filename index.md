@@ -164,8 +164,8 @@ We study how to create machines that can understand our human language. Particul
 ## Latest News
 
 Latest updates are mirrored from our X/Twitter posts:
-
-<!-- <div class="news-links">
+<!-- 
+<div class="news-links">
   <a href="https://twitter.com/rebelsnlu_jaist/status/1981252753004646446">X/Twitter update: 1981252753004646446</a>
   <a href="https://twitter.com/rebelsnlu_jaist/status/1934479054440456330">X/Twitter update: 1934479054440456330</a>
   <a href="https://twitter.com/rebelsnlu_jaist/status/1909451952100192476">X/Twitter update: 1909451952100192476</a>
