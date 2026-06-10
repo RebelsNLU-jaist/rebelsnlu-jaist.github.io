@@ -69,12 +69,12 @@ Through the lab activities, students will learn how to think critically, how to 
 ## Activities
 Our lab implements many types of student-driven activities:
 
-- Paper skimming session in Lab Meeting (weekly): All lab members gather to discuss recent advancements in NLP research.
-- Poster session in Lab Meeting (monthly): Lab members present and discuss their research progress in depth.
-- Spotlight oral session in Lab Meeting (on demand): Members share insights from relatively complete work, offering learning opportunities for everyone.
-- Project/Paper Meeting: A dedicated time for students to share their projects and engage in intensive discussions about problems and potential solutions.
-- Study Groups (on-demand): Recognizing that knowledge fuels healthy research, we learn together—covering topics such as NLP fundamentals, programming, sparse autoencoders, and any other subjects of interest.
-- Social Gathering (on-demand): We celebrate various milestones and occasions—welcome parties, farewell parties, birthdays, year-end celebrations, New Year gatherings, and more.
+- **Paper Skimming** (weekly): All lab members gather to discuss recent advancements in NLP research.
+- **Poster** (monthly): Lab members present and discuss their research progress in depth.
+- **Spotlight Oral** (on demand): Members share insights from relatively complete work, offering learning opportunities for everyone.
+- **Project/Paper Meeting**: A dedicated time for students to share their projects and engage in intensive discussions about problems and potential solutions.
+- **Study Groups** (on-demand): Recognizing that knowledge fuels healthy research, we learn together—covering topics such as NLP fundamentals, programming, sparse autoencoders, and any other subjects of interest.
+- **Social Gathering** (on-demand): We celebrate various milestones and occasions—welcome parties, farewell parties, birthdays, year-end celebrations, New Year gatherings, and more.
 
 On top of these activities, students actively discuss with lab members, come up with innovative ideas, program these ideas as a computational model, and evaluate these ideas quantitatively and qualitatively. After a number of trials, someday, students will obtain interesting insights. They then write and submit a paper to academic conferences to improve the idea, communicating with researchers worldwide.
 
