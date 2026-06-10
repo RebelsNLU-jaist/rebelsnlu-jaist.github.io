@@ -3,9 +3,7 @@ layout: page
 title: Publications
 ---
 
-# Research / Publication
-
-See [here](https://naoya-i.info/activities) for past publication record before 4/1/2022.
+<!-- # Research / Publication -->
 
 # International journals/conferences/workshops
 
@@ -76,6 +74,9 @@ See [here](https://naoya-i.info/activities) for past publication record before 4
 1. Shoichi Naito, Shintaro Sawada, Chihiro Nakagawa, Naoya Inoue, Kenshi Yamaguchi, Iori Shimizu, Farjana Sultana Mim, Keshav Singh and Kentaro Inui. TYPIC: A Corpus of Template-Based Diagnostic Comments on Argumentation. In Proceedings of the 13th Language Resources and Evaluation Conference (LREC2022), pp. 5916-5928, June 2022. [paper](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.636)
 
 1. Naoya Inoue, Charuta Pethe, Allen Kim and Steve Skiena. Learning and Evaluating Character Representations in Novels. In Findings of the Association for Computational Linguistics: ACL2022, May 2022. [paper](https://aclanthology.org/2022.findings-acl.81)
+
+
+See [HERE](https://naoya-i.info/activities) for past publication record before 4/1/2022.
 
 # Awards
 

@@ -2,78 +2,14 @@
 layout: page
 title: RebelsNLU
 # subtitle: Reading between the Lines for Natural Language Understanding
-hero_height: is-hidden
 ---
 
 <style>
-.home-hero-banner {
-  width: 100vw;
-  margin: -3rem calc(50% - 50vw) 2.5rem;
-  min-height: 300px;
-  padding: 42px clamp(24px, 5vw, 72px);
-  display: grid;
-  grid-template-columns: minmax(210px, 1fr) minmax(300px, 1.25fr) minmax(210px, 1fr);
-  align-items: center;
-  gap: clamp(24px, 4vw, 64px);
-  background: linear-gradient(180deg, #010716 0%, #001f54 46%, #075987 100%);
-}
-
-.home-hero-logo {
-  display: flex;
-  align-items: center;
-}
-
-.home-hero-logo img {
+.home-logo {
   display: block;
-  max-width: 100%;
-  height: auto;
-  filter:
-    drop-shadow(0 0 4px rgba(255, 255, 255, 0.95))
-    drop-shadow(0 0 12px rgba(255, 255, 255, 0.78));
-}
-
-.home-hero-logo.is-jaist {
-  justify-content: flex-start;
-}
-
-.home-hero-logo.is-jaist img {
-  width: min(300px, 28vw);
-}
-
-.home-hero-logo.is-rebels {
-  justify-content: flex-end;
-}
-
-.home-hero-logo.is-rebels img {
-  width: min(300px, 28vw);
-}
-
-.home-hero-title {
-  color: #fff;
-  text-align: center;
-  font-size: clamp(1.35rem, 2vw, 2rem);
-  line-height: 1.35;
-  font-weight: 500;
-}
-
-@media (max-width: 820px) {
-  .home-hero-banner {
-    min-height: auto;
-    padding: 34px 24px;
-    grid-template-columns: 1fr;
-    gap: 28px;
-  }
-
-  .home-hero-logo,
-  .home-hero-logo.is-jaist,
-  .home-hero-logo.is-rebels {
-    justify-content: center;
-  }
-
-  .home-hero-logo.is-jaist img,
-  .home-hero-logo.is-rebels img {
-    width: min(280px, 72vw);
-  }
+  max-width: 260px;
+  width: 60%;
+  margin: 0 auto 2rem;
 }
 
 .research-overview {
@@ -120,19 +56,8 @@ hero_height: is-hidden
 }
 </style>
 
-<div class="home-hero-banner" aria-label="RebelsNLU affiliation banner">
-  <div class="home-hero-logo is-jaist">
-    <img src="imgs/jaist_logo.png" alt="JAIST logo">
-  </div>
-  <div class="home-hero-title">
-    Graduate School of Advanced Science and Technology<br>
-    <br>
-    Language Reasoning Laboratory
-  </div>
-  <div class="home-hero-logo is-rebels">
-    <img src="/imgs/rebels_logo.png" alt="RebelsNLU logo">
-  </div>
-</div>
+<!-- <img class="home-logo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/dd14fc7d-bc3d-42ef-a5e9-c87cc5bd5e4d/logo.svg" alt="RebelsNLU logo"> -->
+<img class="home-logo" src="imgs/rebels_logo.png" alt="RebelsNLU logo">
 
 **RebelsNLU** is an international research lab for Artificial Intelligence (AI) and Natural Language Processing (NLP), run by [Associate Professor Naoya Inoue](https://naoya-i.info/) at [Japan Advanced Institute of Science and Technology (JAIST)](https://www.jaist.ac.jp/english/) (since 2022). RebelsNLU is short for **Re**ading **be**tween the **L**ine**s** for **N**atural **L**anguage **U**nderstanding.
 
@@ -164,8 +89,8 @@ We study how to create machines that can understand our human language. Particul
 ## Latest News
 
 Latest updates are mirrored from our X/Twitter posts:
-<!-- 
-<div class="news-links">
+
+<!-- <div class="news-links">
   <a href="https://twitter.com/rebelsnlu_jaist/status/1981252753004646446">X/Twitter update: 1981252753004646446</a>
   <a href="https://twitter.com/rebelsnlu_jaist/status/1934479054440456330">X/Twitter update: 1934479054440456330</a>
   <a href="https://twitter.com/rebelsnlu_jaist/status/1909451952100192476">X/Twitter update: 1909451952100192476</a>

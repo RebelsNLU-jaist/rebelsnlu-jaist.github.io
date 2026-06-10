@@ -3,12 +3,15 @@ layout: page
 title: Projects
 ---
 
-# Research / Projects
+<!-- # Research / Projects -->
 
 ## Overview
 
 <!-- <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/70048022-8e6e-4270-8cf7-7e2c9f0f6bd7/Untitled/public" alt="Research overview" style="width:100%;height:auto;"/> -->
-<img src="imgs/research_directions.png/">
+
+conceptual figure TDB
+
+<!-- <img src="imgs/research_directions.png/"> -->
 
 <!-- <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3f4f6bcc-178d-4c88-8146-0ab0c2b9cb65/Untitled/public" alt="Research overview details" style="width:100%;height:auto;"/> -->
 
