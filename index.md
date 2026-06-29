@@ -57,7 +57,7 @@ title: RebelsNLU
 </style>
 
 <!-- <img class="home-logo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/dd14fc7d-bc3d-42ef-a5e9-c87cc5bd5e4d/logo.svg" alt="RebelsNLU logo"> -->
-<img class="home-logo" src="imgs/rebels_logo.png" alt="RebelsNLU logo">
+<!-- <img class="home-logo" src="imgs/rebels_logo.png" alt="RebelsNLU logo"> -->
 
 **RebelsNLU** is an international research lab for Artificial Intelligence (AI) and Natural Language Processing (NLP), run by [Associate Professor Naoya Inoue](https://naoya-i.info/) at [Japan Advanced Institute of Science and Technology (JAIST)](https://www.jaist.ac.jp/english/) (since 2022). RebelsNLU is short for **Re**ading **be**tween the **L**ine**s** for **N**atural **L**anguage **U**nderstanding.
 

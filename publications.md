@@ -98,19 +98,19 @@ See [HERE](https://naoya-i.info/activities) for past publication record before 4
 
 # Domestic conferences
 
-1. 趙羽風, 楊昊霖, 峰岸剛基, 井之上直也. 文脈内学習におけるタスク指向情報除去のメカニズム. 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026. (若手奨励賞)
+1. 趙羽風, 楊昊霖, 峰岸剛基, 井之上直也. [文脈内学習におけるタスク指向情報除去のメカニズム](https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B4-1.pdf). 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026. (若手奨励賞)
 
-1. 貝出直大, 井之上直也. LLMエージェントにおける指示曖昧性の内部表現解析. 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026. (スポンサー賞)
+1. 貝出直大, 井之上直也. [LLMエージェントにおける指示曖昧性の内部表現解析](https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B5-2.pdf). 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026. (スポンサー賞)
 
-1. 佐藤魁, 高橋良允, Benjamin Heinzerling, 井之上直也, 乾健太郎, 鈴木潤. 言語モデルにおける既知性判断のメカニズム. 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026. (若手奨励賞)
+1. 佐藤魁, 高橋良允, Benjamin Heinzerling, 井之上直也, 乾健太郎, 鈴木潤. [言語モデルにおける既知性判断のメカニズム](https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B5-14.pdf). 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026. (若手奨励賞)
 
-1. 趙羽風, 楊昊霖, Brian M. Kurkoski, 井之上直也. 二値化スパースオートエンコーダ. 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026.
+1. 趙羽風, 楊昊霖, Brian M. Kurkoski, 井之上直也. [二値化スパースオートエンコーダ](https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B6-1.pdf). 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026.
 
 1. 北島祥平, 井之上直也. 主語埋め込みの編集による効率的な未知知識追加手法の検討. 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026.
 
 1. 天野祥太朗, 尾崎大晟, 内藤昭一, 井之上直也, 山口健史, 中川智皓, 新谷篤彦. 反論生成におけるLLMの論理構造準拠の向上を目的とした段階的生成手法の提案. 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026.
 
-1. 石井愛, 井之上直也, 鈴木久美, 関根聡. LLM確信度推定の実証分析：Verbalized Confidenceはどの条件で有効か？ 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026.
+1. 石井愛, 井之上直也, 鈴木久美, 関根聡. [LLM確信度推定の実証分析：Verbalized Confidenceはどの条件で有効か？](https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B9-9.pdf). 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026.
 
 1. Surawat Pothong, Paul Reisert, Naoya Inoue, Machi Shimmei, Wenzhi Wang, Shoichi Naito, Jungmin Choi, and Kentaro Inui. Assessing Cognitive Alignment between Large Language Models and Humans in Generating Socratic Questions. 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026.
 
@@ -118,31 +118,31 @@ See [HERE](https://naoya-i.info/activities) for past publication record before 4
 
 1. Yuting Shi, Houjing Wei, 井之上 直也. On the Additive Compositionality of Task Vectors in Vision-Language Models. 第20回YANSシンポジウム, September 2025.
 
-1. 佐藤魁, 高橋良允, Benjamin Heinzerling, 田中健史朗, 趙羽風, 坂井吉弘, 井之上直也, 乾健太郎. 言語モデルにおける知識の既知性判断の内部表象. 人工知能学会全国大会 (第39回) 論文集, 4 pages, June 2025.
+1. 佐藤魁, 高橋良允, Benjamin Heinzerling, 田中健史朗, 趙羽風, 坂井吉弘, 井之上直也, 乾健太郎. [言語モデルにおける知識の既知性判断の内部表象](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_1Win418/_pdf). 人工知能学会全国大会 (第39回) 論文集, 4 pages, June 2025.
 
 1. 田中健史朗, 坂井吉弘, 趙羽風, 井之上直也, 佐藤魁, 高橋良允, Benjamin Heinzerling, 乾健太郎. 既知性を示す言語表現を伴う知識に関する内部表象の分析. 人工知能学会全国大会 (第39回) 論文集, 4 pages, June 2025.
 
-1. 尾崎大晟, 市野敬介, 松田拓, 久保健治, 内藤昭一, 山口健史, 天野祥太郎, 井之上直也, 中川智皓, 新谷篤彦. LLM as a Debate Judge: 学習者ディベーターへの自動フィードバック生成. 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
+1. 尾崎大晟, 市野敬介, 松田拓, 久保健治, 内藤昭一, 山口健史, 天野祥太郎, 井之上直也, 中川智皓, 新谷篤彦. [LLM as a Debate Judge: 学習者ディベーターへの自動フィードバック生成](https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/C5-6.pdf). 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
 
-1. 趙 羽風, 加藤 万理子, 坂井 吉弘, 井之上 直也. 大規模言語モデルにおけるIn-context Learningの推論回路. 言語処理学会第31回年次大会論文集, 4 pages, March 2025. (優秀賞)
+1. 趙 羽風, 加藤 万理子, 坂井 吉弘, 井之上 直也. [大規模言語モデルにおけるIn-context Learningの推論回路](https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/A7-4.pdf). 言語処理学会第31回年次大会論文集, 4 pages, March 2025. (優秀賞)
 
 1. Wenzhi Wang, Paul Reisert, Shoichi Naito, Naoya Inoue, Machi Shimmei, Surawat Pothong, Jungmin Choi and Kentaro Inui. Investigating Implicit Reasoning in Counter-Argument Logical Structure Analysis. 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
 
-1. 井之上直也, 安藤まや, 後藤美智子, 関根聡, 中山功太, 宮尾祐介. 日本語を対象としたLLMの大規模人手評価. 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
+1. 井之上直也, 安藤まや, 後藤美智子, 関根聡, 中山功太, 宮尾祐介. [日本語を対象としたLLMの大規模人手評価](https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/P7-6.pdf). 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
 
-1. 趙 羽風, 井之上 直也. Beyond the Induction Circuit: A Mechanistic Prototype for Out-of-domain In-context Learning. 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
+1. 趙 羽風, 井之上 直也. [Beyond the Induction Circuit: A Mechanistic Prototype for Out-of-domain In-context Learning](https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/P2-5.pdf). 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
 
-1. 手塚陽大, 井之上直也. 多言語モデルには言語非依存の処理系統が存在するか. 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
+1. 手塚陽大, 井之上直也. [多言語モデルには言語非依存の処理系統が存在するか](https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/P2-19.pdf). 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
 
-1. 加藤 万理子, 趙 羽風, 坂井 吉弘, 井之上 直也. 文脈内学習におけるデモの親和性と多様性の提案. 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
+1. 加藤 万理子, 趙 羽風, 坂井 吉弘, 井之上 直也. [文脈内学習におけるデモの親和性と多様性の提案](https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q8-17.pdf). 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
 
-1. 石井愛, 井之上直也, 鈴木久美, 関根聡. 構造化知識 RAG・文書ベース RAG を段階的に利用したマルチホップ QA に対する LLM の精度向上. 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
+1. 石井愛, 井之上直也, 鈴木久美, 関根聡. [構造化知識 RAG・文書ベース RAG を段階的に利用したマルチホップ QA に対する LLM の精度向上](https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q7-1.pdf). 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
 
-1. 前田晃弘, 鳥居拓馬, 日髙昇平, 井之上直也, 大関洋平. 部分空間の擬似直交性によるTransformer言語モデルの内部表現の解釈. 言語処理学会第31回年次大会論文集, 4 pages, March 2025. (優秀賞)
+1. 前田晃弘, 鳥居拓馬, 日髙昇平, 井之上直也, 大関洋平. [部分空間の擬似直交性によるTransformer言語モデルの内部表現の解釈](https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/P2-12.pdf). 言語処理学会第31回年次大会論文集, 4 pages, March 2025. (優秀賞)
 
-1. Surawat Pothong, Paul Reisert, Naoya Inoue, Machi Shimmei, Wenzhi Wang, Shoichi Naito, Jungmin Choi and Kentaro Inui. Towards Formalizing Socratic Questions for Explainable Socratic Question Generation. 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
+1. Surawat Pothong, Paul Reisert, Naoya Inoue, Machi Shimmei, Wenzhi Wang, Shoichi Naito, Jungmin Choi and Kentaro Inui. [Towards Formalizing Socratic Questions for Explainable Socratic Question Generation](https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q6-19.pdf). 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
 
-1. Houjing Wei, Hakaze Cho, Yuting Shi and Naoya Inoue. A Study on Multi-modal Interaction in Vision Large Language Models. 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
+1. Houjing Wei, Hakaze Cho, Yuting Shi and Naoya Inoue. [A Study on Multi-modal Interaction in Vision Large Language Models](https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q3-16.pdf). 言語処理学会第31回年次大会論文集, 4 pages, March 2025.
 
 1. 加藤 万理子, 趙 羽風, 閻 真竺, 石 钰婷, 井之上 直也. 画像特徴ベクトルは重みを固定した言語モデルで情報豊かなトークンである. 第19回YANSシンポジウム, September 2024.
 
@@ -156,53 +156,53 @@ See [HERE](https://naoya-i.info/activities) for past publication record before 4
 
 1. 天野祥太郎, 中川智皓, 内藤昭一, 井之上直也, 山口健史, 尾崎大晟, 新谷篤彦. 大規模言語モデルの生成反論文のテンプレート追従性. 人工知能学会全国大会 (第38回) 論文集, 4 pages, June 2024.
 
-1. 尾崎大晟, 中川智皓, 内藤昭一, 井之上直也, 山口健史, 天野祥太郎, 新谷篤彦. LLM による前提生成ステップを用いた反論の攻撃力向上. 人工知能学会全国大会 (第38回) 論文集, 4 pages, June 2024. (全国大会優秀賞)
+1. 尾崎大晟, 中川智皓, 内藤昭一, 井之上直也, 山口健史, 天野祥太郎, 新谷篤彦. [LLM による前提生成ステップを用いた反論の攻撃力向上](https://www.jstage.jst.go.jp/article/pjsai/JSAI2024/0/JSAI2024_3F1GS1004/_pdf). 人工知能学会全国大会 (第38回) 論文集, 4 pages, June 2024. (全国大会優秀賞)
 
-1. 趙羽風, 坂井吉弘, 井之上直也. NoisyICL: A Little Noise in Model Parameters Can Calibrate In-context Learning. 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
+1. 趙羽風, 坂井吉弘, 井之上直也. [NoisyICL: A Little Noise in Model Parameters Can Calibrate In-context Learning](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/A3-1.pdf). 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
 
-1. Yuting Shi, Houjing Wei, Jin Tao, Yufeng Zhao, and Naoya Inoue. Find-the-Common: Benchmarking Inductive Reasoning Ability on Vision-Language Models. 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
+1. Yuting Shi, Houjing Wei, Jin Tao, Yufeng Zhao, and Naoya Inoue. [Find-the-Common: Benchmarking Inductive Reasoning Ability on Vision-Language Models](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P3-13.pdf). 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
 
-1. Bowen Gao, Shotaro Kitamura, and Naoya Inoue. Exploring the Challenges of Multi-Step Logical Reasoning with Language Models: A Few-Shot Approach to Explainable Entailment Trees. 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
+1. Bowen Gao, Shotaro Kitamura, and Naoya Inoue. [Exploring the Challenges of Multi-Step Logical Reasoning with Language Models: A Few-Shot Approach to Explainable Entailment Trees](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P6-19.pdf). 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
 
-1. Irfan Robbani, Paul Reisert, Naoya Inoue, Surawat Pothong, Camélia Guerraoui, Wenzhi Wang, Shoichi Naito, Jungmin Choi, and Kentaro Inui. Templates for Fallacious Arguments Towards Deeper Logical Error Comprehension. 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
+1. Irfan Robbani, Paul Reisert, Naoya Inoue, Surawat Pothong, Camélia Guerraoui, Wenzhi Wang, Shoichi Naito, Jungmin Choi, and Kentaro Inui. [Templates for Fallacious Arguments Towards Deeper Logical Error Comprehension](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P3-12.pdf). 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
 
-1. 坂井吉弘, 趙羽風, 井之上直也. In-context Learning においてLLMはフォーマットを学べるか. 言語処理学会第30回年次大会論文集, 4 pages, March 2024. (スポンサー賞)
+1. 坂井吉弘, 趙羽風, 井之上直也. [In-context Learning においてLLMはフォーマットを学べるか](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P9-14.pdf). 言語処理学会第30回年次大会論文集, 4 pages, March 2024. (スポンサー賞)
 
-1. 井之上直也, 原口大地, 田中健史朗, 白井清昭, Natthawut Kertkeidkachorn. 自己認知は LM as KB の信頼性を高めるか. 言語処理学会第30回年次大会論文集, 4 pages, March 2024. (優秀賞)
+1. 井之上直也, 原口大地, 田中健史朗, 白井清昭, Natthawut Kertkeidkachorn. [自己認知は LM as KB の信頼性を高めるか](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P6-25.pdf). 言語処理学会第30回年次大会論文集, 4 pages, March 2024. (優秀賞)
 
-1. Wenzhi Wang, Shoichi Naito, Paul Reisert, Naoya Inoue, Camélia Guerraoui, Jungmin Choi, Irfan Robbani, and Kentaro Inui. Exploring Task Decomposition for Assisting Large Language Models in Counter-argument Logical Structure Analysis. 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
+1. Wenzhi Wang, Shoichi Naito, Paul Reisert, Naoya Inoue, Camélia Guerraoui, Jungmin Choi, Irfan Robbani, and Kentaro Inui. [Exploring Task Decomposition for Assisting Large Language Models in Counter-argument Logical Structure Analysis](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P4-12.pdf). 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
 
-1. Camélia Guerraoui, Paul Reisert, Naoya Inoue, Wenzhi Wang, Shoichi Naito, Jungmin Choi, Irfan Robbani, and Kentaro Inui. ArgVantage: the New Pedagogical System to Learn Argumentation. 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
+1. Camélia Guerraoui, Paul Reisert, Naoya Inoue, Wenzhi Wang, Shoichi Naito, Jungmin Choi, Irfan Robbani, and Kentaro Inui. [ArgVantage: the New Pedagogical System to Learn Argumentation](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P1-16.pdf). 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
 
-1. 内藤昭一, 王文質, Paul Reisert, 井之上直也, Camélia Guerraoui, 山口健史, Jungmin Choi, Irfan Robbani, 乾健太郎. 反論の論理パターン解析: データセット構築と実現性検証. 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
+1. 内藤昭一, 王文質, Paul Reisert, 井之上直也, Camélia Guerraoui, 山口健史, Jungmin Choi, Irfan Robbani, 乾健太郎. [反論の論理パターン解析: データセット構築と実現性検証](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P3-27.pdf). 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
 
-1. 石井愛, 井之上直也, 鈴木久美, 関根聡. JEMHopQA:日本語マルチホップQAデータセットの改良. 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
+1. 石井愛, 井之上直也, 鈴木久美, 関根聡. [JEMHopQA:日本語マルチホップQAデータセットの改良](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P3-18.pdf). 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
 
-1. 石井愛, 井之上直也, 鈴木久美, 関根聡. マルチホップQAの根拠情報を用いたLLMの``偽''正解の分析. 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
+1. 石井愛, 井之上直也, 鈴木久美, 関根聡. [マルチホップQAの根拠情報を用いたLLMの``偽''正解の分析](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P9-12.pdf). 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
 
-1. 関根聡, 安藤まや, 後藤美知子, 鈴木久美, 河原大輔, 井之上直也, 乾健太郎. ichikara-instruction: LLMのための日本語インストラクションデータの作成. 言語処理学会第30回年次大会論文集, 4 pages, March 2024. (委員特別賞)
+1. 関根聡, 安藤まや, 後藤美知子, 鈴木久美, 河原大輔, 井之上直也, 乾健太郎. [ichikara-instruction: LLMのための日本語インストラクションデータの作成](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/A6-3.pdf). 言語処理学会第30回年次大会論文集, 4 pages, March 2024. (委員特別賞)
 
-1. 尾崎大晟, 中川智皓, 井之上直也, 内藤昭一, 山口健史, 天野祥太朗, 新谷篤彦. 大規模言語モデルを用いた有効反論箇所としての前提生成. 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
+1. 尾崎大晟, 中川智皓, 井之上直也, 内藤昭一, 山口健史, 天野祥太朗, 新谷篤彦. [大規模言語モデルを用いた有効反論箇所としての前提生成](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P9-27.pdf). 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
 
 1. 前田雄之介, 岡田将吾, 井之上 直也. 就職面接訓練においてPREP話法が面接評価に与える影響の分析. 第100回 言語・音声理解と対話処理研究会（SLUD）, 6 pages, February 2024.
 
 1. 田中 健史朗, 戸次 大介, 井之上 直也. 論理的に同値なデータ拡張による言語モデルの頑健性向上. 研究報告自然言語処理 (NL), Vol. 2024-NL-259, No. 22, 7 pages, March 2024.
 
-1. 尾崎大晟, 中川智皓, 内藤昭一, 井之上直也, 山口健史. 大規模言語モデルが生成した反論文の品質評価. 人工知能学会全国大会 (第37回) 論文集, 4 pages, June 2023. [paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_4Xin111/_pdf). (全国大会優秀賞)
+1. 尾崎大晟, 中川智皓, 内藤昭一, 井之上直也, 山口健史. [大規模言語モデルが生成した反論文の品質評価](https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_4Xin111/_pdf). 人工知能学会全国大会 (第37回) 論文集, 4 pages, June 2023. (全国大会優秀賞)
 
-1. 前田雄之介, 井之上直也, 岡田将吾. 就職面接における発話内容のPREPアノテーション分析. 人工知能学会全国大会 (第37回) 論文集, 4 pages, June 2023. [paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_1E5GS603/_pdf/-char/ja)
+1. 前田雄之介, 井之上直也, 岡田将吾. [就職面接における発話内容のPREPアノテーション分析](https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_1E5GS603/_pdf/-char/ja). 人工知能学会全国大会 (第37回) 論文集, 4 pages, June 2023.
 
-1. 原口大地, 白井清昭, 井之上直也. 一般性を考慮した言語処理モデルのShortcut Reasoningの自動検出. 言語処理学会第29回年次大会論文集, 4 pages, March 2023. [paper](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q3-9.pdf)
+1. 原口大地, 白井清昭, 井之上直也. [一般性を考慮した言語処理モデルのShortcut Reasoningの自動検出](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q3-9.pdf). 言語処理学会第29回年次大会論文集, 4 pages, March 2023.
 
-1. 石井愛, 井之上直也, 関根聡. 根拠を説明可能な質問応答システムのための日本語マルチホップQAデータセット構築. 言語処理学会第29回年次大会論文集, 4 pages, March 2023. [paper](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q8-14.pdf) [github](https://github.com/aiishii/JEMHopQA)
+1. 石井愛, 井之上直也, 関根聡. [根拠を説明可能な質問応答システムのための日本語マルチホップQAデータセット構築](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q8-14.pdf). 言語処理学会第29回年次大会論文集, 4 pages, March 2023. [github](https://github.com/aiishii/JEMHopQA)
 
 1. 大内啓樹, 進藤裕之, 若宮翔子, 松田裕貴, 井之上直也, 東山翔平, 中村哲, 渡辺太郎. [地球の歩き方旅行記データセット](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/B12-1.pdf). 言語処理学会第29回年次大会論文集, 4 pages, March 2023.
 
-1. Camélia Guerraoui, Paul Reisert, Keshav Singh, Farjana Sultana Mim, Naoya Inoue, Shoichi Naito, Wenzhi Wang, Kentaro Inui. Explain to Me What Is Wrong With My Arguments: A Survey about Explanations in Argumentation. 言語処理学会第29回年次大会論文集, 4 pages, March 2023. [paper](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q1-7.pdf)
+1. Camélia Guerraoui, Paul Reisert, Keshav Singh, Farjana Sultana Mim, Naoya Inoue, Shoichi Naito, Wenzhi Wang, Kentaro Inui. [Explain to Me What Is Wrong With My Arguments: A Survey about Explanations in Argumentation](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q1-7.pdf). 言語処理学会第29回年次大会論文集, 4 pages, March 2023.
 
-1. Keshav Singh, Naoya Inoue, Paul Reisert, Farjana Sultana Mim, Shoichi Naito, Camélia Guerraoui, Wenzhi Wang, Kentaro Inui. Improving Evidence Detection with Domain-specific Implicit Reasonings. 言語処理学会第29回年次大会論文集, 4 pages, March 2023. [paper](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q2-12.pdf)
+1. Keshav Singh, Naoya Inoue, Paul Reisert, Farjana Sultana Mim, Shoichi Naito, Camélia Guerraoui, Wenzhi Wang, Kentaro Inui. [Improving Evidence Detection with Domain-specific Implicit Reasonings](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q2-12.pdf). 言語処理学会第29回年次大会論文集, 4 pages, March 2023.
 
-1. Wenzhi Wang, Paul Reisert, Naoya Inoue, Shoichi Naito, Camélia Guerraoui, Keshav Singh, Kentaro Inui. Towards Creating Analytic Dimensions for Evaluating the Quality of Debate Counter-Arguments. 言語処理学会第29回年次大会論文集, 4 pages, March 2023. [paper](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/C7-5.pdf)
+1. Wenzhi Wang, Paul Reisert, Naoya Inoue, Shoichi Naito, Camélia Guerraoui, Keshav Singh, Kentaro Inui. [Towards Creating Analytic Dimensions for Evaluating the Quality of Debate Counter-Arguments](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/C7-5.pdf). 言語処理学会第29回年次大会論文集, 4 pages, March 2023.
 
 1. Keshav Singh, Naoya Inoue, Farjana Sultana Mim, Shoichi Naito and Kentaro Inui. Towards Explicating Implicit Reasoning in Arguments. NLP若手の会 第17回シンポジウム, August 2022.
 

@@ -46,6 +46,17 @@ title: People
   text-underline-offset: 0.08em;
 }
 
+/* Highlight names that link to a personal website */
+a.person-name {
+  color: #1565c0;
+  transition: color 0.15s ease;
+}
+
+a.person-name:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
 .person-status {
   margin-top: 1.1rem;
   color: #222831;
