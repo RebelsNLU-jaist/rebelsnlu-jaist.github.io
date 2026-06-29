@@ -9,7 +9,7 @@ title: Projects
 
 <!-- <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/70048022-8e6e-4270-8cf7-7e2c9f0f6bd7/Untitled/public" alt="Research overview" style="width:100%;height:auto;"/> -->
 
-conceptual figure TDB
+conceptual figure TBD
 
 <!-- <img src="imgs/research_directions.png/"> -->
 
