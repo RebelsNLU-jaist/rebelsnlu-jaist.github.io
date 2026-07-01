@@ -67,11 +67,11 @@ title: Publications
 
 1. Vasudha Varadarajan, Nikita Soni, Weixi Wang, Christian Luhmann, H. Andrew Schwartz and Naoya Inoue. [Detecting Dissonant Stance in Social Media: The Role of Topic Exposure](https://aclanthology.org/2022.nlpcss-1.16/). In Proceedings of the Fifth Workshop on Natural Language Processing and Computational Social Science (NLP+CSS), pp.151-156, November 2022.
 
-1. Keshav Singh, Naoya Inoue, Farjana Sultana Mim, Shoichi Naito and Kentaro Inui. [IRAC: A Domain-specific Annotated Corpus of Implicit Reasoning in Arguments](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.499). In Proceedings of the 13th Language Resources and Evaluation Conference (LREC2022), pp. 4674-4683, June 2022.
+1. Keshav Singh, Naoya Inoue, Farjana Sultana Mim, Shoichi Naito and Kentaro Inui. [IRAC: A Domain-specific Annotated Corpus of Implicit Reasoning in Arguments](https://aclanthology.org/2022.lrec-1.499/). In Proceedings of the 13th Language Resources and Evaluation Conference (LREC2022), pp. 4674-4683, June 2022.
 
-1. Farjana Sultana Mim, Naoya Inoue, Shoichi Naito, Keshav Singh and Kentaro Inui. [LPAttack: A Feasible Annotation Scheme for Capturing Logic Pattern of Attacks in Arguments](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.261). In Proceedings of the 13th Language Resources and Evaluation Conference (LREC2022), pp. 2446-2459, June 2022.
+1. Farjana Sultana Mim, Naoya Inoue, Shoichi Naito, Keshav Singh and Kentaro Inui. [LPAttack: A Feasible Annotation Scheme for Capturing Logic Pattern of Attacks in Arguments](https://aclanthology.org/2022.lrec-1.261/). In Proceedings of the 13th Language Resources and Evaluation Conference (LREC2022), pp. 2446-2459, June 2022.
 
-1. Shoichi Naito, Shintaro Sawada, Chihiro Nakagawa, Naoya Inoue, Kenshi Yamaguchi, Iori Shimizu, Farjana Sultana Mim, Keshav Singh and Kentaro Inui. [TYPIC: A Corpus of Template-Based Diagnostic Comments on Argumentation](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.636). In Proceedings of the 13th Language Resources and Evaluation Conference (LREC2022), pp. 5916-5928, June 2022.
+1. Shoichi Naito, Shintaro Sawada, Chihiro Nakagawa, Naoya Inoue, Kenshi Yamaguchi, Iori Shimizu, Farjana Sultana Mim, Keshav Singh and Kentaro Inui. [TYPIC: A Corpus of Template-Based Diagnostic Comments on Argumentation](https://aclanthology.org/2022.lrec-1.636/). In Proceedings of the 13th Language Resources and Evaluation Conference (LREC2022), pp. 5916-5928, June 2022.
 
 1. Naoya Inoue, Charuta Pethe, Allen Kim and Steve Skiena. [Learning and Evaluating Character Representations in Novels](https://aclanthology.org/2022.findings-acl.81). In Findings of the Association for Computational Linguistics: ACL2022, May 2022.
 
