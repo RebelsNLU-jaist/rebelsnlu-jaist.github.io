@@ -10,3 +10,4 @@ bundle exec jekyll serve --host 127.0.0.1 --port 4000
 ```
 
 Then open <http://127.0.0.1:4000/>.
+or  open <http://127.0.0.1:4000/index-new.html> for new design.

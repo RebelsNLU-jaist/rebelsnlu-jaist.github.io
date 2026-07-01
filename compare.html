@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Homepage design comparison — RebelsNLU</title>
+<style>
+  :root{--nav-h:52px}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;background:#0b1e4d;color:#fff}
+  .bar{
+    height:var(--nav-h);display:flex;align-items:center;gap:1rem;
+    padding:0 1rem;background:#071229;border-bottom:1px solid rgba(255,255,255,.1);
+    position:sticky;top:0;z-index:10;
+  }
+  .bar b{font-weight:800;letter-spacing:.02em}
+  .bar .spacer{flex:1}
+  .modes{display:flex;gap:.4rem}
+  .modes button{
+    padding:.4rem .9rem;border-radius:999px;border:1px solid rgba(255,255,255,.2);
+    background:transparent;color:#c7d2e8;font-weight:600;cursor:pointer;font-size:.85rem;transition:.15s;
+  }
+  .modes button:hover{color:#fff;border-color:#fff}
+  .modes button.active{background:#e9c15a;color:#0b1e4d;border-color:#e9c15a}
+  .stage{display:grid;grid-template-columns:1fr 1fr;gap:0;height:calc(100vh - var(--nav-h))}
+  .stage.single{grid-template-columns:1fr}
+  .pane{display:flex;flex-direction:column;border-right:1px solid rgba(255,255,255,.12);min-width:0}
+  .pane:last-child{border-right:none}
+  .pane.hidden{display:none}
+  .pane .label{
+    display:flex;align-items:center;gap:.5rem;padding:.5rem .9rem;font-size:.82rem;font-weight:700;
+    background:#0e2657;color:#dbe4f7;border-bottom:1px solid rgba(255,255,255,.1)
+  }
+  .pane .label .tag{padding:.1rem .5rem;border-radius:6px;font-size:.7rem;font-weight:800}
+  .tag.cur{background:#5a6b8c;color:#fff}
+  .tag.new{background:#e9c15a;color:#0b1e4d}
+  .pane a.open{margin-left:auto;color:#9fb0d3;text-decoration:none;font-weight:600;font-size:.78rem}
+  .pane a.open:hover{color:#fff}
+  iframe{flex:1;width:100%;border:0;background:#fff}
+  @media (max-width:820px){.stage{grid-template-columns:1fr;height:auto}.pane{height:88vh}}
+</style>
+</head>
+<body>
+  <div class="bar">
+    <b>RebelsNLU · Homepage design comparison</b>
+    <div class="spacer"></div>
+    <div class="modes">
+      <button data-mode="both" class="active">Side by side</button>
+      <button data-mode="current">Current only</button>
+      <button data-mode="new">New only</button>
+    </div>
+  </div>
+
+  <div class="stage" id="stage">
+    <div class="pane" id="pane-current">
+      <div class="label"><span class="tag cur">CURRENT</span> Existing design (index.md · Bulma theme)
+        <a class="open" href="/" target="_blank">open ↗</a>
+      </div>
+      <iframe src="/" title="Current design"></iframe>
+    </div>
+    <div class="pane" id="pane-new">
+      <div class="label"><span class="tag new">NEW</span> New design (index-new.html · JAIST hero style)
+        <a class="open" href="/index-new.html" target="_blank">open ↗</a>
+      </div>
+      <iframe src="/index-new.html" title="New design"></iframe>
+    </div>
+  </div>
+
+<script>
+  const stage=document.getElementById('stage');
+  const cur=document.getElementById('pane-current');
+  const nw=document.getElementById('pane-new');
+  document.querySelectorAll('.modes button').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      document.querySelectorAll('.modes button').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      const m=btn.dataset.mode;
+      stage.classList.toggle('single',m!=='both');
+      cur.classList.toggle('hidden',m==='new');
+      nw.classList.toggle('hidden',m==='current');
+    });
+  });
+</script>
+</body>
+</html>

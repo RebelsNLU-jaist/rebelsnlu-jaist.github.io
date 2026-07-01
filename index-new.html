@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RebelsNLU — Reading Between the Lines for Natural Language Understanding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy-900:#071229;
+  --navy-800:#0b1e4d;
+  --navy-700:#13315c;
+  --navy-600:#1a3a6b;
+  --gold:#e9c15a;
+  --gold-strong:#e8b64c;
+  --ink:#1f2a44;
+  --muted:#5a6b8c;
+  --line:#e4e9f2;
+  --bg-soft:#f6f8fc;
+  --radius:14px;
+  --shadow:0 18px 40px -18px rgba(11,30,77,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"Inter","Noto Sans JP",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--ink);
+  background:#fff;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+img{max-width:100%;display:block}
+.container{width:min(1120px,92vw);margin-inline:auto}
+
+/* ---------- Nav ---------- */
+.nav{
+  position:sticky;top:0;z-index:50;
+  background:rgba(7,18,41,.82);
+  backdrop-filter:saturate(160%) blur(12px);
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:.55rem;color:#fff;font-weight:800;letter-spacing:.02em;text-decoration:none;font-size:1.15rem}
+.brand .dot{width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold)}
+.nav-links{display:flex;gap:1.4rem;align-items:center}
+.nav-links a{color:#c7d2e8;text-decoration:none;font-size:.92rem;font-weight:500;transition:color .15s}
+.nav-links a:hover{color:#fff}
+.nav-cta{padding:.5rem .95rem !important;border-radius:999px;background:var(--gold);color:#0b1e4d !important;font-weight:700 !important}
+.nav-cta:hover{background:#f2cf6c}
+.nav-toggle{display:none}
+
+/* ---------- Hero ---------- */
+.hero{
+  position:relative;overflow:hidden;color:#fff;
+  background:
+    radial-gradient(1200px 500px at 82% -10%, rgba(233,193,90,.16), transparent 60%),
+    radial-gradient(900px 600px at 12% 120%, rgba(26,58,107,.55), transparent 60%),
+    linear-gradient(125deg,#071229 0%,#0b1e4d 52%,#13315c 100%);
+}
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+  background-size:56px 56px;
+  -webkit-mask-image:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 78%);
+          mask-image:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 78%);
+}
+.hero-top{display:flex;align-items:center;justify-content:space-between;padding-top:2.4rem;position:relative;z-index:2}
+.logo-white{
+  height:46px;width:auto;
+  filter:brightness(0) invert(1) drop-shadow(0 0 10px rgba(255,255,255,.35));
+  opacity:.96;
+}
+.logo-white.jaist{height:54px}
+.logo-white.rebels{height:52px}
+.hero-body{position:relative;z-index:2;text-align:center;padding:2.6rem 0 4.4rem}
+.eyebrow{
+  display:inline-block;margin-bottom:1.3rem;
+  font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;
+  color:var(--gold);
+  padding:.4rem .9rem;border:1px solid rgba(233,193,90,.4);border-radius:999px;
+  background:rgba(233,193,90,.06);
+}
+.headline{
+  font-family:"Noto Sans JP","Inter",sans-serif;
+  font-weight:900;
+  font-size:clamp(2rem,5.2vw,3.6rem);
+  line-height:1.28;letter-spacing:.01em;margin:0 auto;
+  max-width:20em;
+  text-shadow:0 4px 24px rgba(0,0,0,.35);
+}
+.headline .gold{color:var(--gold);text-shadow:0 4px 24px rgba(233,193,90,.25)}
+.subhead{
+  font-family:"Noto Sans JP",sans-serif;
+  margin-top:1.5rem;font-size:clamp(.95rem,1.7vw,1.2rem);font-weight:500;
+  color:#cdd8ef;letter-spacing:.06em;
+}
+.tagline{margin-top:.7rem;font-size:.98rem;color:#8fa2c6;font-style:italic;letter-spacing:.02em}
+.hero-cta{display:flex;gap:.9rem;justify-content:center;flex-wrap:wrap;margin-top:2.3rem}
+.btn{
+  display:inline-flex;align-items:center;gap:.5rem;
+  padding:.8rem 1.5rem;border-radius:999px;font-weight:700;font-size:.98rem;
+  text-decoration:none;transition:transform .15s ease,box-shadow .2s ease,background .2s;
+}
+.btn-gold{background:var(--gold);color:#0b1e4d;box-shadow:0 12px 30px -10px rgba(233,193,90,.6)}
+.btn-gold:hover{transform:translateY(-2px);background:#f2cf6c}
+.btn-ghost{border:1.5px solid rgba(255,255,255,.35);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.1);transform:translateY(-2px)}
+.hero-wave{position:relative;z-index:2;display:block;width:100%;height:auto;margin-bottom:-1px}
+
+/* ---------- Sections ---------- */
+section{padding:5rem 0}
+.section-head{max-width:44rem;margin:0 auto 3rem;text-align:center}
+.kicker{color:var(--gold-strong);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.8rem}
+h2.title{font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:800;color:var(--navy-800);margin:.5rem 0 .6rem;letter-spacing:-.01em}
+.section-head p{color:var(--muted);font-size:1.05rem;margin:0}
+
+/* About */
+.about{background:linear-gradient(#fff,var(--bg-soft))}
+.about-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:3rem;align-items:start}
+.about-grid p{color:#3a465f;margin:0 0 1.15rem;font-size:1.05rem}
+.about-grid strong{color:var(--navy-800)}
+.aside-card{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:1.8rem;box-shadow:var(--shadow);position:sticky;top:88px;
+}
+.aside-card h3{margin:0 0 .3rem;font-size:1.1rem;color:var(--navy-800)}
+.aside-card .lead{color:var(--muted);font-size:.92rem;margin:0 0 1.2rem}
+.stat-row{display:flex;gap:1.4rem;padding:1rem 0;border-top:1px solid var(--line)}
+.stat-row:first-of-type{border-top:none}
+.stat-num{font-size:1.7rem;font-weight:800;color:var(--gold-strong);line-height:1;min-width:3.2rem}
+.stat-label{font-size:.9rem;color:var(--muted)}
+
+/* Activities */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem}
+.card{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:1.6rem;transition:transform .18s ease,box-shadow .2s ease,border-color .2s;
+}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#cdd8ef}
+.card .ico{
+  width:46px;height:46px;border-radius:12px;display:grid;place-items:center;font-size:1.4rem;
+  background:linear-gradient(135deg,var(--navy-700),var(--navy-600));color:#fff;margin-bottom:1rem;
+}
+.card h3{margin:.1rem 0 .35rem;font-size:1.12rem;color:var(--navy-800)}
+.card .freq{font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-strong)}
+.card p{margin:.5rem 0 0;color:var(--muted);font-size:.95rem}
+
+/* News */
+.news{background:var(--navy-800);color:#fff;position:relative;overflow:hidden}
+.news::before{content:"";position:absolute;inset:0;background:radial-gradient(700px 400px at 85% 10%,rgba(233,193,90,.12),transparent 60%)}
+.news .container{position:relative;z-index:2}
+.news .section-head p{color:#aebbd8}
+.news h2.title{color:#fff}
+.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;max-width:760px;margin:0 auto}
+.news-grid a{
+  display:flex;align-items:center;justify-content:space-between;gap:.6rem;
+  padding:1.1rem 1.3rem;border:1px solid rgba(255,255,255,.16);border-radius:12px;
+  text-decoration:none;color:#e7edf9;font-weight:600;transition:background .2s,border-color .2s,transform .15s;
+}
+.news-grid a:hover{background:rgba(255,255,255,.07);border-color:var(--gold);transform:translateY(-2px)}
+.news-grid a span{color:var(--gold)}
+.news-note{text-align:center;color:#9fb0d3;margin-top:1.6rem;font-size:.95rem}
+.news-note a{color:var(--gold)}
+
+/* CTA / quicklinks */
+.cta{background:var(--bg-soft)}
+.quick{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center}
+.quick a{
+  display:inline-flex;align-items:center;gap:.5rem;padding:.85rem 1.5rem;border-radius:999px;
+  background:#fff;border:1px solid var(--line);text-decoration:none;font-weight:600;color:var(--navy-800);
+  transition:transform .15s,box-shadow .2s,border-color .2s;
+}
+.quick a:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-color:#cdd8ef}
+.quick a.primary{background:var(--gold);border-color:var(--gold);color:#0b1e4d}
+
+/* Footer */
+footer{background:var(--navy-900);color:#9fb0d3;padding:2.6rem 0}
+.foot-inner{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between}
+.foot-inner .brand{color:#fff}
+footer small{color:#6f80a6}
+
+@media (max-width:860px){
+  .nav-links{display:none}
+  .about-grid,.cards,.news-grid{grid-template-columns:1fr}
+  .aside-card{position:static}
+  section{padding:3.4rem 0}
+  .hero-top{padding-top:1.6rem}
+  .logo-white{height:34px}.logo-white.jaist{height:40px}.logo-white.rebels{height:38px}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="/index-new.html"><span class="dot"></span>RebelsNLU</a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#activities">Activities</a>
+      <a href="#news">News</a>
+      <a href="/people.html">People</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/publications.html">Publications</a>
+      <a class="nav-cta" href="/joinus.html">Join us</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-top">
+      <img class="logo-white jaist" src="/imgs/jaist_logo.png" alt="JAIST">
+      <img class="logo-white rebels" src="/imgs/rebels_logo.png" alt="RebelsNLU">
+    </div>
+    <div class="hero-body">
+      <span class="eyebrow">JAIST · School of Advanced Science and Technology</span>
+      <h1 class="headline">AIを内部から理解し<br><span class="gold">安全で信頼</span>できるAIをつくる</h1>
+      <p class="subhead">先端科学技術研究科　AI知性研究領域　言語推論研究室</p>
+      <p class="tagline">Reading Between the Lines for Natural Language Understanding</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="/joinus.html">Join the lab →</a>
+        <a class="btn btn-ghost" href="/publications.html">See our research</a>
+      </div>
+    </div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path fill="#ffffff" d="M0,80 L0,40 C240,72 480,80 720,64 C960,48 1200,8 1440,32 L1440,80 Z"></path>
+  </svg>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Who we are</div>
+      <h2 class="title">An international lab for AI &amp; NLP</h2>
+      <p>Run by Associate Professor Naoya Inoue at JAIST since 2022.</p>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p><strong>RebelsNLU</strong> is an international research lab for Artificial Intelligence (AI) and Natural Language Processing (NLP), run by <a href="https://naoya-i.info/" style="color:var(--navy-700);font-weight:600">Associate Professor Naoya Inoue</a> at <a href="https://www.jaist.ac.jp/english/" style="color:var(--navy-700);font-weight:600">Japan Advanced Institute of Science and Technology (JAIST)</a>. RebelsNLU is short for <strong>Re</strong>ading <strong>be</strong>tween the <strong>L</strong>ine<strong>s</strong> for <strong>N</strong>atural <strong>L</strong>anguage <strong>U</strong>nderstanding.</p>
+        <p>One important mission of a university research lab is to develop students’ skills. We design lab activities so that students acquire general-purpose skills for problem-finding and problem-solving, on top of expertise in natural language processing research and related areas.</p>
+        <p>Students learn how to think critically, how to plan, how to present their work, how to dive into unknown fields, how to program, and how to work as a team. Our motto: research is the best <strong>on-the-job training</strong> for developing such skills. To grow globally successful students, we use English as our common working language.</p>
+      </div>
+      <aside class="aside-card">
+        <h3>At a glance</h3>
+        <p class="lead">Reasoning-focused NLP research at JAIST.</p>
+        <div class="stat-row"><div class="stat-num">2022</div><div class="stat-label">Founded by Prof. Naoya Inoue</div></div>
+        <div class="stat-row"><div class="stat-num">EN</div><div class="stat-label">English as the common working language</div></div>
+        <div class="stat-row"><div class="stat-num">6+</div><div class="stat-label">Recurring student-driven activities</div></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ACTIVITIES -->
+<section id="activities">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Lab life</div>
+      <h2 class="title">Student-driven activities</h2>
+      <p>We run many types of activities where ideas turn into computational models and, eventually, papers.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="ico">📄</div><div class="freq">Weekly</div><h3>Paper Skimming</h3><p>All lab members gather to discuss recent advancements in NLP research.</p></div>
+      <div class="card"><div class="ico">🖼️</div><div class="freq">Monthly</div><h3>Poster</h3><p>Members present and discuss their research progress in depth.</p></div>
+      <div class="card"><div class="ico">🎤</div><div class="freq">On demand</div><h3>Spotlight Oral</h3><p>Members share insights from relatively complete work, offering learning opportunities for everyone.</p></div>
+      <div class="card"><div class="ico">🧩</div><div class="freq">Ongoing</div><h3>Project / Paper Meeting</h3><p>Dedicated time to share projects and dive into problems and potential solutions.</p></div>
+      <div class="card"><div class="ico">📚</div><div class="freq">On demand</div><h3>Study Groups</h3><p>We learn together—NLP fundamentals, programming, sparse autoencoders, and more.</p></div>
+      <div class="card"><div class="ico">🎉</div><div class="freq">On demand</div><h3>Social Gathering</h3><p>Welcome & farewell parties, birthdays, year-end and New Year celebrations, and more.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWS -->
+<section class="news" id="news">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Updates</div>
+      <h2 class="title">Latest News</h2>
+      <p>Latest updates are mirrored from our X/Twitter posts.</p>
+    </div>
+    <div class="news-grid">
+      <a href="https://rebelsnlu.super.site/older-2024-posts">2024 posts <span>→</span></a>
+      <a href="https://rebelsnlu.super.site/older-2024-posts/2023-posts">2023 posts <span>→</span></a>
+      <a href="https://rebelsnlu.super.site/older-2024-posts/2023-posts/2022-posts">2022 posts <span>→</span></a>
+    </div>
+    <p class="news-note">Follow us on <a href="https://twitter.com/rebelsnlu_jaist">X / Twitter @rebelsnlu_jaist</a> for the freshest updates.</p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Explore</div>
+      <h2 class="title">Quick Links</h2>
+      <p>Get to know the team, our projects, and how to join.</p>
+    </div>
+    <div class="quick">
+      <a href="/people.html">👥 People</a>
+      <a href="/projects.html">🔬 Projects</a>
+      <a href="/publications.html">📝 Publications</a>
+      <a class="primary" href="/joinus.html">🚀 Join us!</a>
+      <a href="/contact.html">✉️ Contact</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container foot-inner">
+    <a class="brand" href="/index-new.html"><span class="dot"></span>RebelsNLU</a>
+    <small>Reading Between the Lines NLU · JAIST — Japan Advanced Institute of Science and Technology</small>
+  </div>
+</footer>
+
+</body>
+</html>
