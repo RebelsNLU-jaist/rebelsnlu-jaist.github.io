@@ -45,7 +45,7 @@ title: Publications
 
 1. Hakaze Cho, Yoshihiro Sakai, Kenshiro Tanaka, Mariko Kato and Naoya Inoue. [Understanding Token Probability Encoding in Output Embeddings](https://aclanthology.org/2025.coling-main.708/). In Proceedings of the 31st International Conference on Computational Linguistics (COLING), pp. 10618–10633, January 2025.
 
-1. Trong Khang Mai, Razvan Beuran and Naoya Inoue. [CyLLM-DAP: Cybersecurity Domain-Adaptive Pre-training Framework of Large Language Models](https://www.scitepress.org/Papers/2025/130948/130948.pdf). In Proceedings of the 11th International Conference on Information Systems Security and Privacy (ICISSP), pp. 24-35, February 2025. (Best Student Paper Award)
+1. Trong Khang Mai, Razvan Beuran and Naoya Inoue. [CyLLM-DAP: Cybersecurity Domain-Adaptive Pre-training Framework of Large Language Models](https://www.scitepress.org/PublishedPapers/2025/130948/). In Proceedings of the 11th International Conference on Information Systems Security and Privacy (ICISSP), pp. 24-35, February 2025. (Best Student Paper Award)
 
 1. Jinghong Li, Naoya Inoue and Shinobu Hasegawa. [A Viewpoints Embedded Diff-table System For Cross-sectional Insight Survey In a Research Task](https://aclanthology.org/2024.paclic-1.53/). In Proceedings of the 38th Pacific Asia Conference on Language, Information and Computation (PACLIC38), pp. 556–568, December 2024.
 
