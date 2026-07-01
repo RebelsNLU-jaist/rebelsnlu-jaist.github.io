@@ -5,8 +5,8 @@ title: People
 
 <style>
 .people-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.25rem;
   margin: 1rem 0 2rem;
 }
@@ -65,6 +65,10 @@ a.person-name:hover {
 }
 
 @media (max-width: 640px) {
+  .people-list {
+    grid-template-columns: 1fr;
+  }
+
   .person-card {
     gap: 1rem;
     padding: 0.85rem;
