@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join us! — RebelsNLU</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy-900:#071229;
+  --navy-800:#0b1e4d;
+  --navy-700:#13315c;
+  --navy-600:#1a3a6b;
+  --gold:#e9c15a;
+  --gold-strong:#e8b64c;
+  --ink:#1f2a44;
+  --muted:#5a6b8c;
+  --line:#e4e9f2;
+  --bg-soft:#f6f8fc;
+  --radius:14px;
+  --shadow:0 18px 40px -18px rgba(11,30,77,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"Inter","Noto Sans JP",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--ink);
+  background:#fff;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+img{max-width:100%;display:block}
+.container{width:min(1120px,92vw);margin-inline:auto}
+
+/* ---------- Nav ---------- */
+.nav{
+  position:sticky;top:0;z-index:50;
+  background:rgba(7,18,41,.82);
+  backdrop-filter:saturate(160%) blur(12px);
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:.55rem;color:#fff;font-weight:800;letter-spacing:.02em;text-decoration:none;font-size:1.15rem}
+.brand .dot{width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold)}
+.nav-links{display:flex;gap:1.4rem;align-items:center}
+.nav-links a{color:#c7d2e8;text-decoration:none;font-size:.92rem;font-weight:500;transition:color .15s}
+.nav-links a:hover{color:#fff}
+.nav-links a.active{color:#fff;font-weight:700}
+.nav-cta{padding:.5rem .95rem !important;border-radius:999px;background:var(--gold);color:#0b1e4d !important;font-weight:700 !important}
+.nav-cta:hover{background:#f2cf6c}
+
+/* ---------- Page hero ---------- */
+.hero{
+  position:relative;overflow:hidden;color:#fff;
+  background:
+    radial-gradient(1200px 500px at 82% -10%, rgba(233,193,90,.16), transparent 60%),
+    radial-gradient(900px 600px at 12% 120%, rgba(26,58,107,.55), transparent 60%),
+    linear-gradient(125deg,#071229 0%,#0b1e4d 52%,#13315c 100%);
+}
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+  background-size:56px 56px;
+  -webkit-mask-image:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 78%);
+          mask-image:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 78%);
+}
+.hero-body{position:relative;z-index:2;text-align:center;padding:3.4rem 0 4rem}
+.eyebrow{
+  display:inline-block;margin-bottom:1.1rem;
+  font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;
+  color:var(--gold);
+  padding:.4rem .9rem;border:1px solid rgba(233,193,90,.4);border-radius:999px;
+  background:rgba(233,193,90,.06);
+}
+.headline{
+  font-family:"Noto Sans JP","Inter",sans-serif;
+  font-weight:900;
+  font-size:clamp(2rem,4.6vw,3.1rem);
+  line-height:1.28;letter-spacing:.01em;margin:0 auto;
+  text-shadow:0 4px 24px rgba(0,0,0,.35);
+}
+.tagline{margin-top:.8rem;font-size:.98rem;color:#8fa2c6;font-style:italic;letter-spacing:.02em}
+.hero-wave{position:relative;z-index:2;display:block;width:100%;height:auto;margin-bottom:-1px}
+
+/* Step chips in the hero */
+.jump{display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center;list-style:none;padding:0;margin:2rem 0 0;position:relative;z-index:2}
+.jump a{
+  display:inline-flex;align-items:center;gap:.5rem;padding:.55rem 1.1rem;border-radius:999px;
+  border:1px solid rgba(255,255,255,.28);color:#dbe4f7;text-decoration:none;
+  font-size:.88rem;font-weight:600;transition:background .2s,border-color .2s,transform .15s;
+}
+.jump a:hover{background:rgba(255,255,255,.1);border-color:var(--gold);transform:translateY(-2px)}
+
+/* ---------- Sections ---------- */
+section{padding:4rem 0}
+section.hero{padding:0}
+section.alt{background:linear-gradient(#fff,var(--bg-soft))}
+.kicker{color:var(--gold-strong);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.8rem}
+h2.title{
+  font-size:clamp(1.55rem,3vw,2.1rem);font-weight:800;color:var(--navy-800);
+  margin:.35rem 0 .6rem;letter-spacing:-.01em;
+}
+h2.title::after{
+  content:"";display:block;width:44px;height:3px;margin-top:.8rem;
+  border-radius:999px;background:var(--gold);
+}
+h3.subtitle{
+  font-size:1.35rem;font-weight:700;color:var(--navy-700);
+  margin:2.4rem 0 .2rem;letter-spacing:-.01em;
+}
+
+/* ---------- Prose ---------- */
+.prose p{color:#3a465f;font-size:1.05rem;margin:0 0 1.15rem}
+.prose strong{color:var(--navy-800)}
+.prose a{color:var(--navy-700);font-weight:600;text-decoration:underline;text-decoration-color:rgba(233,193,90,.7);text-underline-offset:.15em;transition:color .15s}
+.prose a:hover{color:var(--gold-strong)}
+
+/* Bulleted lists as cards */
+.list{list-style:none;padding:0;margin:1.2rem 0 1.4rem}
+.list > li{
+  position:relative;
+  background:#fff;border:1px solid var(--line);border-radius:12px;
+  border-left:3px solid var(--gold);
+  padding:1rem 1.2rem 1rem 1.2rem;margin-bottom:.8rem;
+  color:#3a465f;font-size:1rem;
+  transition:transform .15s,box-shadow .2s,border-color .2s;
+}
+.list > li:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.list ul{margin:.6rem 0 0;padding-left:1.2rem;color:#3a465f}
+.list ul li{margin:.25rem 0}
+
+/* Callouts (WARNING / NOTE / IMPORTANT) */
+.callout{
+  display:flex;gap:.9rem;align-items:flex-start;
+  margin:1.4rem 0;padding:1.1rem 1.3rem;
+  background:var(--bg-soft);
+  border:1px solid var(--line);
+  border-left:4px solid var(--gold);
+  border-radius:0 12px 12px 0;
+  color:#3a465f;font-size:1rem;
+}
+.callout .ico{
+  flex:0 0 auto;width:26px;height:26px;border-radius:8px;
+  display:grid;place-items:center;font-size:.85rem;
+  background:var(--gold);color:var(--navy-800);font-weight:800;
+}
+.callout strong{color:var(--navy-800)}
+.callout a{color:var(--navy-700);font-weight:600}
+
+/* Calendar */
+.calendar{
+  margin-top:1.6rem;background:#fff;border:1px solid var(--line);
+  border-radius:var(--radius);padding:1rem;box-shadow:var(--shadow);
+}
+.calendar iframe{width:100%;height:659px;border:0;border-radius:8px;display:block}
+
+/* ---------- Footer ---------- */
+footer{background:var(--navy-900);color:#9fb0d3;padding:2.6rem 0}
+.foot-inner{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between}
+.foot-inner .brand{color:#fff}
+footer small{color:#6f80a6}
+
+@media (max-width:860px){
+  .nav-links{display:none}
+  section{padding:3rem 0}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="/"><span class="dot"></span>RebelsNLU</a>
+    <nav class="nav-links">
+      <a href="/#about">About</a>
+      <!-- <a href="/#activities">Activities</a> -->
+      <!-- <a href="/#news">News</a> -->
+      <a href="/people.html">People</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/publications.html">Publications</a>
+      <a class="nav-cta" href="/joinus.html">Join us</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-body">
+      <span class="eyebrow">JAIST · School of Advanced Science and Technology</span>
+      <h1 class="headline">Join us!</h1>
+      <p class="tagline">Reading Between the Lines for Natural Language Understanding</p>
+      <ul class="jump">
+        <li><a href="#step-1">STEP 1 · Smell-test</a></li>
+        <li><a href="#step-2">STEP 2 · How to join</a></li>
+        <li><a href="#step-3">STEP 3 · Talk to Prof. Inoue</a></li>
+      </ul>
+    </div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path fill="#ffffff" d="M0,80 L0,40 C240,72 480,80 720,64 C960,48 1200,8 1440,32 L1440,80 Z"></path>
+  </svg>
+</section>
+
+<!-- STEP 1 -->
+<section id="step-1">
+  <div class="container prose">
+    <div class="kicker">Step 1</div>
+    <h2 class="title">✅ STEP 1: Smell-test: matching is all you need</h2>
+
+    <p>Interested in joining our lab? Thank you very much for your interest!</p>
+
+    <p>Since you are going to spend a long time with us, it is very important for you to make sure if you are comfortable working in our lab. Here, the criteria of comfortableness varies: your research interest, lab environment, your expectation, working style, etc. So I (very, very) strongly recommend you to make the best effort to probe our lab using the five senses (otherwise, we both will be unhappy)!</p>
+
+    <p>I offer several hints for this:</p>
+
+    <ul class="list">
+      <li>Go through every pages of <a href="/">our website</a>. Who is working, how many students do they have? How often do they publish papers, which area, which conference? What expertise do they have? Are they rich (research fundings)? Do they enjoy the research? What do they do daily? You can learn lots of things through this website.</li>
+      <li>Read <a href="https://www.jaist.ac.jp/english/laboratory/cs/inoue.html">the lab intro webpage at JAIST</a> (日本語版は<a href="https://www.jaist.ac.jp/laboratory/cs/inoue.html">こちら</a>), where I describe basic skills I expect from you and general direction for supervision, let alone research direction.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- STEP 2 -->
+<section class="alt" id="step-2">
+  <div class="container prose">
+    <div class="kicker">Step 2</div>
+    <h2 class="title">✅ STEP 2: Find out how to join us</h2>
+
+    <h3 class="subtitle">For JAIST students</h3>
+
+    <div class="callout">
+      <span class="ico">!</span>
+      <div><strong>WARNING:</strong> We only accept students who have contacted Prof. Inoue before enrolling at JAIST. This policy ensures that (a) there is a good match between students and the lab and that (b) Prof. Inoue can dedicate sufficient time to supervising each student.</div>
+    </div>
+
+    <h3 class="subtitle">For non-JAIST students</h3>
+
+    <p>Our lab belongs to <a href="http://www.jaist.ac.jp/english/">JAIST</a>, a postgraduate university in Ishikawa, Japan. JAIST has both master's program and doctoral program, and welcomes undergrad/grad students worldwide in Ishikawa campus and 社会人学生 in Tokyo satellite campus.</p>
+
+    <div class="callout">
+      <span class="ico">i</span>
+      <div><strong>NOTE:</strong> Ishikawa students accepted by regular examinations are not 100% guaranteed to be able to work with us (as mentioned above). However, you can avoid this by using the following university schemes:</div>
+    </div>
+
+    <ul class="list">
+      <li>Informal pre-approval system (<a href="https://www.jaist.ac.jp/education/procedures/lab-assignment.html">配属研究室入学前内定制度</a>)</li>
+      <li>For international students only: Examination for Admission on Recommendation for Overseas Residents (<a href="https://www.jaist.ac.jp/english/admissions/application-guide/guide-m.html">Master's</a> or <a href="https://www.jaist.ac.jp/english/admissions/application-guide/guide-d.html">Doctoral</a>)</li>
+    </ul>
+
+    <div class="callout">
+      <span class="ico">!</span>
+      <div><strong>WARNING:</strong> Currently, we are NOT accepting 社会人修士課程学生 in the Tokyo satellite campus due to limited capacity. Contact us about 社会人博士課程学生.</div>
+    </div>
+
+    <p>Anyway, please carefully read <a href="https://www.jaist.ac.jp/english/admissions/">these documents</a> (日本語版は<a href="https://www.jaist.ac.jp/admissions/">こちら</a>) for more details about the admissions and find out a suitable scheme for you.</p>
+
+    <p><a href="https://www.jaist.ac.jp/english/studentlife/support/scholarships.html">Here</a> is a useful guide for scholarship available in JAIST.</p>
+  </div>
+</section>
+
+<!-- STEP 3 -->
+<section id="step-3">
+  <div class="container prose">
+    <div class="kicker">Step 3</div>
+    <h2 class="title">✅ STEP 3: Talk to Prof. Inoue</h2>
+
+    <p>Please schedule a (possibly virtual) lab tour. By default, the meeting agenda is as follows:</p>
+
+    <ul class="list">
+      <li>Overview talk of our lab: our research projects and lab activity (10 min.)</li>
+      <li>Free discussion: why you are interested in our lab, your background, your research plan, anything else you want to ask, etc. (20 min.)</li>
+    </ul>
+
+    <div class="callout">
+      <span class="ico">★</span>
+      <div><strong>IMPORTANT:</strong> Before the meeting, please collect your thoughts about your research plan and what you want to ask about our lab. Through the conversation, we would like you to probe our lab to see if our lab is a good fit for you.</div>
+    </div>
+
+    <p>How to make an appointment:</p>
+
+    <ul class="list">
+      <li>Find our available time from the calendar below.</li>
+      <li>Please <a href="/contact.html">contact Prof. Inoue via email</a> (日本語可), indicating:
+        <ul>
+          <li>You want to schedule a lab tour.</li>
+          <li>How you want to join us (see STEP 2).</li>
+          <li>Your date/time preference for the tour (30 min. window).</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>We look forward to speaking with you!</p>
+
+    <div class="calendar">
+      <iframe src="https://www.google.com/calendar/embed?src=naoya.inoue.lab@gmail.com&amp;mode=week&amp;ctz=Asia&amp;via=iframely" title="Lab tour availability calendar" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container foot-inner">
+    <a class="brand" href="/"><span class="dot"></span>RebelsNLU</a>
+    <small>Reading Between the Lines NLU · JAIST — Japan Advanced Institute of Science and Technology</small>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — RebelsNLU</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy-900:#071229;
+  --navy-800:#0b1e4d;
+  --navy-700:#13315c;
+  --navy-600:#1a3a6b;
+  --gold:#e9c15a;
+  --gold-strong:#e8b64c;
+  --ink:#1f2a44;
+  --muted:#5a6b8c;
+  --line:#e4e9f2;
+  --bg-soft:#f6f8fc;
+  --radius:14px;
+  --shadow:0 18px 40px -18px rgba(11,30,77,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"Inter","Noto Sans JP",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--ink);
+  background:#fff;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+img{max-width:100%;display:block}
+.container{width:min(1120px,92vw);margin-inline:auto}
+
+/* ---------- Nav ---------- */
+.nav{
+  position:sticky;top:0;z-index:50;
+  background:rgba(7,18,41,.82);
+  backdrop-filter:saturate(160%) blur(12px);
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:.55rem;color:#fff;font-weight:800;letter-spacing:.02em;text-decoration:none;font-size:1.15rem}
+.brand .dot{width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold)}
+.nav-links{display:flex;gap:1.4rem;align-items:center}
+.nav-links a{color:#c7d2e8;text-decoration:none;font-size:.92rem;font-weight:500;transition:color .15s}
+.nav-links a:hover{color:#fff}
+.nav-links a.active{color:#fff;font-weight:700}
+.nav-cta{padding:.5rem .95rem !important;border-radius:999px;background:var(--gold);color:#0b1e4d !important;font-weight:700 !important}
+.nav-cta:hover{background:#f2cf6c}
+
+/* ---------- Page hero ---------- */
+.hero{
+  position:relative;overflow:hidden;color:#fff;
+  background:
+    radial-gradient(1200px 500px at 82% -10%, rgba(233,193,90,.16), transparent 60%),
+    radial-gradient(900px 600px at 12% 120%, rgba(26,58,107,.55), transparent 60%),
+    linear-gradient(125deg,#071229 0%,#0b1e4d 52%,#13315c 100%);
+}
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+  background-size:56px 56px;
+  -webkit-mask-image:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 78%);
+          mask-image:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 78%);
+}
+.hero-body{position:relative;z-index:2;text-align:center;padding:3.4rem 0 4rem}
+.eyebrow{
+  display:inline-block;margin-bottom:1.1rem;
+  font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;
+  color:var(--gold);
+  padding:.4rem .9rem;border:1px solid rgba(233,193,90,.4);border-radius:999px;
+  background:rgba(233,193,90,.06);
+}
+.headline{
+  font-family:"Noto Sans JP","Inter",sans-serif;
+  font-weight:900;
+  font-size:clamp(2rem,4.6vw,3.1rem);
+  line-height:1.28;letter-spacing:.01em;margin:0 auto;
+  text-shadow:0 4px 24px rgba(0,0,0,.35);
+}
+.tagline{margin-top:.8rem;font-size:.98rem;color:#8fa2c6;font-style:italic;letter-spacing:.02em}
+.hero-wave{position:relative;z-index:2;display:block;width:100%;height:auto;margin-bottom:-1px}
+
+/* ---------- Sections ---------- */
+section{padding:4rem 0}
+section.hero{padding:0}
+section.alt{background:linear-gradient(#fff,var(--bg-soft))}
+.kicker{color:var(--gold-strong);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.8rem}
+h2.title{
+  font-size:clamp(1.55rem,3vw,2.1rem);font-weight:800;color:var(--navy-800);
+  margin:.35rem 0 .6rem;letter-spacing:-.01em;
+}
+h2.title::after{
+  content:"";display:block;width:44px;height:3px;margin-top:.8rem;
+  border-radius:999px;background:var(--gold);
+}
+
+/* ---------- Prose ---------- */
+.prose p{color:#3a465f;font-size:1.05rem;margin:0 0 1.15rem}
+.prose strong{color:var(--navy-800)}
+.prose a{color:var(--navy-700);font-weight:600;text-decoration:underline;text-decoration-color:rgba(233,193,90,.7);text-underline-offset:.15em;transition:color .15s}
+.prose a:hover{color:var(--gold-strong)}
+
+/* Cards */
+.card{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  border-left:3px solid var(--gold);
+  padding:1.4rem 1.6rem;margin-top:1.5rem;
+  color:#3a465f;font-size:1.05rem;
+  transition:transform .15s,box-shadow .2s,border-color .2s;
+}
+.card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.card p{margin:0}
+
+.list{list-style:none;padding:0;margin:1.5rem 0 0}
+.list li{
+  background:#fff;border:1px solid var(--line);border-radius:12px;
+  border-left:3px solid var(--gold);
+  padding:1.1rem 1.3rem;margin-bottom:.8rem;
+  color:#3a465f;font-size:1rem;
+  transition:transform .15s,box-shadow .2s,border-color .2s;
+}
+.list li:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+
+.email{
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  background:var(--bg-soft);border:1px solid var(--line);border-radius:8px;
+  padding:.15rem .5rem;color:var(--navy-800);font-size:.95rem;
+}
+
+/* ---------- Footer ---------- */
+footer{background:var(--navy-900);color:#9fb0d3;padding:2.6rem 0}
+.foot-inner{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between}
+.foot-inner .brand{color:#fff}
+footer small{color:#6f80a6}
+
+@media (max-width:860px){
+  .nav-links{display:none}
+  section{padding:3rem 0}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="/"><span class="dot"></span>RebelsNLU</a>
+    <nav class="nav-links">
+      <a href="/#about">About</a>
+      <a href="/#activities">Activities</a>
+      <a href="/#news">News</a>
+      <a href="/people.html">People</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/publications.html">Publications</a>
+      <a class="nav-cta" href="/joinus.html">Join us</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-body">
+      <span class="eyebrow">JAIST · School of Advanced Science and Technology</span>
+      <h1 class="headline">Contact</h1>
+      <p class="tagline">Reading Between the Lines for Natural Language Understanding</p>
+    </div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path fill="#ffffff" d="M0,80 L0,40 C240,72 480,80 720,64 C960,48 1200,8 1440,32 L1440,80 Z"></path>
+  </svg>
+</section>
+
+<!-- ADDRESS -->
+<section id="address">
+  <div class="container prose">
+    <div class="kicker">Where to find us</div>
+    <h2 class="title">Address</h2>
+
+    <div class="card">
+      <p>Room I-51, 1-1 Asahidai, Nomi, Ishikawa, 923-1292 Japan.</p>
+    </div>
+  </div>
+</section>
+
+<!-- AFFILIATION -->
+<section class="alt" id="affiliation">
+  <div class="container prose">
+    <div class="kicker">Institution</div>
+    <h2 class="title">Affiliation</h2>
+
+    <ul class="list">
+      <li><a href="https://www.jaist.ac.jp/english/areas/information-science.html">School of Information Science</a>, <a href="https://www.jaist.ac.jp/english/">Japan Advanced Institute of Science and Technology (JAIST)</a></li>
+      <li><a href="https://www.jaist.ac.jp/english/areas/cs/">Computing Science Research Area</a>, <a href="https://www.jaist.ac.jp/english/">Japan Advanced Institute of Science and Technology (JAIST)</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- POINT OF CONTACT -->
+<section id="point-of-contact">
+  <div class="container prose">
+    <div class="kicker">Get in touch</div>
+    <h2 class="title">Point of Contact</h2>
+
+    <div class="card">
+      <p><a href="https://naoya-i.github.io/">Prof. Naoya Inoue</a> (founder): <span class="email">naoya-i aaaatttaatat jaist.ac.jp</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container foot-inner">
+    <a class="brand" href="/"><span class="dot"></span>RebelsNLU</a>
+    <small>Reading Between the Lines NLU · JAIST — Japan Advanced Institute of Science and Technology</small>
+  </div>
+</footer>
+
+</body>
+</html>
