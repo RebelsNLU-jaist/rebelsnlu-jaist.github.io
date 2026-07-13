@@ -1,18 +1,38 @@
 {
   "handle": "rebelsnlu_jaist",
   "name": "RebelsNLU@JAIST",
-  "updated": "2025-10-23T00:00:00Z",
-  "source": "seed",
+  "updated": "2026-07-13T12:07:58Z",
+  "source": "syndication-tweet",
   "tweets": [
     {
-      "id": "",
-      "url": "https://x.com/rebelsnlu_jaist",
+      "id": "1981252753004646446",
+      "url": "https://x.com/rebelsnlu_jaist/status/1981252753004646446",
       "date": "2025-10-23",
-      "text": "We were delighted to host a welcome party for our new members — Ai Ishii, Rui Li, and Yanis Boukhoufane.\nWishing them a wonderful start to their journey with RebelsNLU at JAIST, and many exciting research adventures ahead!",
-      "photo": null,
+      "text": "We were delighted to host a welcome party for our new members — Ai Ishii, Rui Li, and Yanis Boukhoufane.\n Wishing them a wonderful start to their journey with RebelsNLU at JAIST, and many exciting research adventures ahead!",
+      "photo": "https://pbs.twimg.com/media/G37SzC7W4AAX6WG.jpg",
       "likes": 5,
       "retweets": 0,
       "replies": 0
+    },
+    {
+      "id": "1934479054440456330",
+      "url": "https://x.com/rebelsnlu_jaist/status/1934479054440456330",
+      "date": "2025-06-16",
+      "text": "Wonderful time at @RebelsNLU last week as we hosted Dr. Ana Brassard from #TohokuNLP! She presented her work on evaluating LLMs’ commonsense reasoning and had thoughtful discussions with our members. Thanks again, Ana--your insights were truly inspiring!",
+      "photo": "https://pbs.twimg.com/media/GtimagVaMAAwTCp.jpg",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0
+    },
+    {
+      "id": "1909419506981912787",
+      "url": "https://x.com/rebelsnlu_jaist/status/1909419506981912787",
+      "date": "2025-04-08",
+      "text": "We are excited to welcome our new students: Caraka Rahman, Lukas Hofbauer, Shohei Kitajima, Kobayashi Koga, and Mizuki Koyamagawa to RebelsNLU—your fresh perspectives will further strengthen our commitment to cutting-edge NLP research. (1.5/2)",
+      "photo": null,
+      "likes": 4,
+      "retweets": 0,
+      "replies": 1
     }
   ]
 }
