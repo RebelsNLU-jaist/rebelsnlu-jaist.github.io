@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects — RebelsNLU</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy-900:#071229;
+  --navy-800:#0b1e4d;
+  --navy-700:#13315c;
+  --navy-600:#1a3a6b;
+  --gold:#e9c15a;
+  --gold-strong:#e8b64c;
+  --ink:#1f2a44;
+  --muted:#5a6b8c;
+  --line:#e4e9f2;
+  --bg-soft:#f6f8fc;
+  --radius:14px;
+  --shadow:0 18px 40px -18px rgba(11,30,77,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"Inter","Noto Sans JP",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--ink);
+  background:#fff;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+img{max-width:100%;display:block}
+.container{width:min(1120px,92vw);margin-inline:auto}
+
+/* ---------- Nav ---------- */
+.nav{
+  position:sticky;top:0;z-index:50;
+  background:rgba(7,18,41,.82);
+  backdrop-filter:saturate(160%) blur(12px);
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:.55rem;color:#fff;font-weight:800;letter-spacing:.02em;text-decoration:none;font-size:1.15rem}
+.brand .dot{width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold)}
+.nav-links{display:flex;gap:1.4rem;align-items:center}
+.nav-links a{color:#c7d2e8;text-decoration:none;font-size:.92rem;font-weight:500;transition:color .15s}
+.nav-links a:hover{color:#fff}
+.nav-links a.active{color:#fff;font-weight:700}
+.nav-cta{padding:.5rem .95rem !important;border-radius:999px;background:var(--gold);color:#0b1e4d !important;font-weight:700 !important}
+.nav-cta:hover{background:#f2cf6c}
+
+/* ---------- Page hero ---------- */
+.hero{
+  position:relative;overflow:hidden;color:#fff;
+  background:
+    radial-gradient(1200px 500px at 82% -10%, rgba(233,193,90,.16), transparent 60%),
+    radial-gradient(900px 600px at 12% 120%, rgba(26,58,107,.55), transparent 60%),
+    linear-gradient(125deg,#071229 0%,#0b1e4d 52%,#13315c 100%);
+}
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+  background-size:56px 56px;
+  -webkit-mask-image:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 78%);
+          mask-image:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 78%);
+}
+.hero-body{position:relative;z-index:2;text-align:center;padding:3.4rem 0 4rem}
+.eyebrow{
+  display:inline-block;margin-bottom:1.1rem;
+  font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;
+  color:var(--gold);
+  padding:.4rem .9rem;border:1px solid rgba(233,193,90,.4);border-radius:999px;
+  background:rgba(233,193,90,.06);
+}
+.headline{
+  font-family:"Noto Sans JP","Inter",sans-serif;
+  font-weight:900;
+  font-size:clamp(2rem,4.6vw,3.1rem);
+  line-height:1.28;letter-spacing:.01em;margin:0 auto;
+  text-shadow:0 4px 24px rgba(0,0,0,.35);
+}
+.headline .gold{color:var(--gold);text-shadow:0 4px 24px rgba(233,193,90,.25)}
+.tagline{margin-top:.8rem;font-size:.98rem;color:#8fa2c6;font-style:italic;letter-spacing:.02em}
+.hero-wave{position:relative;z-index:2;display:block;width:100%;height:auto;margin-bottom:-1px}
+
+/* ---------- Sections ---------- */
+section{padding:4rem 0}
+section.hero{padding:0}
+section.alt{background:linear-gradient(#fff,var(--bg-soft))}
+.kicker{color:var(--gold-strong);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.8rem}
+h2.title{
+  font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:800;color:var(--navy-800);
+  margin:.35rem 0 .6rem;letter-spacing:-.01em;
+}
+h2.title::after{
+  content:"";display:block;width:44px;height:3px;margin-top:.8rem;
+  border-radius:999px;background:var(--gold);
+}
+
+/* ---------- Prose ---------- */
+.prose p{color:#3a465f;font-size:1.05rem;margin:0 0 1.15rem}
+.prose strong{color:var(--navy-800)}
+.prose a{color:var(--navy-700);font-weight:600;text-decoration:underline;text-decoration-color:rgba(233,193,90,.7);text-underline-offset:.15em;transition:color .15s}
+.prose a:hover{color:var(--gold-strong)}
+
+/* Table of contents chips */
+.toc{display:flex;flex-wrap:wrap;gap:.8rem;margin:1.6rem 0 0;padding:0;list-style:none}
+.toc a{
+  display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.3rem;border-radius:999px;
+  background:#fff;border:1px solid var(--line);text-decoration:none;font-weight:600;color:var(--navy-800);
+  transition:transform .15s,box-shadow .2s,border-color .2s;
+}
+.toc a:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-color:#cdd8ef}
+
+/* Overview figure: 90% of the container width, aspect ratio preserved */
+.fig-overview{width:100%;margin:2rem auto 0}
+.fig-overview img{width:100%;height:auto;border-radius:16px;box-shadow:var(--shadow)}
+
+/* Figures */
+.figs{display:grid;grid-template-columns:repeat(2,1fr);gap:1.3rem;margin:1.8rem 0}
+.figs.one{grid-template-columns:1fr;max-width:640px;margin-inline:auto}
+
+/* Two figures stacked on the left, one alongside them on the right */
+.figs-2plus1{display:grid;grid-template-columns:1fr 1fr;gap:1.3rem;margin:1.8rem 0;align-items:start}
+.figs-2plus1 .stack{display:flex;flex-direction:column;gap:1.3rem}
+
+/* Stretch the left stack to the row height so its two figures spread out and
+   the bottom edge lines up with the figure on the right. */
+.figs-2plus1.flush-bottom{align-items:stretch}
+.figs-2plus1.flush-bottom .stack{justify-content:space-between}
+/* the lone figure grows to the same height; keep its image optically centred */
+.figs-2plus1.flush-bottom > .fig{display:flex;align-items:center}
+.fig{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:1rem;transition:transform .18s ease,box-shadow .2s ease,border-color .2s;
+}
+.fig:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#cdd8ef}
+.fig img{width:100%;height:auto;border-radius:6px}
+
+/* "Our Efforts" callout */
+.efforts{
+  margin:1.5rem 0 0;padding:1rem 1.3rem;
+  background:var(--bg-soft);border-left:3px solid var(--gold);border-radius:0 10px 10px 0;
+  color:#3a465f;font-size:1rem;
+}
+.efforts strong{color:var(--navy-800)}
+.efforts a{color:var(--navy-700);font-weight:600;text-decoration:underline;text-decoration-color:rgba(233,193,90,.7);text-underline-offset:.15em}
+.efforts a:hover{color:var(--gold-strong)}
+
+/* Lists (grants, collaborators) */
+.list{list-style:none;padding:0;margin:1.5rem 0 0}
+.list li{
+  background:#fff;border:1px solid var(--line);border-radius:12px;
+  padding:1.1rem 1.3rem;margin-bottom:.8rem;color:#3a465f;font-size:1rem;
+  border-left:3px solid var(--gold);
+  transition:transform .15s,box-shadow .2s,border-color .2s;
+}
+.list li:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.list strong{color:var(--navy-800)}
+.list a{color:var(--navy-700);font-weight:600}
+.note{margin-top:1.4rem;color:var(--muted);font-size:.98rem}
+.note a{color:var(--navy-700);font-weight:600}
+
+/* ---------- Footer ---------- */
+footer{background:var(--navy-900);color:#9fb0d3;padding:2.6rem 0}
+.foot-inner{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between}
+.foot-inner .brand{color:#fff}
+footer small{color:#6f80a6}
+
+@media (max-width:860px){
+  .nav-links{display:none}
+  section{padding:3rem 0}
+  .figs{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="/index-new.html"><span class="dot"></span>RebelsNLU</a>
+    <nav class="nav-links">
+      <a href="/index-new.html#about">About</a>
+      <a href="/index-new.html#activities">Activities</a>
+      <a href="/index-new.html#news">News</a>
+      <a href="/people.html">People</a>
+      <a class="active" href="/projects.html">Projects</a>
+      <a href="/publications.html">Publications</a>
+      <a class="nav-cta" href="/joinus.html">Join us</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-body">
+      <span class="eyebrow">JAIST · School of Advanced Science and Technology</span>
+      <h1 class="headline">Projects</h1>
+      <p class="tagline">Reading Between the Lines for Natural Language Understanding</p>
+    </div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path fill="#ffffff" d="M0,80 L0,40 C240,72 480,80 720,64 C960,48 1200,8 1440,32 L1440,80 Z"></path>
+  </svg>
+</section>
+
+<!-- OVERVIEW -->
+<section id="overview">
+  <div class="container prose">
+    <div class="kicker">Research</div>
+    <h2 class="title">Overview</h2>
+
+    <div class="fig-overview">
+      <img src="/imgs/research-themes.svg" alt="Research themes: Interpretability, Safety, Reasoning"/>
+    </div>
+  </div>
+</section>
+
+<!-- INDIVIDUAL PROJECTS -->
+<section class="alt" id="individual-projects">
+  <div class="container prose">
+    <div class="kicker">Explore</div>
+    <h2 class="title">Individual Projects</h2>
+
+    <ul class="toc">
+      <li><a href="#mechanistic-interpretability">Mechanistic Interpretability</a></li>
+      <li><a href="#machine-unlearning">Machine Unlearning</a></li>
+      <li><a href="#towards-improving-reasoning-capability-of-llms">Towards Improving Reasoning Capability of LLMs</a></li>
+      <li><a href="#reasoning-and-probing-for-vision-language-models">Reasoning and Probing for Vision-Language Models</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- MECHANISTIC INTERPRETABILITY -->
+<section id="mechanistic-interpretability">
+  <div class="container prose">
+    <div class="kicker">Project 01</div>
+    <h2 class="title">Mechanistic Interpretability</h2>
+
+    <div class="figs one">
+      <div class="fig">
+        <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a4d70879-7740-411a-b1a4-cec3c45a46de/Fig1/public" alt="Mechanistic interpretability"/>
+      </div>
+    </div>
+
+    <p><strong>Mechanistic Interpretability.</strong> We are dedicated to simplifying the complex inference of language models into a sequence of simpler processes. For instance, in the work shown in the figure, we break down the In-context Learning process of language models into three straightforward steps with careful measurements, and use such a decompose to explain many observed phenomena.</p>
+
+    <p>This approach falls under mechanistic interpretability, offering a transparent, step-by-step understanding of how neural networks perform tasks. While this type of decomposition may not always yield precise models, as the saying goes, "all models are wrong, but some are useful." Rather than pursuing traditional machine learning theory's theoretical elegance and precision, we prioritize empirical practicality to guide better practice.</p>
+
+    <p class="efforts"><strong>Our Efforts:</strong> <a href="https://arxiv.org/pdf/2410.04468">Cho et al.</a> <strong>ICLR 2025</strong> (shown in the figure), <a href="https://arxiv.org/pdf/2406.01468">Cho et al.</a> <strong>COLING 2025</strong></p>
+
+    <p style="margin-top:2rem"><strong>Application: Improve the In-context Learning Performance.</strong> If we input a text-label paired prompt and leave the final label blank (as shown in the figure), the language model will predict the missing label using its causal language modeling operation. This allows us to prompt the language model to learn from the few-shot text-label pairs and generate a response to the question, which is called <a href="https://ai.stanford.edu/blog/understanding-incontext/">In-context Learning</a>.</p>
+
+    <p>As previously mentioned, we also focus on analyzing and improving the in-context learning capabilities of language models. For example, in the work shown in the figure, we examine the decision boundaries in in-context learning and refine them to boost both accuracy and stability. We believe our work can significantly enhance the practical utility of language models in downstream tasks.</p>
+
+    <div class="figs">
+      <div class="fig">
+        <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f850646b-d097-4b7d-b75e-6c4590de0f4a/Fig2/public" alt="In-context learning figure"/>
+      </div>
+      <div class="fig">
+        <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a5cd2bda-d33b-4671-a5b9-a2f79d0df096/Fig3_Method/public" alt="In-context learning method"/>
+      </div>
+    </div>
+
+    <p class="efforts"><strong>Our Efforts:</strong> <a href="https://arxiv.org/pdf/2406.16535">Cho et al.</a> <strong>NAACL 2025</strong> (shown in the figure, <a href="https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&amp;page_id=13&amp;block_id=8&amp;item_id=235105&amp;item_no=1">Japanese</a>), <a href="https://arxiv.org/pdf/2402.05515">Cho et al. 2024</a></p>
+  </div>
+</section>
+
+<!-- MACHINE UNLEARNING -->
+<section class="alt" id="machine-unlearning">
+  <div class="container prose">
+    <div class="kicker">Project 02</div>
+    <h2 class="title">Machine Unlearning</h2>
+
+    <p><strong>Introduction.</strong> As a human, forgetting some basic knowledge seems "impossible" once learned. For example, for basic facts such as "the sun rises every day," it is much harder to forget them than the rare, unusual ones. Let's imagine that Alice claims that she forgot something. It might be one of two cases: (1) She knows about it, but intentionally decided to act as if she does not, or (2) She knows about it, but not well enough to be able to claim that she has learn it.</p>
+
+    <p>We ask whether Machine Unlearning (MU) algorithms can help ML models truly unlearn (or erase) knowledge, or do they, much like humans, merely conceal it, deciding that the model should "act" as if it does not know? And who's to say unlearning should be in any different forms?</p>
+
+    <p><strong>Topics.</strong> We are currently working on the following topics:</p>
+
+    <p>(1) Fundamental mechanisms, new definitions, and evaluations of MU</p>
+
+    <p>(2) Efficient and robust MU algorithms</p>
+
+    <p class="efforts"><strong>Our efforts:</strong> <a href="https://arxiv.org/pdf/2408.06223">Dang et al.</a> <strong>AAAI 2025</strong>, <a href="https://arxiv.org/pdf/2501.19202">Dang et al.</a> <strong>arXiv Preprint</strong></p>
+  </div>
+</section>
+
+<!-- REASONING CAPABILITY OF LLMS -->
+<section id="towards-improving-reasoning-capability-of-llms">
+  <div class="container prose">
+    <div class="kicker">Project 03</div>
+    <h2 class="title">Towards Improving Reasoning Capability of LLMs</h2>
+
+    <p><strong>Benchmarking Multi-hop QA in Japanese.</strong> JEMHopQA is a multi-hop QA dataset in Japanese for the development of explainable QA systems, consisting of question-answer pairs with two types of questions, and derivation triples of supporting evidence. It is created based on Japanese Wikipedia using both crowd-sourced human annotation as well as prompting a large language model (LLM). Evaluating several state-of-the-art LLMs on proposed dataset show that the dataset is sufficiently challenging.</p>
+
+    <div class="figs-2plus1 flush-bottom">
+      <div class="stack">
+        <div class="fig">
+          <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/da7c869c-3307-4e65-b442-a55b3ed08e74/4/public" alt="JEMHopQA figure 1"/>
+        </div>
+        <div class="fig">
+          <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ffc48556-5c2c-49ab-b3bf-69ad2301e2b4/5/public" alt="JEMHopQA figure 2"/>
+        </div>
+      </div>
+      <div class="fig">
+        <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bee54709-218b-444e-b799-358a61639e7d/6/public" alt="JEMHopQA figure 3"/>
+      </div>
+    </div>
+
+    <p class="efforts"><strong>Our Efforts:</strong> <a href="https://aclanthology.org/2024.lrec-main.831/">Ai Ishii et al.</a> <strong>LREC-COLING 2024</strong></p>
+
+    <p style="margin-top:2rem"><strong>Datasets for Logical Fallacy Detection.</strong> This paper introduces four sets of templates for common informal logical fallacies. Using proposed templates, an annotation study is conducted on top of 400 fallacious arguments taken from LOGIC dataset and achieves a high agreement score and reasonable coverage. Extensive experiments are conducted for detecting the structure of fallacies and discover that state-of-the-art language models struggle with detecting fallacy templates.</p>
+
+    <div class="figs">
+      <div class="fig">
+        <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8fff47c2-795c-48fb-a8e6-d48dad4c7330/7/public" alt="Logical fallacy detection figure 1"/>
+      </div>
+      <div class="fig">
+        <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f3c422bd-d804-4f18-b95f-757bc08d0d25/8/public" alt="Logical fallacy detection figure 2"/>
+      </div>
+    </div>
+
+    <p class="efforts"><strong>Our Efforts:</strong> <a href="https://aclanthology.org/2024.emnlp-main.1142/">Irfan Robbani et al.</a> <strong>EMNLP 2024</strong></p>
+  </div>
+</section>
+
+<!-- VISION-LANGUAGE MODELS -->
+<section class="alt" id="reasoning-and-probing-for-vision-language-models">
+  <div class="container prose">
+    <div class="kicker">Project 04</div>
+    <h2 class="title">Reasoning and Probing for Vision-Language Models</h2>
+
+    <p><strong>Benchmark for Inductive Visual Reasoning.</strong> We introduce Find-the-Common (FTC) benchmark, which consists of 353 instances, each of which provides (i) four 3D scenes consisting of 2-6 objects and (ii) four multiple choices, including a decoy choice that is partially true in scenes. Models are required to identify an answer that explains the common attributes across visual scenes. We propose Image-Based Reasoning, Text-Based Reasoning, and Image-Text-Based Reasoning for evaluating various VL models. Extensive experiments show that even state-of-the-art models like GPT-4V struggle on FTC, showing FTC as a new challenge for visual reasoning.</p>
+
+    <div class="figs-2plus1 flush-bottom">
+      <div class="stack">
+        <div class="fig">
+          <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d3f63bbe-e403-4d02-ba39-fdab383e2275/10/public" alt="Find-the-Common figure 1"/>
+        </div>
+        <div class="fig">
+          <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/be3b00fb-1b16-434c-a381-5899a59b3322/11/public" alt="Find-the-Common figure 2"/>
+        </div>
+      </div>
+      <div class="fig">
+        <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/198a5061-c7a9-4b81-8708-e61f86dceeaa/12/public" alt="Find-the-Common figure 3"/>
+      </div>
+    </div>
+
+    <p class="efforts"><strong>Our Efforts:</strong> <a href="https://aclanthology.org/2024.lrec-main.642/">Yuting Shi et al.</a> <strong>LREC-COLING 2024</strong></p>
+  </div>
+</section>
+
+<!-- GRANTS -->
+<section id="grants">
+  <div class="container prose">
+    <div class="kicker">Funding</div>
+    <h2 class="title">Grants</h2>
+
+    <ul class="list">
+      <li><strong>井之上 直也 (PI)</strong>. 解釈可能な分散表現に基づく言語モデリング. JSPS Grant-in-Aid for Scientific Research (KAKENHI 基盤C). 2026/04-2029/03, 3,500,000JPY.</li>
+      <li><strong>井之上直也 (PI)</strong>. 人々が頼りたくなる自己批判的思考力を備えた言語処理機構. JST 2023年度 創発的研究支援事業, 2024/10-2028/03, 20,000,000JPY.</li>
+      <li><strong>井之上直也 (PI)</strong>. 自己認識的に推論ができる信頼性の高いAIの研究. 中島国際交流財団 日本人独立研究者始動助成金, 2024/04-2027/03, 5,000,000JPY.</li>
+      <li>日高昇平, 鳥居拓馬, <strong>井之上直也</strong>, 大関洋平. 自然言語の計算原理の解明による最小言語モデルの開発. JSPS Grant-in-Aid for Scientific Research (KAKENHI 基盤A). 2026/04-2030/03, 31,800,000JPY.</li>
+      <li>水本正晴, 和泉悠, Nguyen Minh Le, <strong>井之上直也</strong>, 窪田悠介. Cross-Linguistic Semantic Alignment for Universal Philosophical Concepts. JSPS Grant-in-Aid for Scientific Research (KAKENHI 基盤A). 2025/04-2029/03, 44,000,000JPY.</li>
+      <li>乾健太郎, <strong>井之上直也</strong>, 中川智皓, HEINZERLING BENJAMIN, 吉川 将司. 深い論述理解の計算モデリングと論述学習支援への応用. JSPS Grant-in-Aid for Scientific Research (KAKENHI 基盤A). 22H00524. 2022/04-2027/03, 41,470,000JPY.</li>
+    </ul>
+
+    <p class="note">Past grants can be found <a href="https://naoya-i.github.io/grant.html">here</a>.</p>
+  </div>
+</section>
+
+<!-- COLLABORATORS -->
+<section class="alt" id="main-collaborators">
+  <div class="container prose">
+    <div class="kicker">Network</div>
+    <h2 class="title">Main Collaborators</h2>
+
+    <ul class="list">
+      <li>Tohoku NLP Lab</li>
+      <li>RIKEN AIP: Natural Language Understanding Team, Language Information Access Technology Team</li>
+    </ul>
+
+    <p class="note"><a href="https://rebelsnlu.super.site/projects/previous-pojects">Previous Projects</a></p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container foot-inner">
+    <a class="brand" href="/index-new.html"><span class="dot"></span>RebelsNLU</a>
+    <small>Reading Between the Lines NLU · JAIST — Japan Advanced Institute of Science and Technology</small>
+  </div>
+</footer>
+
+</body>
+</html>

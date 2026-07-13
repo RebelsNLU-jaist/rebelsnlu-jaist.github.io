@@ -13,6 +13,18 @@ hide_footer: true
 paginate: 10
 paginate_path: "/news/page:num/"
 
+# Superseded page versions kept for reference; not published.
+# Listing `exclude` overrides Jekyll's defaults, so those are repeated here.
+exclude:
+  - history/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed

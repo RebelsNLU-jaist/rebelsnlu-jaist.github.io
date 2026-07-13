@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>People — RebelsNLU</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy-900:#071229;
+  --navy-800:#0b1e4d;
+  --navy-700:#13315c;
+  --navy-600:#1a3a6b;
+  --gold:#e9c15a;
+  --gold-strong:#e8b64c;
+  --ink:#1f2a44;
+  --muted:#5a6b8c;
+  --line:#e4e9f2;
+  --bg-soft:#f6f8fc;
+  --radius:14px;
+  --shadow:0 18px 40px -18px rgba(11,30,77,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"Inter","Noto Sans JP",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--ink);
+  background:#fff;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+img{max-width:100%;display:block}
+.container{width:min(1120px,92vw);margin-inline:auto}
+
+/* ---------- Nav ---------- */
+.nav{
+  position:sticky;top:0;z-index:50;
+  background:rgba(7,18,41,.82);
+  backdrop-filter:saturate(160%) blur(12px);
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:.55rem;color:#fff;font-weight:800;letter-spacing:.02em;text-decoration:none;font-size:1.15rem}
+.brand .dot{width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold)}
+.nav-links{display:flex;gap:1.4rem;align-items:center}
+.nav-links a{color:#c7d2e8;text-decoration:none;font-size:.92rem;font-weight:500;transition:color .15s}
+.nav-links a:hover{color:#fff}
+.nav-links a.active{color:#fff;font-weight:700}
+.nav-cta{padding:.5rem .95rem !important;border-radius:999px;background:var(--gold);color:#0b1e4d !important;font-weight:700 !important}
+.nav-cta:hover{background:#f2cf6c}
+
+/* ---------- Page hero ---------- */
+.hero{
+  position:relative;overflow:hidden;color:#fff;
+  background:
+    radial-gradient(1200px 500px at 82% -10%, rgba(233,193,90,.16), transparent 60%),
+    radial-gradient(900px 600px at 12% 120%, rgba(26,58,107,.55), transparent 60%),
+    linear-gradient(125deg,#071229 0%,#0b1e4d 52%,#13315c 100%);
+}
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+  background-size:56px 56px;
+  -webkit-mask-image:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 78%);
+          mask-image:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 78%);
+}
+.hero-body{position:relative;z-index:2;text-align:center;padding:3.4rem 0 4rem}
+.eyebrow{
+  display:inline-block;margin-bottom:1.1rem;
+  font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;
+  color:var(--gold);
+  padding:.4rem .9rem;border:1px solid rgba(233,193,90,.4);border-radius:999px;
+  background:rgba(233,193,90,.06);
+}
+.headline{
+  font-family:"Noto Sans JP","Inter",sans-serif;
+  font-weight:900;
+  font-size:clamp(2rem,4.6vw,3.1rem);
+  line-height:1.28;letter-spacing:.01em;margin:0 auto;
+  text-shadow:0 4px 24px rgba(0,0,0,.35);
+}
+.headline .gold{color:var(--gold);text-shadow:0 4px 24px rgba(233,193,90,.25)}
+.tagline{margin-top:.8rem;font-size:.98rem;color:#8fa2c6;font-style:italic;letter-spacing:.02em}
+.hero-wave{position:relative;z-index:2;display:block;width:100%;height:auto;margin-bottom:-1px}
+
+/* ---------- Sections ---------- */
+section{padding:4rem 0}
+section.hero{padding:0}
+section.alt{background:linear-gradient(#fff,var(--bg-soft))}
+.kicker{color:var(--gold-strong);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.8rem}
+h2.title{
+  font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:800;color:var(--navy-800);
+  margin:.35rem 0 .6rem;letter-spacing:-.01em;
+}
+h2.title::after{
+  content:"";display:block;width:44px;height:3px;margin-top:.8rem;
+  border-radius:999px;background:var(--gold);
+}
+h3.subtitle{
+  font-size:1.35rem;font-weight:700;color:var(--navy-700);
+  margin:2.6rem 0 .2rem;letter-spacing:-.01em;
+}
+
+/* ---------- People cards ---------- */
+.people-list{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:1.3rem;
+  margin:1.5rem 0 2rem;
+}
+.person-card{
+  display:flex;
+  align-items:center;
+  gap:2rem;
+  padding:1.6rem;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  transition:transform .18s ease,box-shadow .2s ease,border-color .2s ease;
+}
+.person-card:hover{
+  transform:translateY(-4px);
+  box-shadow:var(--shadow);
+  border-color:#cdd8ef;
+}
+.person-photo{
+  width:150px;
+  height:150px;
+  flex:0 0 150px;
+  object-fit:cover;
+  border-radius:50%;
+  padding:6px;
+  background:var(--bg-soft);
+  box-shadow:0 0 0 1px var(--line);
+  transition:box-shadow .2s ease;
+}
+.person-card:hover .person-photo{box-shadow:0 0 0 2px var(--gold)}
+.person-info{min-width:0}
+.person-name{
+  display:inline-block;
+  color:var(--navy-800);
+  font-size:2.2rem;
+  font-weight:700;
+  line-height:1.15;
+  text-decoration-thickness:0.08em;
+  text-underline-offset:0.08em;
+}
+/* Highlight names that link to a personal website */
+a.person-name{
+  color:var(--navy-700);
+  transition:color 0.15s ease;
+}
+a.person-name:hover{
+  color:var(--gold-strong);
+  text-decoration:underline;
+}
+.person-status{
+  margin-top:1.1rem;
+  color:var(--muted);
+  font-size:1.65rem;
+  line-height:1.25;
+}
+
+/* ---------- Footer ---------- */
+footer{background:var(--navy-900);color:#9fb0d3;padding:2.6rem 0}
+.foot-inner{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between}
+.foot-inner .brand{color:#fff}
+footer small{color:#6f80a6}
+
+@media (max-width:860px){
+  .nav-links{display:none}
+  section{padding:3rem 0}
+}
+@media (max-width:640px){
+  .people-list{grid-template-columns:1fr}
+  .person-card{gap:1rem;padding:1rem}
+  .person-photo{width:96px;height:96px;flex-basis:96px;padding:4px}
+  .person-name{font-size:1.35rem}
+  .person-status{margin-top:0.55rem;font-size:1rem}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="/index-new.html"><span class="dot"></span>RebelsNLU</a>
+    <nav class="nav-links">
+      <a href="/index-new.html#about">About</a>
+      <a href="/index-new.html#activities">Activities</a>
+      <a href="/index-new.html#news">News</a>
+      <a class="active" href="/people.html">People</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/publications.html">Publications</a>
+      <a class="nav-cta" href="/joinus.html">Join us</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-body">
+      <span class="eyebrow">JAIST · School of Advanced Science and Technology</span>
+      <h1 class="headline">People</h1>
+      <p class="tagline">Reading Between the Lines for Natural Language Understanding</p>
+    </div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path fill="#ffffff" d="M0,80 L0,40 C240,72 480,80 720,64 C960,48 1200,8 1440,32 L1440,80 Z"></path>
+  </svg>
+</section>
+
+<!-- FACULTY -->
+<section id="faculty">
+  <div class="container">
+    <div class="kicker">Who we are</div>
+    <h2 class="title">Faculty</h2>
+
+    <div class="people-list">
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/2e91fdeb-62f6-4ccd-8269-d25464fd5e18/naoya-i_2024_sq.jpg" alt="Naoya Inoue"/>
+        <div class="person-info">
+          <a class="person-name" href="https://naoya-i.info/">Naoya Inoue</a>
+          <div class="person-status">Associate Professor</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/51b42e7b-3d5f-49ae-889f-48ce90efee8e/phuong2.jpg" alt="Phuong Minh Nguyen"/>
+        <div class="person-info">
+          <span class="person-name">Phuong Minh Nguyen</span>
+          <div class="person-status">R. Assistant Professor</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ASSISTANT -->
+<section class="alt" id="assistant">
+  <div class="container">
+    <div class="kicker">Support</div>
+    <h2 class="title">Assistant</h2>
+
+    <div class="people-list">
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/56143c64-6e0c-4b58-b54f-55e9b23593af/logo_without_type_w.png" alt="Hiromi Inada"/>
+        <div class="person-info">
+          <span class="person-name">Hiromi Inada</span>
+          <div class="person-status">Assistant</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STUDENTS -->
+<section id="students">
+  <div class="container">
+    <div class="kicker">The team</div>
+    <h2 class="title">Students</h2>
+
+    <h3 class="subtitle">PhD Students</h3>
+    <div class="people-list">
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/dde8960f-ae26-4048-9922-1a4824d774c0/S__5603427_0.jpg" alt="Surawat Pothong"/>
+        <div class="person-info">
+          <span class="person-name">Surawat Pothong</span>
+          <div class="person-status">D3+ (MEXT Scholarship )</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/574fba30-ea75-4bf0-8afb-9a025bac240d/image.png" alt="Jin Tao"/>
+        <div class="person-info">
+          <span class="person-name">Jin Tao</span>
+          <div class="person-status">D3</div>
+        </div>
+      </div>
+      
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/7237a00c-dd71-4dbe-8117-67ff73f65bb2/portrait.jpg" alt="Yuting Shi"/>
+        <div class="person-info">
+          <span class="person-name">Yuting Shi</span>
+          <div class="person-status">D3</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/a3b0965c-c62f-4c19-921d-be5f0fe9a7e7/362aa6164381b25381eb0995a9e8e342.jpg" alt="Houjing Wei"/>
+        <div class="person-info">
+          <span class="person-name">Houjing Wei</span>
+          <div class="person-status">D2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/f68669b0-626e-47be-bfed-676dada6b22b/image_(8).png" alt="Koga Kobayashi"/>
+        <div class="person-info">
+          <a class="person-name" href="https://www.kajyuuen.com/">Koga Kobayashi</a>
+          <div class="person-status">Tokyo D2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/f0b38910-3821-4bb8-b23a-7a984f951db3/IMG_20240824_111348.jpg" alt="Thu Thi Anh Tran"/>
+        <div class="person-info">
+          <span class="person-name">Thu Thi Anh Tran</span>
+          <div class="person-status">D2 (MEXT Scholarship) </div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/086dd8b7-ec7d-4dad-a51f-e582a92537f9/beauty_1676707006632.jpg" alt="Yan Zhenzhu"/>
+        <div class="person-info">
+          <span class="person-name">Yan Zhenzhu</span>
+          <div class="person-status">D2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/2dc1e8e1-9a78-41a1-bb43-270df44fea38/%E7%94%BB%E5%83%8F1.jpg" alt="Ai Ishii"/>
+        <div class="person-info">
+          <span class="person-name">Ai Ishii</span>
+          <div class="person-status">D1 Tokyo</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/8810e4ca-b3db-4028-bc98-28cfa956f79e/onishi.jpg" alt="Tadashi Onishi"/>
+        <div class="person-info">
+          <span class="person-name">Tadashi Onishi</span>
+          <div class="person-status">Tokyo D1</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/33ac0148-789d-4f3f-a696-71a4c72c6154/tien.png" alt="Tien Dang Huu"/>
+        <div class="person-info">
+          <a class="person-name" href="https://huutiendang.github.io">Tien Dang Huu</a>
+          <div class="person-status">D1</div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="subtitle">Master Students</h3>
+    <div class="people-list">
+
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/a592b63c-34c6-432b-b089-8ca0ff0b4168/IMG_0922.jpg" alt="Mariko Kato"/>
+        <div class="person-info">
+          <span class="person-name">Mariko Kato</span>
+          <div class="person-status">M2+</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/5dfb93c2-d6bd-439c-bc2c-7a1dd7a9e6d2/matsuda.jpeg" alt="Daisuke Matsuda"/>
+        <div class="person-info">
+          <span class="person-name">Daisuke Matsuda</span>
+          <div class="person-status">M2 Tokyo</div>
+        </div>
+      </div>
+      
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/8adb8f06-951e-461f-a990-4d70855b741a/icon.jpeg" alt="Hinata Tezuka"/>
+        <div class="person-info">
+          <span class="person-name">Hinata Tezuka</span>
+          <div class="person-status">M2</div>
+        </div>
+      </div>
+
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/39343538-872f-43f3-acb7-c52315f0eddf/IMG_1602.jpg" alt="Mizuki Koyamagawa"/>
+        <div class="person-info">
+          <span class="person-name">Mizuki Koyamagawa</span>
+          <div class="person-status">M2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/6736768b-b80c-4923-b099-da6be3c0fbae/31e0a9307b46ed680a1b82bf1aa42e69.jpg" alt="Rui Li"/>
+        <div class="person-info">
+          <span class="person-name">Rui Li</span>
+          <div class="person-status">M2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/11883e6b-f931-44f1-be94-d114ddea2c66/1000000117.jpg" alt="Shohei Kitajima"/>
+        <div class="person-info">
+          <span class="person-name">Shohei Kitajima</span>
+          <div class="person-status">M2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/812ec6fd-bdac-4f64-acc5-1933e3249b34/16851181.jpg" alt="Shotaro Kitamura"/>
+        <div class="person-info">
+          <span class="person-name">Shotaro Kitamura</span>
+          <div class="person-status">M2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/74cc0791-24a5-4d12-b0cc-8e80076e97d6/toshiki_nakashima.jpg" alt="Toshiki Nakashima"/>
+        <div class="person-info">
+          <span class="person-name">Toshiki Nakashima</span>
+          <div class="person-status">M2 Tokyo</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/c360e4ec-d725-4f44-ac84-fc1ef8392958/img_9974.jpg" alt="Yuji Nagano"/>
+        <div class="person-info">
+          <span class="person-name">Yuji Nagano</span>
+          <div class="person-status">M1</div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="subtitle">Alumni</h3>
+    <div class="people-list">
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/ad19b0d3-b838-426b-a9be-d702fa1936ea/kenshirotanaka.png" alt="Kenshiro Tanaka"/>
+        <div class="person-info">
+          <span class="person-name">Kenshiro Tanaka (2022-2026)</span>
+          <div class="person-status">D2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/4742f686-078c-4ccf-b3e5-660c54be9cb3/5a6b3b4c-991b-41a6-bd81-d5fd72a4b111.jpg" alt="Yanis Boukhoufane"/>
+        <div class="person-info">
+          <span class="person-name">Yanis Boukhoufane (2025-2026)</span>
+          <div class="person-status">Telecom SudParis Intern</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/6e971af9-861f-46d3-a3ed-e9906dc92fb4/hhkz.png" alt="Hakaze Cho"/>
+        <div class="person-info">
+          <a class="person-name" href="https://www.hakaze-c.com/">Hakaze Cho (2023-2026)</a>
+          <div class="person-status">D3</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/e1f71d9a-f231-42a6-9dd6-45d0e957d5f7/logo_without_type_w.png" alt="Akira Ishii"/>
+        <div class="person-info">
+          <span class="person-name">Akira Ishii (2023-2026)</span>
+          <div class="person-status">M2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/2c769280-4718-4f48-b092-c51b3bf113ff/peter_obule.jpg" alt="Peter Obule"/>
+        <div class="person-info">
+          <span class="person-name">Peter Obule (2024-2026)</span>
+          <div class="person-status">M2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/c0adcd82-fc39-454e-aa2c-37edab245d2f/1686294867255.jpg" alt="Naohiro Kaide"/>
+        <div class="person-info">
+          <span class="person-name">Naohiro Kaide (2022-2026)</span>
+          <div class="person-status">M2 Tokyo</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/09d82f19-20e9-4c53-a03a-18018c7eed72/IMG_20201004_172618_044.jpg" alt="Caraka Rahman"/>
+        <div class="person-info">
+          <span class="person-name">Caraka Rahman (2025-2026)</span>
+          <div class="person-status">M1</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/309e85f8-0998-4775-985a-fd7c98a1a9e7/logo_without_type_w.png" alt="Erika Yanagisawa"/>
+        <div class="person-info">
+          <span class="person-name">Erika Yanagisawa (2022-2025)</span>
+          <div class="person-status">M2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/fa577b92-8071-458f-88e0-4aec2b11cf3f/1000038214.jpg" alt="Lukas Hofbauer"/>
+        <div class="person-info">
+          <a class="person-name" href="https://hofbauer.tech/">Lukas Hofbauer (2025)</a>
+          <div class="person-status">University of Innsbruck Intern</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/6a6df532-c0a7-4caa-89a9-70a24c72eb90/image_(3).png" alt="Sakai Yoshihiro"/>
+        <div class="person-info">
+          <span class="person-name">Sakai Yoshihiro (2023-2025)</span>
+          <div class="person-status">M2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/ec4cbc53-25ad-4b82-8696-3ea9a11e480a/irfanrobbani.png" alt="Irfan Robbani"/>
+        <div class="person-info">
+          <span class="person-name">Irfan Robbani (2022-2024)</span>
+          <div class="person-status">M2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/05ef04c5-49f2-427a-a641-8813fbd47f2f/bowengao.png" alt="Bowen Gao"/>
+        <div class="person-info">
+          <span class="person-name">Bowen Gao (2022-2024)</span>
+          <div class="person-status">M2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/58bec626-e50f-4b04-83cf-dae16deb9a44/gaikiito.png" alt="Gaiki Ito"/>
+        <div class="person-info">
+          <span class="person-name">Gaiki Ito (2022-2024)</span>
+          <div class="person-status">M2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/dddab482-2dc0-4360-a4db-f4172a99ecc0/linhhoailuu.png" alt="Linh Hoai Luu"/>
+        <div class="person-info">
+          <span class="person-name">Linh Hoai Luu (2022-2023)</span>
+          <div class="person-status">M2</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/02035feb-2aac-4bb6-80be-ba7ebdaf4b4f/logo_without_type_w.png" alt="Ce Zhang"/>
+        <div class="person-info">
+          <span class="person-name">Ce Zhang (2022)</span>
+          <div class="person-status">-</div>
+        </div>
+      </div>
+      <div class="person-card">
+        <img class="person-photo" src="https://assets.super.so/78059868-3446-4f59-b703-9c9271ab6e55/images/805dcec0-e9fa-4a34-8298-bc69c5469b2b/logo_without_type_w.png" alt="Takumi Kuroda"/>
+        <div class="person-info">
+          <span class="person-name">Takumi Kuroda (2022)</span>
+          <div class="person-status">-</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container foot-inner">
+    <a class="brand" href="/index-new.html"><span class="dot"></span>RebelsNLU</a>
+    <small>Reading Between the Lines NLU · JAIST — Japan Advanced Institute of Science and Technology</small>
+  </div>
+</footer>
+
+</body>
+</html>
