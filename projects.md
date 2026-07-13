@@ -11,7 +11,11 @@ title: Projects
 
 <!-- conceptual figure TBD -->
 
-<img src="imgs/Research Themes.png">
+<div class="columns is-centered">
+  <div class="column is-half">
+    <img src="imgs/Research Themes.png" alt="Research themes" style="width:100%;height:auto;"/>
+  </div>
+</div>
 
 <!-- <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/3f4f6bcc-178d-4c88-8146-0ab0c2b9cb65/Untitled/public" alt="Research overview details" style="width:100%;height:auto;"/> -->
 
@@ -24,7 +28,11 @@ title: Projects
 
 ## Mechanistic Interpretability
 
-<img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a4d70879-7740-411a-b1a4-cec3c45a46de/Fig1/public" alt="Mechanistic interpretability" style="width:100%;height:auto;"/>
+<div class="columns is-centered">
+  <div class="column is-half">
+    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/a4d70879-7740-411a-b1a4-cec3c45a46de/Fig1/public" alt="Mechanistic interpretability" style="width:100%;height:auto;"/>
+  </div>
+</div>
 
 **Mechanistic Interpretability.** We are dedicated to simplifying the complex inference of language models into a sequence of simpler processes. For instance, in the work shown in the figure, we break down the In-context Learning process of language models into three straightforward steps with careful measurements, and use such a decompose to explain many observed phenomena.
 
@@ -74,7 +82,11 @@ We ask whether Machine Unlearning (MU) algorithms can help ML models truly unlea
   </div>
 </div>
 
-<img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bee54709-218b-444e-b799-358a61639e7d/6/public" alt="JEMHopQA figure 3" style="width:100%;height:auto;"/>
+<div class="columns is-centered">
+  <div class="column is-half">
+    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bee54709-218b-444e-b799-358a61639e7d/6/public" alt="JEMHopQA figure 3" style="width:100%;height:auto;"/>
+  </div>
+</div>
 
 **Our Efforts:** [Ai Ishii et al.](https://aclanthology.org/2024.lrec-main.831/) **LREC-COLING 2024**
 
@@ -89,7 +101,11 @@ We ask whether Machine Unlearning (MU) algorithms can help ML models truly unlea
   </div>
 </div>
 
-<img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/497f0616-1397-4b88-8c00-604ba703b3c1/9/public" alt="Logical fallacy detection figure 3" style="width:100%;height:auto;"/>
+<div class="columns is-centered">
+  <div class="column is-half">
+    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/497f0616-1397-4b88-8c00-604ba703b3c1/9/public" alt="Logical fallacy detection figure 3" style="width:100%;height:auto;"/>
+  </div>
+</div>
 
 **Our Efforts:** [Irfan Robbani et al.](https://aclanthology.org/2024.emnlp-main.1142/) **EMNLP 2024**
 
@@ -106,7 +122,11 @@ We ask whether Machine Unlearning (MU) algorithms can help ML models truly unlea
   </div>
 </div>
 
-<img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/198a5061-c7a9-4b81-8708-e61f86dceeaa/12/public" alt="Find-the-Common figure 3" style="width:100%;height:auto;"/>
+<div class="columns is-centered">
+  <div class="column is-half">
+    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/198a5061-c7a9-4b81-8708-e61f86dceeaa/12/public" alt="Find-the-Common figure 3" style="width:100%;height:auto;"/>
+  </div>
+</div>
 
 **Our Efforts:** [Yuting Shi et al.](https://aclanthology.org/2024.lrec-main.642/) **LREC-COLING 2024**
 
