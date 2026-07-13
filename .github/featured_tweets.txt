@@ -1,0 +1,18 @@
+# Featured posts for the homepage "X / Twitter timeline" card.
+#
+# HOW IT WORKS
+#   Put one X/Twitter post URL (or bare tweet ID) per line — newest or most
+#   important first. Every few hours the "Update X posts" GitHub Action fetches
+#   each post's LIVE content (text, photo, like count) and refreshes the card.
+#   The card shows the 3 most recent of whatever is listed here.
+#
+# TO ADD A POST
+#   Open the post on X, copy its URL, and paste it below. That's it.
+#   e.g.   https://x.com/rebelsnlu_jaist/status/1846000000000000000
+#
+# Lines starting with # are ignored. Blank lines are fine.
+#
+# --- add your posts below this line -------------------------------------------
+https://x.com/rebelsnlu_jaist/status/1981252753004646446
+https://x.com/rebelsnlu_jaist/status/1934479054440456330
+https://x.com/rebelsnlu_jaist/status/1909419506981912787

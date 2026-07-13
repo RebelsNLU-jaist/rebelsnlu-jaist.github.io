@@ -1,0 +1,18 @@
+{
+  "handle": "rebelsnlu_jaist",
+  "name": "RebelsNLU@JAIST",
+  "updated": "2025-10-23T00:00:00Z",
+  "source": "seed",
+  "tweets": [
+    {
+      "id": "",
+      "url": "https://x.com/rebelsnlu_jaist",
+      "date": "2025-10-23",
+      "text": "We were delighted to host a welcome party for our new members — Ai Ishii, Rui Li, and Yanis Boukhoufane.\nWishing them a wonderful start to their journey with RebelsNLU at JAIST, and many exciting research adventures ahead!",
+      "photo": null,
+      "likes": 5,
+      "retweets": 0,
+      "replies": 0
+    }
+  ]
+}
