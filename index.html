@@ -141,8 +141,8 @@ h2.title{font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:800;color:var(--navy-8
 /* X / Twitter timeline card */
 .aside-card.x-card{padding:0;overflow:hidden;position:static;top:auto}
 .x-head{display:flex;align-items:center;gap:.7rem;padding:1rem 1.1rem;border-bottom:1px solid var(--line)}
-.x-avatar{width:40px;height:40px;border-radius:50%;flex:none;background:#0f1419;display:grid;place-items:center}
-.x-avatar svg{width:20px;height:20px;fill:#fff}
+/* .x-avatar{width:40px;height:40px;border-radius:50%;flex:none;background:#0f1419;display:grid;place-items:center} */
+/* .x-avatar svg{width:20px;height:20px;fill:#fff} */
 .x-id{display:flex;flex-direction:column;line-height:1.15;min-width:0}
 .x-name{font-weight:800;font-size:.95rem;color:var(--navy-800)}
 .x-handle{font-size:.82rem;color:var(--muted)}
@@ -161,8 +161,6 @@ h2.title{font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:800;color:var(--navy-8
 .x-tweet-id{display:flex;flex-direction:column;line-height:1.2;min-width:0}
 .x-tweet-name{font-weight:800;font-size:.9rem;color:var(--navy-800)}
 .x-tweet-meta{font-size:.78rem;color:var(--muted)}
-.x-tweet-mark{margin-left:auto;flex:none;width:18px;height:18px;color:#0f1419}
-.x-tweet-mark svg{width:18px;height:18px;fill:currentColor;display:block}
 .x-tweet-text{margin:.7rem 0 0;font-size:.9rem;line-height:1.5;color:#2a3550;white-space:pre-wrap;overflow-wrap:anywhere}
 .x-tweet-text a{color:var(--navy-700);font-weight:600;text-decoration:none}
 .x-tweet-text a:hover{text-decoration:underline}
@@ -294,9 +292,6 @@ footer small{color:#6f80a6}
                 <span class="x-tweet-name">RebelsNLU@JAIST</span>
                 <span class="x-tweet-meta">@rebelsnlu_jaist · Oct 23, 2025</span>
               </div>
-              <span class="x-tweet-mark" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-              </span>
             </div>
             <p class="x-tweet-text">We were delighted to host a welcome party for our new members — Ai Ishii, Rui Li, and Yanis Boukhoufane. Wishing them a wonderful start to their journey with RebelsNLU at JAIST, and many exciting research adventures ahead!</p>
             <div class="x-tweet-foot"><span>💬</span><span>🔁</span><span>♥ 5</span><a href="https://x.com/rebelsnlu_jaist" target="_blank" rel="noopener">Read on X →</a></div>
@@ -377,7 +372,6 @@ footer small{color:#6f80a6}
     return s;
   }
   function fmtDate(d){var dt=new Date(d);if(isNaN(dt.getTime()))return esc(d);return dt.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});}
-  var MARK='<svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
   function card(t){
     var url=t.url||'https://x.com/rebelsnlu_jaist';
     var media=t.photo?'<div class="x-tweet-media"><img loading="lazy" src="'+esc(t.photo)+'" alt=""></div>':'';
@@ -387,7 +381,6 @@ footer small{color:#6f80a6}
         +'<span class="x-tweet-av" aria-hidden="true">R</span>'
         +'<div class="x-tweet-id"><span class="x-tweet-name">RebelsNLU@JAIST</span>'
         +'<span class="x-tweet-meta">@rebelsnlu_jaist · '+fmtDate(t.date)+'</span></div>'
-        +'<a class="x-tweet-mark" href="'+esc(url)+'" target="_blank" rel="noopener" aria-label="View on X">'+MARK+'</a>'
       +'</div>'
       +'<p class="x-tweet-text">'+linkify(t.text||'')+'</p>'
       +media
