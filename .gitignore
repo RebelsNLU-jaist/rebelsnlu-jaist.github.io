@@ -2,3 +2,5 @@
 /_site/
 /README.md
 README.md
+/.bundle/
+/vendor/

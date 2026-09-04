@@ -1,0 +1,27 @@
+<section class="hero">
+  <div class="container">
+    <div class="hero-body">
+      {% if page.hero.eyebrow %}<span class="eyebrow">{{ page.hero.eyebrow }}</span>{% endif %}
+      {% if page.hero.home %}
+        <h1 class="headline">{{ page.hero.line1 }}<br><span class="gold">{{ page.hero.emphasis }}</span>{{ page.hero.line2 }}</h1>
+        <p class="subhead">{{ page.hero.subhead }}</p>
+      {% else %}
+        <h1 class="headline">{{ page.hero.title | default: page.title }}</h1>
+      {% endif %}
+      {% if page.hero.tagline %}<p class="tagline">{{ page.hero.tagline }}</p>{% endif %}
+      {% if page.hero.buttons %}
+        <div class="hero-cta">
+          {% for button in page.hero.buttons %}<a class="btn {{ button.class }}" href="{{ button.href }}">{{ button.label }}</a>{% endfor %}
+        </div>
+      {% endif %}
+      {% if page.hero.links %}
+        <ul class="jump">
+          {% for link in page.hero.links %}<li><a href="{{ link.href }}">{{ link.label }}{% if link.count %}<span>{{ link.count }}</span>{% endif %}</a></li>{% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path fill="#ffffff" d="M0,80 L0,40 C240,72 480,80 720,64 C960,48 1200,8 1440,32 L1440,80 Z"></path>
+  </svg>
+</section>

@@ -1,0 +1,36 @@
+/* Shared responsive navigation */
+.mobile-menu{display:none;position:relative;color:#fff}
+.mobile-menu summary{
+  display:grid;place-items:center;width:42px;height:42px;padding:0;
+  border:1px solid rgba(255,255,255,.22);border-radius:10px;
+  cursor:pointer;list-style:none;background:rgba(255,255,255,.06);
+}
+.mobile-menu summary::-webkit-details-marker{display:none}
+.mobile-menu summary span,
+.mobile-menu summary span::before,
+.mobile-menu summary span::after{
+  display:block;width:20px;height:2px;border-radius:999px;background:#fff;
+  transition:transform .18s ease,opacity .18s ease;
+}
+.mobile-menu summary span{position:relative}
+.mobile-menu summary span::before,.mobile-menu summary span::after{content:"";position:absolute;left:0}
+.mobile-menu summary span::before{top:-6px}
+.mobile-menu summary span::after{top:6px}
+.mobile-menu[open] summary span{background:transparent}
+.mobile-menu[open] summary span::before{top:0;transform:rotate(45deg)}
+.mobile-menu[open] summary span::after{top:0;transform:rotate(-45deg)}
+.mobile-menu-panel{
+  position:absolute;right:0;top:calc(100% + 10px);z-index:100;
+  display:flex;flex-direction:column;min-width:220px;padding:.55rem;
+  border:1px solid rgba(255,255,255,.14);border-radius:12px;
+  background:rgba(7,18,41,.98);box-shadow:0 18px 40px rgba(0,0,0,.3);
+}
+.mobile-menu-panel a{
+  padding:.7rem .85rem;border-radius:8px;color:#dbe4f7;
+  font-size:.95rem;font-weight:600;text-decoration:none;
+}
+.mobile-menu-panel a:hover,.mobile-menu-panel a.active{color:#fff;background:rgba(255,255,255,.1)}
+
+@media (max-width:860px){
+  .mobile-menu{display:block}
+}
