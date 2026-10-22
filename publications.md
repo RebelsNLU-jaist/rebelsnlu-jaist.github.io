@@ -9,30 +9,27 @@ hero:
   links:
     - label: International Journals/Conferences/Workshops
       href: "#international-journals-conferences-workshops"
-      count: 34
     - label: Awards
       href: "#awards"
-      count: 11
     - label: Review Articles
       href: "#review-articles"
-      count: 1
     - label: Domestic Conferences
       href: "#domestic-conferences"
-      count: 56
     - label: Invited Talks
       href: "#invited-talks"
-      count: 14
     - label: Media
       href: "#media"
-      count: 6
 ---
 
 {% include content-section-start.html id="international-journals-conferences-workshops" %}
 
 
-## International Journals/Conferences/Workshops **34**
-{: .title .pub-heading}
+## International Journals/Conferences/Workshops
+{: .title #international-journals-conferences-workshops-heading}
 
+1. Anh Thu Tran, Minh Phuong Nguyen, Naoya Inoue, Kiyoaki Shirai. Distance-Regularized Orthogonal LoRA for Robust Continual Learning under Extended Training. To appear in Proceedings of the 18th International Conference on Knowledge and Systems Engineering (KSE), November 2026.
+1. Jin Tao, Phuong Minh Nguyen, Naoya Inoue. [Goose: Anisotropic Speculation Trees for Training-Free Speculative Decoding](https://arxiv.org/abs/2604.02047). In the Third Annual Conference on Language Modeling (COLM), October 2026.
+1. Yuriko Kikuchi, Takato Hayashi, Ryusei Kimura, Naoya Inoue, Ryo Ishii, Shogo Okada. [Speech Signals Complement LLMs for Predicting Interpersonal Attraction in Speed Dating](https://arxiv.org/abs/2607.23037). In Proceedings of the 28th International Conference on Multimodal Interaction (ICMI), pp. 400-408, October 2026.
 1. Dang Huu-Tien, Hoang Thanh-Tung, Anh Tuan Bui, Phuong Minh Nguyen, Le-Minh Nguyen, Naoya Inoue. [Improving LLM Unlearning Robustness via Random Perturbations](https://openreview.net/forum?id=QYw192hTdH). In Transactions on Machine Learning Research (TMLR), April 2026.
 1. Hakaze Cho, Haolin Yang, Gouki Minegishi, Naoya Inoue. [Mechanism of Task-oriented Information Removal in In-context Learning](https://openreview.net/forum?id=VAv1rrPR1A). In the Fourteenth International Conference on Learning Representations (ICLR), April 2026.
 1. Haolin Yang, Hakaze Cho, Naoya Inoue. [Localizing Task Recognition and Task Learning in In-Context Learning via Attention Head Analysis](https://openreview.net/forum?id=gdvOF1OMa7). In the Fourteenth International Conference on Learning Representations (ICLR), April 2026.
@@ -62,6 +59,7 @@ hero:
 1. Daichi Haraguchi, Kiyoaki Shirai, Naoya Inoue and Natthawut Kertkeidkachorn. [Discovering Highly Influential Shortcut Reasoning: An Automated Template-Free Approach](https://aclanthology.org/2023.findings-emnlp.424/). In Findings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP2023), pp. 6401-6407, December 2023.
 1. Camélia Guerraoui, Paul Reisert, Naoya Inoue, Farjana Sultana Mim, Shoichi Naito, Jungmin Choi, Irfan Robbani, Wenzhi Wang and Kentaro Inui. [Teach Me How to Argue: A Survey on NLP Feedback Systems in Argumentation](https://aclanthology.org/2023.argmining-1.3/). In Proceedings of the 10th Workshop on Argumentation Mining (ArgMining2023), pp. 19-34, December 2023.
 1. Hoai Linh Luu and Naoya Inoue. [Counterfactual Adversarial Training for Improving Robustness of Pre-trained Language Models](https://aclanthology.org/2023.paclic-1.88/). In Proceedings of Pacific Asia Conference on Language, Information and Computation (PACLIC37), pp. 881-888, December 2023.
+1. Qin Dai, Benjamin Heinzerling, Naoya Inoue, Kentaro Inui. Universal Graph based Distantly Supervised Relation Extraction. Journal of Natural Language Processing, Vol. 29, pp. 1138-1164, 2022.
 1. Vasudha Varadarajan, Nikita Soni, Weixi Wang, Christian Luhmann, H. Andrew Schwartz and Naoya Inoue. [Detecting Dissonant Stance in Social Media: The Role of Topic Exposure](https://aclanthology.org/2022.nlpcss-1.16/). In Proceedings of the Fifth Workshop on Natural Language Processing and Computational Social Science (NLP+CSS), pp.151-156, November 2022.
 1. Keshav Singh, Naoya Inoue, Farjana Sultana Mim, Shoichi Naito and Kentaro Inui. [IRAC: A Domain-specific Annotated Corpus of Implicit Reasoning in Arguments](https://aclanthology.org/2022.lrec-1.499/). In Proceedings of the 13th Language Resources and Evaluation Conference (LREC2022), pp. 4674-4683, June 2022.
 1. Farjana Sultana Mim, Naoya Inoue, Shoichi Naito, Keshav Singh and Kentaro Inui. [LPAttack: A Feasible Annotation Scheme for Capturing Logic Pattern of Attacks in Arguments](https://aclanthology.org/2022.lrec-1.261/). In Proceedings of the 13th Language Resources and Evaluation Conference (LREC2022), pp. 2446-2459, June 2022.
@@ -74,8 +72,8 @@ hero:
 {% include content-section-start.html id="awards" class="alt" %}
 
 
-## Awards **11**
-{: .title .pub-heading}
+## Awards
+{: .title #awards-heading}
 
 1. [言語処理学会 第32回年次大会 若手奨励賞](https://www.anlp.jp/nlp2026/award.html) (2026/3/13): 趙 羽風. 文脈内学習におけるタスク指向情報除去のメカニズム.
 1. [言語処理学会 第32回年次大会 スポンサー賞](https://www.anlp.jp/nlp2026/award.html) (2026/3/13): 貝出 直大, 井之上 直也. LLMエージェントにおける指示曖昧性の内部表現解析.
@@ -95,8 +93,8 @@ hero:
 {% include content-section-start.html id="review-articles" %}
 
 
-## Review Articles **1**
-{: .title .pub-heading}
+## Review Articles
+{: .title #review-articles-heading}
 
 1. 乾 健太郎, 石井 雄隆, 松林 優一郞, 井之上 直也, 内藤 昭一, 磯部 順子, 舟山 弘晃, 菊地 正弥. 自然言語処理×教育における説明能力 -説明できるライティング評価技術への新しい展開-. 2023 年 16 巻 4 号 p. 289-300. 電子情報通信学会 基礎・境界ソサイエティ Fundamentals Review, 2023. [paper](https://www.jstage.jst.go.jp/article/essfr/16/4/16_289/_article/-char/ja)
 {: .pub-list}
@@ -106,8 +104,8 @@ hero:
 {% include content-section-start.html id="domestic-conferences" class="alt" %}
 
 
-## Domestic Conferences **56**
-{: .title .pub-heading}
+## Domestic Conferences
+{: .title #domestic-conferences-heading}
 
 1. 趙羽風, 楊昊霖, 峰岸剛基, 井之上直也. [文脈内学習におけるタスク指向情報除去のメカニズム](https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B4-1.pdf). 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026. (若手奨励賞)
 1. 貝出直大, 井之上直也. [LLMエージェントにおける指示曖昧性の内部表現解析](https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B5-2.pdf). 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026. (スポンサー賞)
@@ -172,12 +170,13 @@ hero:
 {% include content-section-start.html id="invited-talks" %}
 
 
-## Invited Talks **14**
-{: .title .pub-heading}
+## Invited Talks
+{: .title #invited-talks-heading}
 
 1. Naoya Inoue. Personal Debate AI Teacher for Sustainable Development. [INCITEST2025](https://incitest.unikom.ac.id/). October 2025.
-1. 井之上直也. 言語処理が拓く批判的思考力養成デジタルドリルの可能性. [AIP自然言語理解チーム ワークショップ：教育 × NLPの深化と未来](https://c5dc59ed978213830355fc8978.doorkeeper.jp/events/184325). June 19.
-1. 井之上直也. Panelist at [JAIST第4回研究科セミナー（共創インテリジェンス研究領域）「AI時代の科学的方法論～AIは科学の方法論と科学自身をどう変えるのか～」](https://www.jaist.ac.jp/whatsnew/event/2025/06/04-2.html). June 16.
+1. 井之上直也. 好きなこと、究めてみる? 人工知能に魅せられて理転した結果…. 武蔵大学国際教養学部主催セミナー. September 2025.
+1. 井之上直也. 言語処理が拓く批判的思考力養成デジタルドリルの可能性. [AIP自然言語理解チーム ワークショップ：教育 × NLPの深化と未来](https://c5dc59ed978213830355fc8978.doorkeeper.jp/events/184325). June 2025.
+1. 井之上直也. Panelist at [JAIST第4回研究科セミナー（共創インテリジェンス研究領域）「AI時代の科学的方法論～AIは科学の方法論と科学自身をどう変えるのか～」](https://www.jaist.ac.jp/whatsnew/event/2025/06/04-2.html). June 2025.
 1. Naoya Inoue. Towards Trustworthy Reasoning with Large Language Models. [JAIST and PTIT: AI Summer School 2024](https://ai.ptit.edu.vn/event/ai-summer-school-2024-jaist-x-ptit-s-collaboration-event-2/). July 2024.
 1. Naoya Inoue. Panelist at LLMs and Linguistic Competence. [LLMs and Philosophy](https://philevents.org/event/show/121106). September 2024.
 1. 井之上直也. 推論の上にも十五年. [みちのく情報伝達学セミナー](https://www.nlp.ecei.tohoku.ac.jp/research-meetings/mics/). March 2024.
@@ -196,8 +195,8 @@ hero:
 {% include content-section-start.html id="media" class="alt" %}
 
 
-## Media **6**
-{: .title .pub-heading}
+## Media
+{: .title #media-heading}
 
 1. 井之上直也. ムサシトリドリ「好奇心を信じて挑戦！文系から理系への転身と研究の日々」2025/10 掲載. [webpage](https://www.musashi.ac.jp/toridori/qn99mm0000004smd.html)
 1. 井之上直也. 【Hokuriku Innovators】批判的思考力を備えた次世代人工知能の開発を目指して/コンピューティング科学研究領域 井之上直也 准教授. 2024/12 掲載. [video](https://www.youtube.com/watch?v=Q8FLo2Z0Nao)
