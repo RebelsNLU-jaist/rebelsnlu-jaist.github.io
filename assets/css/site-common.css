@@ -118,6 +118,23 @@ h3.subtitle{
 }
 .jump a:hover{background:rgba(255,255,255,.1);border-color:var(--accent);transform:translateY(-2px)}
 
+/* ---------- Research theme cards (_includes/theme-cards.html; home + projects) ---------- */
+.theme-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem}
+.theme-card{
+  display:flex;flex-direction:column;padding:1.7rem 1.6rem 1.5rem;
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  color:var(--ink);text-decoration:none;
+  transition:transform .18s ease,box-shadow .2s ease,border-color .2s;
+}
+.theme-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#cdd8ef}
+.theme-card h3{display:flex;align-items:center;gap:.65rem;margin:0;font-size:1.35rem;font-weight:800;color:var(--navy-800)}
+.theme-card .theme-icon{width:24px;height:24px;flex:none;fill:none;stroke:var(--accent-strong);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.theme-card .theme-q{margin:.7rem 0 .9rem;color:var(--accent-strong);font-weight:600;font-size:.92rem}
+.theme-card ul{margin:0 0 1.2rem;padding-left:1.1rem;color:#3a465f;font-size:.93rem;line-height:1.5}
+.theme-card li{margin-bottom:.35rem}
+.theme-card .more{margin-top:auto;font-weight:700;font-size:.9rem;color:var(--navy-700)}
+.theme-card:hover .more{color:var(--accent-strong)}
+
 /* ---------- Footer ---------- */
 footer{background:var(--navy-900);color:#9fb0d3;padding:2.6rem 0}
 .foot-inner{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between}
@@ -128,6 +145,7 @@ footer small{color:#6f80a6}
 @media (max-width:860px){
   .nav-links{display:none}
   section{padding:3rem 0}
+  .theme-cards{grid-template-columns:1fr}
 }
 
 /* Shared responsive navigation */

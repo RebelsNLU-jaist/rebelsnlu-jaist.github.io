@@ -1,0 +1,19 @@
+{%- comment -%}
+  Research theme cards, generated from _data/projects.yml.
+  href_prefix: page the cards link to (empty = same page)
+  more:        link text at the bottom of each card
+{%- endcomment -%}
+<div class="theme-cards">
+{%- for theme in site.data.projects %}
+  <a class="theme-card" href="{{ include.href_prefix }}#{{ theme.id }}">
+    <h3>{% include project-icon.html name=theme.icon %}{{ theme.name }}</h3>
+    <p class="theme-q">{{ theme.question }}</p>
+    <ul>
+{%- for topic in theme.topics %}
+      <li>{{ topic.title }}</li>
+{%- endfor %}
+    </ul>
+    <span class="more">{{ include.more | default: "Learn more →" }}</span>
+  </a>
+{%- endfor %}
+</div>

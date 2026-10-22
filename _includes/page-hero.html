@@ -3,12 +3,17 @@
     <div class="hero-body">
       {% if page.hero.eyebrow %}<span class="eyebrow">{{ page.hero.eyebrow }}</span>{% endif %}
       {% if page.hero.home %}
-        <h1 class="headline">{{ page.hero.line1 }}<br><span class="accent">{{ page.hero.emphasis }}</span>{{ page.hero.line2 }}</h1>
-        <p class="subhead">{{ page.hero.subhead }}</p>
+        <div class="home-brand">
+          <img src="{{ '/imgs/rebels_mark_white.png' | relative_url }}" alt="" aria-hidden="true">
+          <h1>RebelsNLU</h1>
+        </div>
+        {% if page.hero.tagline %}<p class="tagline">{{ page.hero.tagline }}</p>{% endif %}
+        <p class="headline">{{ page.hero.line1 }}<br><span class="accent">{{ page.hero.emphasis }}</span>{{ page.hero.line2 }}</p>
+        <p class="subhead">{% if page.hero.subhead.first %}{{ page.hero.subhead | join: "<br>" }}{% else %}{{ page.hero.subhead }}{% endif %}</p>
       {% else %}
         <h1 class="headline">{{ page.hero.title | default: page.title }}</h1>
+        {% if page.hero.tagline %}<p class="tagline">{{ page.hero.tagline }}</p>{% endif %}
       {% endif %}
-      {% if page.hero.tagline %}<p class="tagline">{{ page.hero.tagline }}</p>{% endif %}
       {% if page.hero.buttons %}
         <div class="hero-cta">
           {% for button in page.hero.buttons %}<a class="btn {{ button.class }}" href="{{ button.href }}">{{ button.label }}</a>{% endfor %}

@@ -1,6 +1,7 @@
 <aside class="x-card">
   <div class="x-embed">
-{%- for url in site.data.x_posts limit:3 %}
+{%- assign x_limit = include.limit | default: 3 %}
+{%- for url in site.data.x_posts limit: x_limit %}
     <blockquote class="twitter-tweet" data-dnt="true"><a href="{{ url }}">View this post on X</a></blockquote>
 {%- endfor %}
   </div>

@@ -1,48 +1,25 @@
-/* Table of contents chips */
-.toc{display:flex;flex-wrap:wrap;gap:.8rem;margin:1.6rem 0 0;padding:0;list-style:none}
-.toc a{
-  display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.3rem;border-radius:999px;
-  background:#fff;border:1px solid var(--line);text-decoration:none;font-weight:600;color:var(--navy-800);
-  transition:transform .15s,box-shadow .2s,border-color .2s;
+#overview{padding-bottom:1rem}
+
+/* ---------- Theme sections ---------- */
+.theme-lead{margin:0 0 1.6rem}
+.theme-lead .theme-q{display:block;color:var(--accent-strong);font-weight:700;margin-bottom:.3rem}
+.topic{display:grid;grid-template-columns:1fr;gap:1.6rem;padding:1.6rem 0;border-top:1px solid var(--line)}
+.topic.has-image{grid-template-columns:1fr minmax(0,26rem);align-items:start}
+.topic.has-image.wide{grid-template-columns:1fr}
+.topic.wide .topic-fig{max-width:46rem}
+.topic h3{margin:0 0 .45rem;font-size:1.2rem;font-weight:700;color:var(--navy-800)}
+.topic p{margin:0 0 .8rem}
+.papers{display:flex;flex-wrap:wrap;gap:.45rem}
+.prose .papers a{
+  padding:.2rem .7rem;border-radius:999px;border:1px solid var(--line);background:#fff;
+  font-size:.85rem;font-weight:600;text-decoration:none;color:var(--navy-700);
+  transition:border-color .15s,color .15s;
 }
-.toc a:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-color:#cdd8ef}
+.prose .papers a:hover{border-color:var(--accent);color:var(--accent-strong)}
+.topic-fig{margin:0;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:.8rem}
+.topic-fig img{width:100%;height:auto;border-radius:6px}
 
-/* Overview figure: 90% of the container width, aspect ratio preserved */
-.fig-overview{width:100%;margin:2rem auto 0}
-.fig-overview img{width:100%;height:auto;border-radius:16px;box-shadow:var(--shadow)}
-
-/* Figures */
-.figs{display:grid;grid-template-columns:repeat(2,1fr);gap:1.3rem;margin:1.8rem 0}
-.figs.one{grid-template-columns:1fr;max-width:640px;margin-inline:auto}
-
-/* Two figures stacked on the left, one alongside them on the right */
-.figs-2plus1{display:grid;grid-template-columns:1fr 1fr;gap:1.3rem;margin:1.8rem 0;align-items:start}
-.figs-2plus1 .stack{display:flex;flex-direction:column;gap:1.3rem}
-
-/* Stretch the left stack to the row height so its two figures spread out and
-   the bottom edge lines up with the figure on the right. */
-.figs-2plus1.flush-bottom{align-items:stretch}
-.figs-2plus1.flush-bottom .stack{justify-content:space-between}
-/* the lone figure grows to the same height; keep its image optically centred */
-.figs-2plus1.flush-bottom > .fig{display:flex;align-items:center}
-.fig{
-  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
-  padding:1rem;transition:transform .18s ease,box-shadow .2s ease,border-color .2s;
-}
-.fig:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#cdd8ef}
-.fig img{width:100%;height:auto;border-radius:6px}
-
-/* "Our Efforts" callout */
-.efforts{
-  margin:1.5rem 0 0;padding:1rem 1.3rem;
-  background:var(--bg-soft);border-left:3px solid var(--accent);border-radius:0 10px 10px 0;
-  color:#3a465f;font-size:1rem;
-}
-.efforts strong{color:var(--navy-800)}
-.efforts a{color:var(--navy-700);font-weight:600;text-decoration:underline;text-decoration-color:rgba(45,212,191,.7);text-underline-offset:.15em}
-.efforts a:hover{color:var(--accent-strong)}
-
-/* Lists (grants, collaborators) */
+/* Grants */
 .list{list-style:none;padding:0;margin:1.5rem 0 0}
 .list li{
   background:#fff;border:1px solid var(--line);border-radius:12px;
@@ -57,5 +34,5 @@
 .note a{color:var(--navy-700);font-weight:600}
 
 @media (max-width:860px){
-  .figs{grid-template-columns:1fr}
+  .topic.has-image{grid-template-columns:1fr}
 }

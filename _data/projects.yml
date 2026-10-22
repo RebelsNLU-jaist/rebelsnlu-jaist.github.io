@@ -1,0 +1,126 @@
+# Research themes shown on projects.html (overview panel + one section per theme).
+#
+# To add a paper: append it to the `papers` list of the matching topic.
+#   label: short citation shown on the page, e.g. "Cho+ ICLR'26"
+#   url:   link to the paper
+# To add a topic: copy an existing topic block. `image` is optional
+# (put the file in /imgs/projects/); add `image_wide: true` for wide figures,
+# which are then shown full-width below the text. Topics appear in the order listed.
+
+- id: interpretability
+  name: Interpretability
+  icon: magnifier
+  question: How does AI intelligence work?
+  summary: >-
+    We break the complex inference of language models down into sequences of
+    simpler, measurable steps, and use them to explain observed behaviour and
+    to guide better practice.
+  topics:
+    - title: Understanding the mechanisms of in-context learning
+      summary: >-
+        We decompose in-context learning into a few interpretable steps and
+        use this view to explain how models pick up, and discard, task
+        information from demonstrations.
+      image: /imgs/projects/icl-inference-circuit.png
+      image_alt: The in-context learning inference circuit, decomposed into three steps
+      papers:
+        - label: Cho+ ICLR'25
+          url: https://openreview.net/forum?id=xizpnYNvQq
+        - label: Cho+ ICLR'26
+          url: https://openreview.net/forum?id=VAv1rrPR1A
+    - title: Internal analysis of multilingual LLMs
+      summary: >-
+        We study how multilingual language models move between language-specific
+        and shared latent spaces, and identify the neurons that drive these
+        transitions.
+      image: /imgs/projects/transfer-neurons.png
+      image_alt: "Overview of the Transfer Neurons Hypothesis (Tezuka+ EMNLP'25, Figure 1)"
+      papers:
+        - label: Tezuka+ EMNLP'25
+          url: https://aclanthology.org/2025.emnlp-main.1618/
+    - title: Understanding compositional reasoning in VLMs
+      summary: >-
+        We examine how vision–language models represent tasks internally, and
+        whether those task representations compose.
+      image: /imgs/projects/vlm-task-vectors.png
+      image_wide: true
+      image_alt: "Pipeline for task vector extraction, injection, and composition in VLMs (Shi+ EACL'26, Figure 1)"
+      papers:
+        - label: Shi+ EACL'26
+          url: https://aclanthology.org/2026.eacl-short.38/
+
+- id: safety
+  name: Safety
+  icon: shield
+  question: How can we make AI safe?
+  summary: >-
+    We work on making language models trustworthy: removing what they should
+    not know, and knowing when their own answers can be trusted.
+  topics:
+    - title: Removing harmful knowledge from LLMs
+      summary: >-
+        We ask whether machine unlearning truly erases knowledge or merely hides
+        it, and develop unlearning methods that are efficient and robust.
+      image: /imgs/projects/unlearning-rna.png
+      image_wide: true
+      image_alt: "Accuracy of unlearned models with and without RNA on MMLU and WMDP (Dang+ TMLR'26, Figure 1)"
+      papers:
+        - label: Dang+ AAAI'25
+          url: https://ojs.aaai.org/index.php/AAAI/article/view/34544
+        - label: Dang+ TMLR'26
+          url: https://openreview.net/forum?id=QYw192hTdH
+    - title: Refining LLM self-evaluation
+      summary: >-
+        We estimate an LLM's confidence at a fine-grained level to detect answers
+        that are correct for the wrong reasons.
+      image: /imgs/projects/fine-grained-confidence.png
+      image_alt: "Fine-grained triplet-based confidence estimation (Ishii+ AACL'25, Figure 1)"
+      papers:
+        - label: Ishii+ AACL'25
+          url: https://aclanthology.org/2025.ijcnlp-long.68/
+    - title: Understanding the mechanisms of metacognition
+      summary: >-
+        We investigate how language models internally judge whether they know
+        something.
+      image: /imgs/projects/knownness-judgement.png
+      image_alt: "How a language model judges whether it knows something (Sato+ NLP'26, Figure 1)"
+      papers:
+        - label: Sato+ NLP'26
+          url: https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B5-14.pdf
+
+- id: reasoning
+  name: Reasoning
+  icon: graph
+  question: How can we enhance AI's reasoning?
+  summary: >-
+    We build resources and methods that help language models reason logically,
+    and recognise and question flawed reasoning.
+  topics:
+    - title: Strengthening comprehension of logical fallacies
+      summary: >-
+        We annotate the underlying logic of fallacious arguments with templates
+        and slot-filling, and show that current models struggle to recover it.
+      image: /imgs/projects/fallacy-templates.png
+      image_alt: Templates for annotating the logical structure of fallacious arguments
+      papers:
+        - label: Robbani+ EMNLP'24
+          url: https://aclanthology.org/2024.emnlp-main.1142/
+    - title: Socratic question generation
+      summary: >-
+        We build a benchmark for generating targeted Socratic questions grounded
+        in specific spans of an argument.
+      image: /imgs/projects/focus-socratic-questions.png
+      image_alt: "Overview of the FOCUS task and dataset (Pothong+ AACL'25, Figure 1)"
+      papers:
+        - label: Pothong+ AACL'25
+          url: https://aclanthology.org/2025.ijcnlp-long.157/
+    - title: Enhancing logical reasoning via attention mechanisms
+      summary: >-
+        We improve chain-of-thought logical reasoning by intervening on the
+        model's attention.
+      image: /imgs/projects/attention-aware-intervention.png
+      image_wide: true
+      image_alt: "Attention-aware intervention compared with existing approaches (Nguyen+ EACL'26, Figure 1)"
+      papers:
+        - label: Nguyen+ EACL'26
+          url: https://aclanthology.org/2026.findings-eacl.152/

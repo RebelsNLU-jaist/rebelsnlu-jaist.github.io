@@ -1,43 +1,32 @@
 /* ---------- Home overrides (deliberate deviations from site-common.css) ---------- */
 .hero{padding:0}
-.eyebrow{margin-bottom:1.3rem}
-.headline{max-width:22em}
-.tagline{margin-top:.22rem;font-size:.82rem;line-height:1.3}
+.hero-body{padding:2.2rem 0 2.6rem}
+.headline{max-width:22em;margin-top:1.3rem}
+.tagline{margin-top:.35rem;font-size:.9rem;line-height:1.3}
 section{padding:5rem 0}
-h2.title{margin:.5rem 0 .6rem}
+h2.title{margin:.5rem 0 1.6rem;text-align:center}
 h2.title::after{content:none}   /* centred section headings carry no rule */
 @media (max-width:860px){
   section{padding:3.4rem 0}
 }
 
-.nav-toggle{display:none}
-.hero-top{display:flex;align-items:center;justify-content:space-between;padding-top:.6rem;position:relative;z-index:2}
-.logo-chip{
-  display:inline-flex;align-items:center;justify-content:center;
-  background:#fff;border-radius:11px;padding:.42rem .8rem;
-  box-shadow:0 8px 22px -8px rgba(0,0,0,.55);
-}
-.logo-chip img{display:block;width:auto;height:30px;filter:none}
-.logo-chip.jaist img{height:28px}
-.logo-chip.rebels img{height:28px}
+/* ---------- Hero: lab name first ---------- */
+.home-brand{display:flex;align-items:center;justify-content:center;gap:.9rem}
+.home-brand img{width:auto;height:clamp(44px,6vw,64px)}
+.home-brand h1{margin:0;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:800;letter-spacing:.01em;line-height:1}
 .subhead{
   font-family:"Noto Sans JP",sans-serif;
-  margin-top:.4rem;font-size:clamp(.82rem,1.4vw,.98rem);font-weight:500;line-height:1.3;
+  margin-top:1rem;font-size:clamp(.82rem,1.4vw,.95rem);font-weight:500;line-height:1.45;
   color:#cdd8ef;letter-spacing:.06em;
 }
-.section-head{max-width:44rem;margin:0 auto 3rem;text-align:center}
-.section-head .about-logo{display:block;width:min(290px,72vw);height:auto;margin:0 auto}
-.section-head p{color:var(--muted);font-size:1.05rem;margin:0}
 
-/* About */
-.about{background:linear-gradient(#fff,var(--bg-soft))}
-.about-flow{max-width:50rem;margin:0 auto}
-.about-copy p{color:#3a465f;margin:0 0 1.15rem;font-size:1.05rem}
-.about-copy strong{color:var(--navy-800)}
-.about-copy a{color:var(--navy-700);font-weight:600}
-.about-news{margin-top:4rem}
-.about-news h2.title{margin-bottom:1.25rem;text-align:center}
-/* X posts: official embeds (URLs from _data/x_posts.yml), centred under the heading */
+/* ---------- About ---------- */
+.container.narrow{width:min(46rem,92vw)}
+.about p{color:#3a465f;margin:0 0 1.15rem;font-size:1.05rem}
+.about strong{color:var(--navy-800)}
+.about a{color:var(--navy-700);font-weight:600}
+
+/* ---------- News: official X embed (URLs from _data/x_posts.yml) ---------- */
 .x-card{max-width:550px;margin-inline:auto}   /* X renders embeds at most 550px wide */
 .x-embed .twitter-tweet{margin:0 0 1rem !important}
 /* shown only if widgets.js is blocked */
@@ -46,7 +35,18 @@ h2.title::after{content:none}   /* centred section headings carry no rule */
 .x-viewall{display:block;text-align:center;font-size:.9rem;font-weight:700;color:var(--navy-700);text-decoration:none}
 .x-viewall:hover{color:var(--accent-strong)}
 
-@media (max-width:860px){
-  .hero-top{padding-top:.7rem}
-  .logo-chip img{height:24px}.logo-chip.jaist img{height:23px}.logo-chip.rebels img{height:23px}
+/* ---------- Join us band ---------- */
+.join-band{
+  text-align:center;color:#dbe4f7;
+  background:
+    radial-gradient(900px 400px at 82% -10%, rgba(45,212,191,.14), transparent 60%),
+    linear-gradient(125deg,#071229 0%,#0b1e4d 52%,#13315c 100%);
 }
+.join-band h2{margin:0;color:#fff;font-size:clamp(1.5rem,3vw,2rem);font-weight:800}
+.join-band p{margin:.7rem auto 1.6rem;max-width:36rem;font-size:1.05rem}
+.join-btn{
+  display:inline-block;padding:.75rem 1.5rem;border-radius:999px;
+  background:#fff;color:var(--navy-800);font-weight:700;text-decoration:none;transition:background .15s;
+}
+.join-btn:hover{background:var(--accent)}
+
