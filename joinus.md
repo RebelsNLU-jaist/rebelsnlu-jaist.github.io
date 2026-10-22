@@ -18,7 +18,6 @@ hero:
 <!-- STEP 1 -->
 <section id="step-1">
   <div class="container prose">
-    <div class="kicker">Step 1</div>
     <h2 class="title">✅ STEP 1: Smell-test: matching is all you need</h2>
 
     <p>Interested in joining our lab? Thank you very much for your interest!</p>
@@ -37,7 +36,6 @@ hero:
 <!-- STEP 2 -->
 <section class="alt" id="step-2">
   <div class="container prose">
-    <div class="kicker">Step 2</div>
     <h2 class="title">✅ STEP 2: Find out how to join us</h2>
 
     <h3 class="subtitle">For JAIST students</h3>
@@ -75,7 +73,6 @@ hero:
 <!-- STEP 3 -->
 <section id="step-3">
   <div class="container prose">
-    <div class="kicker">Step 3</div>
     <h2 class="title">✅ STEP 3: Talk to Prof. Inoue</h2>
 
     <p>Please schedule a (possibly virtual) lab tour. By default, the meeting agenda is as follows:</p>

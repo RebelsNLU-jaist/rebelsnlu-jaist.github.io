@@ -10,8 +10,6 @@ hero:
 
 {% include content-section-start.html id="faculty" %}
 
-Who we are
-{: .kicker}
 
 ## Faculty
 {: .title}
@@ -31,8 +29,6 @@ Who we are
 
 {% include content-section-start.html id="assistant" class="alt" %}
 
-Support
-{: .kicker}
 
 ## Assistant
 {: .title}
@@ -47,8 +43,6 @@ Support
 
 {% include content-section-start.html id="students" %}
 
-The team
-{: .kicker}
 
 ## Students
 {: .title}

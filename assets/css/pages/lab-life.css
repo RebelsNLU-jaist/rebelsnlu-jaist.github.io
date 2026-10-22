@@ -1,0 +1,21 @@
+/* ---------- Lab Life: a single reading column ---------- */
+.container.prose{width:min(46rem,92vw)}
+
+/* Activity timetable: frequency on the left, description on the right */
+.activities{list-style:none;padding:0;margin:1.6rem 0 2rem;border-bottom:1px solid var(--line)}
+.activities > li{
+  display:grid;grid-template-columns:7.5rem 1fr;gap:1.2rem;
+  padding:1.05rem 0;border-top:1px solid var(--line);
+}
+.activities .freq{
+  margin:.3rem 0 0;font-size:.74rem;font-weight:700;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--accent-strong);
+}
+.activities > li > p:last-child{margin:0}
+
+@media (max-width:640px){
+  .activities > li{grid-template-columns:1fr;gap:.2rem}
+}
+
+/* Policy and Activities read as one document: no second section break */
+#activities{padding-top:0}

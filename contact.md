@@ -11,7 +11,6 @@ hero:
 <!-- ADDRESS -->
 <section id="address">
   <div class="container prose">
-    <div class="kicker">Where to find us</div>
     <h2 class="title">Address</h2>
 
     <div class="card">
@@ -23,7 +22,6 @@ hero:
 <!-- AFFILIATION -->
 <section class="alt" id="affiliation">
   <div class="container prose">
-    <div class="kicker">Institution</div>
     <h2 class="title">Affiliation</h2>
 
     <ul class="list">
@@ -36,7 +34,6 @@ hero:
 <!-- POINT OF CONTACT -->
 <section id="point-of-contact">
   <div class="container prose">
-    <div class="kicker">Get in touch</div>
     <h2 class="title">Point of Contact</h2>
 
     <div class="card">

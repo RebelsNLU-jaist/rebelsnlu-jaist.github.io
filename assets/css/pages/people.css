@@ -1,102 +1,3 @@
-:root{
-  --navy-900:#071229;
-  --navy-800:#0b1e4d;
-  --navy-700:#13315c;
-  --navy-600:#1a3a6b;
-  --gold:#e9c15a;
-  --gold-strong:#e8b64c;
-  --ink:#1f2a44;
-  --muted:#5a6b8c;
-  --line:#e4e9f2;
-  --bg-soft:#f6f8fc;
-  --radius:14px;
-  --shadow:0 18px 40px -18px rgba(11,30,77,.35);
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
-  margin:0;
-  font-family:"Inter","Noto Sans JP",system-ui,-apple-system,"Segoe UI",sans-serif;
-  color:var(--ink);
-  background:#fff;
-  line-height:1.7;
-  -webkit-font-smoothing:antialiased;
-}
-a{color:inherit}
-img{max-width:100%;display:block}
-.container{width:min(1120px,92vw);margin-inline:auto}
-
-/* ---------- Nav ---------- */
-.nav{
-  position:sticky;top:0;z-index:50;
-  background:rgba(7,18,41,.82);
-  backdrop-filter:saturate(160%) blur(12px);
-  border-bottom:1px solid rgba(255,255,255,.08);
-}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
-.brand{display:flex;align-items:center;gap:.55rem;color:#fff;font-weight:800;letter-spacing:.02em;text-decoration:none;font-size:1.15rem}
-.brand .dot{width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold)}
-.brand-logo{height:34px;width:auto}
-.nav-links{display:flex;gap:1.4rem;align-items:center}
-.nav-links a{color:#c7d2e8;text-decoration:none;font-size:.92rem;font-weight:500;transition:color .15s}
-.nav-links a:hover{color:#fff}
-.nav-links a.active{color:#fff;font-weight:700}
-.nav-cta{padding:.5rem .95rem !important;border-radius:999px;background:var(--gold);color:#0b1e4d !important;font-weight:700 !important}
-.nav-cta:hover{background:#f2cf6c}
-
-/* ---------- Page hero ---------- */
-.hero{
-  position:relative;overflow:hidden;color:#fff;
-  background:
-    radial-gradient(1200px 500px at 82% -10%, rgba(233,193,90,.16), transparent 60%),
-    radial-gradient(900px 600px at 12% 120%, rgba(26,58,107,.55), transparent 60%),
-    linear-gradient(125deg,#071229 0%,#0b1e4d 52%,#13315c 100%);
-}
-.hero::after{
-  content:"";position:absolute;inset:0;pointer-events:none;
-  background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),
-                   linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
-  background-size:56px 56px;
-  -webkit-mask-image:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 78%);
-          mask-image:radial-gradient(120% 90% at 50% 0%,#000 40%,transparent 78%);
-}
-.hero-body{position:relative;z-index:2;text-align:center;padding:1.15rem 0 1.45rem}
-.eyebrow{
-  display:inline-block;margin-bottom:1.1rem;
-  font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;
-  color:var(--gold);
-  padding:.4rem .9rem;border:1px solid rgba(233,193,90,.4);border-radius:999px;
-  background:rgba(233,193,90,.06);
-}
-.headline{
-  font-family:"Noto Sans JP","Inter",sans-serif;
-  font-weight:900;
-  font-size:clamp(1.3rem,2.8vw,1.85rem);
-  line-height:1.16;letter-spacing:.01em;margin:0 auto;
-  text-shadow:0 4px 24px rgba(0,0,0,.35);
-}
-.headline .gold{color:var(--gold);text-shadow:0 4px 24px rgba(233,193,90,.25)}
-.tagline{margin-top:.8rem;font-size:.98rem;color:#8fa2c6;font-style:italic;letter-spacing:.02em}
-.hero-wave{position:relative;z-index:2;display:block;width:100%;height:30px;margin-bottom:-1px}
-
-/* ---------- Sections ---------- */
-section{padding:4rem 0}
-section.hero{padding:0}
-section.alt{background:linear-gradient(#fff,var(--bg-soft))}
-.kicker{color:var(--gold-strong);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.8rem}
-h2.title{
-  font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:800;color:var(--navy-800);
-  margin:.35rem 0 .6rem;letter-spacing:-.01em;
-}
-h2.title::after{
-  content:"";display:block;width:44px;height:3px;margin-top:.8rem;
-  border-radius:999px;background:var(--gold);
-}
-h3.subtitle{
-  font-size:1.35rem;font-weight:700;color:var(--navy-700);
-  margin:2.6rem 0 .2rem;letter-spacing:-.01em;
-}
-
 /* ---------- People cards ---------- */
 .people-list{
   display:flex;
@@ -122,26 +23,18 @@ h3.subtitle{
   padding:4px;background:var(--bg-soft);box-shadow:0 0 0 1px var(--line);
   transition:box-shadow .2s ease;
 }
-.people-list > li:hover img{box-shadow:0 0 0 2px var(--gold)}
+.people-list > li:hover img{box-shadow:0 0 0 2px var(--accent)}
 .people-list .person-name{display:inline-block;color:var(--navy-800);font-size:1.05rem;font-weight:700;line-height:1.25;overflow-wrap:anywhere}
 a.person-name{
   color:var(--navy-700);
   transition:color 0.15s ease;
 }
 a.person-name:hover{
-  color:var(--gold-strong);
+  color:var(--accent-strong);
   text-decoration:underline;
 }
 
-/* ---------- Footer ---------- */
-footer{background:var(--navy-900);color:#9fb0d3;padding:2.6rem 0}
-.foot-inner{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between}
-.foot-inner .brand{color:#fff}
-footer small{color:#6f80a6}
-
 @media (max-width:860px){
-  .nav-links{display:none}
-  section{padding:3rem 0}
   .people-list > li{flex-basis:calc((100% - 2rem) / 3)}
 }
 @media (max-width:640px){

@@ -21,10 +21,8 @@ hero:
 
 {% include home-about-split.html %}
 
-**RebelsNLU** is an international research lab for Artificial Intelligence (AI) and Natural Language Processing (NLP), run by [Associate Professor Naoya Inoue](https://naoya-i.info/) at [Japan Advanced Institute of Science and Technology (JAIST)](https://www.jaist.ac.jp/english/). RebelsNLU is short for **Re**ading **be**tween the **L**ine**s** for **N**atural **L**anguage **U**nderstanding.
+**RebelsNLU** is an international research lab for Artificial Intelligence (AI) and Natural Language Processing (NLP), run by [Associate Professor Naoya Inoue](https://naoya-i.info/) at [Japan Advanced Institute of Science and Technology (JAIST)](https://www.jaist.ac.jp/english/) (since 2022). RebelsNLU is short for **Re**ading **be**tween the **L**ine**s** for **N**atural **L**anguage **U**nderstanding.
 
-One important mission of our lab is to develop students’ skills. We design lab activities so that students acquire general-purpose skills for problem-finding and problem-solving, on top of expertise in natural language processing research and related areas.
-
-Students learn how to think critically, how to plan, how to present their work, how to dive into unknown fields, how to program, and how to work as a team. Our motto: research is the best **on-the-job training** for developing such skills. We use English as our common working language.
+We study how to create machines that can understand our human language. Particularly, we are interested in reasoning skills for AI. Our ultimate goal is to equip machines with an ability to infer something--making implicit things explicit and reading between the lines.
 
 {% include home-about-end.html %}

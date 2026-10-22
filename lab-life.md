@@ -3,82 +3,56 @@ layout: site
 title: Lab Life
 page_id: lab-life
 permalink: /lab-life.html
-stylesheet: /assets/css/pages/index.css
+stylesheet: /assets/css/pages/lab-life.css
 hero:
   title: Lab Life
 ---
 
-{% include home-section-start.html id="activities" %}
+{% include content-section-start.html id="policy" container_class="prose" title="Policy" %}
 
-How we work
-{: .kicker}
+One important mission of a university research lab is to develop students’ skills. We design lab activities so that students acquire general-purpose skills for problem-finding and problem-solving, on top of expertise in natural language processing research and related areas.
 
-## Student-driven activities
-{: .title}
+Through the lab activities, students learn how to think critically, how to plan, how to present their work, how to dive into unknown fields, how to program, and how to work as a team. Our motto is that *research is the best on-the-job training* for developing such skills — the founder Prof. Inoue's favorite phrase, learned from his own mentor.
 
-We run many types of activities where ideas turn into computational models and, eventually, papers.
+{% include content-section-end.html %}
 
-{% include home-section-body.html %}
+{% include content-section-start.html id="activities" container_class="prose" title="Activities" %}
 
-- 📄
-  {: .ico}
+Following this policy, the lab runs many types of student-driven activities:
 
-  Weekly
+- Weekly
   {: .freq}
 
-  ### Paper Skimming
+  **Paper skimming** in Lab Meeting. All lab members gather to discuss recent advancements in NLP research.
 
-  All lab members gather to discuss recent advancements in NLP research.
-
-- 🖼️
-  {: .ico}
-
-  Monthly
+- Monthly
   {: .freq}
 
-  ### Poster
+  **Poster session** in Lab Meeting. Members present and discuss their research progress in depth.
 
-  Members present and discuss their research progress in depth.
-
-- 🎤
-  {: .ico}
-
-  On demand
+- On demand
   {: .freq}
 
-  ### Spotlight Oral
+  **Spotlight oral** in Lab Meeting. Members share insights from relatively complete work, offering learning opportunities for everyone.
 
-  Members share insights from relatively complete work, offering learning opportunities for everyone.
-
-- 🧩
-  {: .ico}
-
-  Ongoing
+- Ongoing
   {: .freq}
 
-  ### Project / Paper Meeting
+  **Project / paper meetings.** Dedicated time to share projects and dive deep into problems and potential solutions.
 
-  Dedicated time to share projects and dive into problems and potential solutions.
-
-- 📚
-  {: .ico}
-
-  On demand
+- On demand
   {: .freq}
 
-  ### Study Groups
+  **Study groups.** Knowledge fuels healthy research, so we learn together — NLP fundamentals, programming, sparse autoencoders, and anything else of interest.
 
-  We learn together—NLP fundamentals, programming, sparse autoencoders, and more.
-
-- 🎉
-  {: .ico}
-
-  On demand
+- On demand
   {: .freq}
 
-  ### Social Gathering
+  **Social gatherings.** Welcome and farewell parties, birthdays, year-end and New Year celebrations, and more.
+{: .activities}
 
-  Welcome & farewell parties, birthdays, year-end and New Year celebrations, and more.
-{: .cards}
+On top of these activities, students discuss actively with lab members, come up with new ideas, implement them as computational models, and evaluate them quantitatively and qualitatively. After many trials, they arrive at interesting insights — and then write papers and submit them to academic conferences, refining the ideas through conversations with researchers worldwide.
 
-{% include home-section-end.html %}
+To help students succeed globally, we use English as the common language in all of these activities.
+
+{% include content-section-end.html %}

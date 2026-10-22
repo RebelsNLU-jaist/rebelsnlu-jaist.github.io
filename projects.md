@@ -8,7 +8,7 @@ hero:
   title: Projects
 ---
 
-{% include content-section-start.html id="overview" container_class="prose" kicker="Research" title="Overview" %}
+{% include content-section-start.html id="overview" container_class="prose" title="Overview" %}
 
 <div class="fig-overview">
   <img src="/imgs/research-themes.svg" alt="Research themes: Interpretability, Safety, Reasoning"/>
@@ -16,7 +16,7 @@ hero:
 
 {% include content-section-end.html %}
 
-{% include content-section-start.html id="individual-projects" class="alt" container_class="prose" kicker="Explore" title="Individual Projects" %}
+{% include content-section-start.html id="individual-projects" class="alt" container_class="prose" title="Individual Projects" %}
 
 - [Mechanistic Interpretability](#mechanistic-interpretability)
 - [Machine Unlearning](#machine-unlearning)
@@ -26,7 +26,7 @@ hero:
 
 {% include content-section-end.html %}
 
-{% include content-section-start.html id="mechanistic-interpretability" container_class="prose" kicker="Project 01" title="Mechanistic Interpretability" %}
+{% include content-section-start.html id="mechanistic-interpretability" container_class="prose" title="Mechanistic Interpretability" %}
 
 <div class="figs one">
   <div class="fig">
@@ -60,7 +60,7 @@ As previously mentioned, we also focus on analyzing and improving the in-context
 
 {% include content-section-end.html %}
 
-{% include content-section-start.html id="machine-unlearning" class="alt" container_class="prose" kicker="Project 02" title="Machine Unlearning" %}
+{% include content-section-start.html id="machine-unlearning" class="alt" container_class="prose" title="Machine Unlearning" %}
 
 **Introduction.** As a human, forgetting some basic knowledge seems "impossible" once learned. For example, for basic facts such as "the sun rises every day," it is much harder to forget them than the rare, unusual ones. Let's imagine that Alice claims that she forgot something. It might be one of two cases: (1) She knows about it, but intentionally decided to act as if she does not, or (2) She knows about it, but not well enough to be able to claim that she has learn it.
 
@@ -77,7 +77,7 @@ We ask whether Machine Unlearning (MU) algorithms can help ML models truly unlea
 
 {% include content-section-end.html %}
 
-{% include content-section-start.html id="towards-improving-reasoning-capability-of-llms" container_class="prose" kicker="Project 03" title="Towards Improving Reasoning Capability of LLMs" %}
+{% include content-section-start.html id="towards-improving-reasoning-capability-of-llms" container_class="prose" title="Towards Improving Reasoning Capability of LLMs" %}
 
 **Benchmarking Multi-hop QA in Japanese.** JEMHopQA is a multi-hop QA dataset in Japanese for the development of explainable QA systems, consisting of question-answer pairs with two types of questions, and derivation triples of supporting evidence. It is created based on Japanese Wikipedia using both crowd-sourced human annotation as well as prompting a large language model (LLM). Evaluating several state-of-the-art LLMs on proposed dataset show that the dataset is sufficiently challenging.
 
@@ -115,7 +115,7 @@ We ask whether Machine Unlearning (MU) algorithms can help ML models truly unlea
 
 {% include content-section-end.html %}
 
-{% include content-section-start.html id="reasoning-and-probing-for-vision-language-models" class="alt" container_class="prose" kicker="Project 04" title="Reasoning and Probing for Vision-Language Models" %}
+{% include content-section-start.html id="reasoning-and-probing-for-vision-language-models" class="alt" container_class="prose" title="Reasoning and Probing for Vision-Language Models" %}
 
 **Benchmark for Inductive Visual Reasoning.** We introduce Find-the-Common (FTC) benchmark, which consists of 353 instances, each of which provides (i) four 3D scenes consisting of 2-6 objects and (ii) four multiple choices, including a decoy choice that is partially true in scenes. Models are required to identify an answer that explains the common attributes across visual scenes. We propose Image-Based Reasoning, Text-Based Reasoning, and Image-Text-Based Reasoning for evaluating various VL models. Extensive experiments show that even state-of-the-art models like GPT-4V struggle on FTC, showing FTC as a new challenge for visual reasoning.
 
@@ -138,7 +138,7 @@ We ask whether Machine Unlearning (MU) algorithms can help ML models truly unlea
 
 {% include content-section-end.html %}
 
-{% include content-section-start.html id="grants" container_class="prose" kicker="Funding" title="Grants" %}
+{% include content-section-start.html id="grants" container_class="prose" title="Grants" %}
 
 - **井之上 直也 (PI)**. 解釈可能な分散表現に基づく言語モデリング. JSPS Grant-in-Aid for Scientific Research (KAKENHI 基盤C). 2026/04-2029/03, 3,500,000JPY.
 - **井之上直也 (PI)**. 人々が頼りたくなる自己批判的思考力を備えた言語処理機構. JST 2023年度 創発的研究支援事業, 2024/10-2028/03, 20,000,000JPY.
@@ -153,7 +153,7 @@ Past grants can be found [here](https://naoya-i.info/activities.html).
 
 {% include content-section-end.html %}
 
-{% include content-section-start.html id="main-collaborators" class="alt" container_class="prose" kicker="Network" title="Main Collaborators" %}
+{% include content-section-start.html id="main-collaborators" class="alt" container_class="prose" title="Main Collaborators" %}
 
 - Tohoku NLP Lab
 - RIKEN AIP: Natural Language Understanding Team, Language Information Access Technology Team

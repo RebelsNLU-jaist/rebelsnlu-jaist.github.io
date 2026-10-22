@@ -29,8 +29,6 @@ hero:
 
 {% include content-section-start.html id="international-journals-conferences-workshops" %}
 
-Peer-reviewed
-{: .kicker}
 
 ## International journals/conferences/workshops **34**
 {: .title .pub-heading}
@@ -75,8 +73,6 @@ Peer-reviewed
 
 {% include content-section-start.html id="awards" class="alt" %}
 
-Recognition
-{: .kicker}
 
 ## Awards **11**
 {: .title .pub-heading}
@@ -98,8 +94,6 @@ Recognition
 
 {% include content-section-start.html id="review-articles" %}
 
-Surveys
-{: .kicker}
 
 ## Review Articles **1**
 {: .title .pub-heading}
@@ -111,8 +105,6 @@ Surveys
 
 {% include content-section-start.html id="domestic-conferences" class="alt" %}
 
-Japan
-{: .kicker}
 
 ## Domestic conferences **56**
 {: .title .pub-heading}
@@ -179,8 +171,6 @@ Japan
 
 {% include content-section-start.html id="invited-talks" %}
 
-Talks
-{: .kicker}
 
 ## Invited Talks **14**
 {: .title .pub-heading}
@@ -205,8 +195,6 @@ Talks
 
 {% include content-section-start.html id="media" class="alt" %}
 
-Press
-{: .kicker}
 
 ## Media **6**
 {: .title .pub-heading}
