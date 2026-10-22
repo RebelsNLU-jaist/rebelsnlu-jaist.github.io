@@ -1,27 +1,9 @@
-<aside class="aside-card x-card">
-  <div class="x-head">
-    <span class="x-avatar" aria-hidden="true">
-      <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
-    </span>
-    <div class="x-id"><span class="x-name">RebelsNLU@JAIST</span><span class="x-handle">@rebelsnlu_jaist</span></div>
-    <a class="x-follow" href="https://x.com/rebelsnlu_jaist" target="_blank" rel="noopener">Follow</a>
+<aside class="x-card">
+  <div class="x-embed">
+{%- for url in site.data.x_posts limit:3 %}
+    <blockquote class="twitter-tweet" data-dnt="true"><a href="{{ url }}">View this post on X</a></blockquote>
+{%- endfor %}
   </div>
-  <div class="x-embed" id="x-embed">
-    <div class="x-loading" aria-live="polite"><span class="x-spin" aria-hidden="true"></span> Loading latest posts…</div>
-  </div>
-  <div class="x-fallback" hidden>
-    <article class="x-tweet">
-      <div class="x-tweet-top"><span class="x-tweet-av" aria-hidden="true">R</span><div class="x-tweet-id"><span class="x-tweet-name">RebelsNLU@JAIST</span><span class="x-tweet-meta">@rebelsnlu_jaist · Oct 23, 2025</span></div></div>
-      <p class="x-tweet-text">We were delighted to host a welcome party for our new members — Ai Ishii, Rui Li, and Yanis Boukhoufane. Wishing them a wonderful start to their journey with RebelsNLU at JAIST, and many exciting research adventures ahead!</p>
-      <div class="x-tweet-foot"><span>💬</span><span>🔁</span><span>♥ 5</span><a href="https://x.com/rebelsnlu_jaist" target="_blank" rel="noopener">Read on X →</a></div>
-    </article>
-    <p class="x-fallback-note">Couldn't load the latest posts — here's a recent one.</p>
-  </div>
-  <div class="x-foot">
-    <span class="x-foot-label">Archive</span>
-    <a href="https://rebelsnlu.super.site/older-2024-posts" target="_blank" rel="noopener">2024</a>
-    <a href="https://rebelsnlu.super.site/older-2024-posts/2023-posts" target="_blank" rel="noopener">2023</a>
-    <a href="https://rebelsnlu.super.site/older-2024-posts/2023-posts/2022-posts" target="_blank" rel="noopener">2022</a>
-  </div>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <a class="x-viewall" href="https://x.com/rebelsnlu_jaist" target="_blank" rel="noopener">View all posts on X →</a>
 </aside>

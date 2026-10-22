@@ -5,13 +5,12 @@ browser_title: RebelsNLU — Reading Between the Lines for Natural Language Unde
 page_id: index
 permalink: /
 stylesheet: /assets/css/pages/index.css
-script: /assets/js/home.js
 hero:
   home: true
   line1: Understanding the Inner Workings of AI
   emphasis: Building Safe and Trustworthy AI
   line2: ""
-  subhead: Language Reasoning Laboratory · AI & Intelligence Research Area · School of Advanced Science and Technology
+  subhead: Language Reasoning Laboratory · AI Wisdom Research Area · Graduate School of Advanced Science and Technology
   tagline: Reading Between the Lines for Natural Language Understanding
 ---
 
