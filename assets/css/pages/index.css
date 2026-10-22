@@ -21,7 +21,9 @@ h2.title::after{content:none}   /* centred section headings carry no rule */
 }
 
 /* ---------- About ---------- */
-.container.narrow{width:min(46rem,92vw)}
+.about-grid{width:min(60rem,92vw);display:grid;grid-template-columns:13rem 1fr;gap:3.5rem;align-items:center}
+.about-logo{width:100%;height:auto}
+.about-text h2.title{text-align:left;margin-top:0}
 .about p{color:#3a465f;margin:0 0 1.15rem;font-size:1.05rem}
 .about strong{color:var(--navy-800)}
 .about a{color:var(--navy-700);font-weight:600}
@@ -50,3 +52,8 @@ h2.title::after{content:none}   /* centred section headings carry no rule */
 }
 .join-btn:hover{background:var(--accent)}
 
+@media (max-width:860px){
+  .about-grid{grid-template-columns:1fr;gap:1.6rem;justify-items:center}
+  .about-logo{width:11rem}
+  .about-text h2.title{text-align:center}
+}

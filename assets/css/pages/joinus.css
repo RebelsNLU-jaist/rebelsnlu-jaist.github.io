@@ -2,20 +2,6 @@
 h2.title{font-size:clamp(1.55rem,3vw,2.1rem)}
 h3.subtitle{margin:2.4rem 0 .2rem}
 
-/* Bulleted lists as cards */
-.list{list-style:none;padding:0;margin:1.2rem 0 1.4rem}
-.list > li{
-  position:relative;
-  background:#fff;border:1px solid var(--line);border-radius:12px;
-  border-left:3px solid var(--accent);
-  padding:1rem 1.2rem 1rem 1.2rem;margin-bottom:.8rem;
-  color:#3a465f;font-size:1rem;
-  transition:transform .15s,box-shadow .2s,border-color .2s;
-}
-.list > li:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
-.list ul{margin:.6rem 0 0;padding-left:1.2rem;color:#3a465f}
-.list ul li{margin:.25rem 0}
-
 /* Callouts (WARNING / NOTE / IMPORTANT) */
 .callout{
   display:flex;gap:.9rem;align-items:flex-start;
@@ -33,6 +19,8 @@ h3.subtitle{margin:2.4rem 0 .2rem}
 }
 .callout strong{color:var(--navy-800)}
 .callout a{color:var(--navy-700);font-weight:600}
+.prose .callout ul:not([class]){margin:.6rem 0 0;font-size:inherit}
+.prose .callout ul:not([class]) li{margin:.25rem 0}
 
 /* Calendar */
 .calendar{

@@ -22,7 +22,7 @@ hero:
 - ![Phuong Minh Nguyen](/imgs/profile/phuong-minh-nguyen.jpg)
 
   **Phuong Minh Nguyen**{:.person-name}  
-  R. Assistant Professor
+  Research Assistant Professor
 {: .people-list}
 
 {% include content-section-end.html %}
@@ -53,7 +53,7 @@ hero:
 - ![Surawat Pothong](/imgs/profile/surawat-pothong.jpg)
 
   **Surawat Pothong**{:.person-name}  
-  D3+ (MEXT Scholarship )
+  D3+ (MEXT Scholarship)
 
 - ![Jin Tao](/imgs/profile/jin-tao.png)
 
@@ -73,8 +73,7 @@ hero:
 - ![Koga Kobayashi](/imgs/profile/koga-kobayashi.png)
 
   [Koga Kobayashi](https://www.kajyuuen.com/){:.person-name}  
-  Tokyo D2
-
+  D2 (Tokyo)
 - ![Thu Thi Anh Tran](/imgs/profile/thu-thi-anh-tran.jpg)
 
   **Thu Thi Anh Tran**{:.person-name}  
@@ -88,20 +87,19 @@ hero:
 - ![Ai Ishii](/imgs/profile/ai-ishii.jpg)
 
   **Ai Ishii**{:.person-name}  
-  D1 Tokyo
+  D1 (Tokyo)
 
 - ![Tadashi Onishi](/imgs/profile/tadashi-onishi.jpg)
 
   **Tadashi Onishi**{:.person-name}  
-  Tokyo D1
-
+  D1 (Tokyo)
 - ![Tien Dang Huu](/imgs/profile/tien-dang-huu.png)
 
   [Tien Dang Huu](https://huutiendang.github.io){:.person-name}  
   D1
 {: .people-list}
 
-### Master Students
+### Master's Students
 {: .subtitle}
 
 - ![Mariko Kato](/imgs/profile/mariko-kato.jpg)
@@ -112,7 +110,7 @@ hero:
 - ![Daisuke Matsuda](/imgs/profile/daisuke-matsuda.jpeg)
 
   **Daisuke Matsuda**{:.person-name}  
-  M2 Tokyo
+  M2 (Tokyo)
 
 - ![Hinata Tezuka](/imgs/profile/hinata-tezuka.jpeg)
 
@@ -142,7 +140,7 @@ hero:
 - ![Toshiki Nakashima](/imgs/profile/toshiki-nakashima.jpg)
 
   **Toshiki Nakashima**{:.person-name}  
-  M2 Tokyo
+  M2 (Tokyo)
 
 - ![Yuji Nagano](/imgs/profile/yuji-nagano.jpg)
 
@@ -155,7 +153,7 @@ hero:
   M1
 {: .people-list}
 
-### Intern Students
+### Interns
 {: .subtitle}
 
 - ![Ariq Hikari Hidayat](/imgs/profile/Ariq%20Hikari%20Hidayat.png)
@@ -198,7 +196,7 @@ hero:
 - ![Naohiro Kaide (2022-2026)](/imgs/profile/naohiro-kaide.jpg)
 
   **Naohiro Kaide (2022-2026)**{:.person-name}  
-  M2 Tokyo
+  M2 (Tokyo)
 
 - ![Caraka Rahman (2025-2026)](/imgs/profile/caraka-rahman.jpg)
 
@@ -217,7 +215,7 @@ hero:
 
 - ![Sakai Yoshihiro (2023-2025)](/imgs/profile/sakai-yoshihiro.png)
 
-  **Sakai Yoshihiro (2023-2025)**{:.person-name}  
+  **Yoshihiro Sakai (2023-2025)**{:.person-name}  
   M2
 
 - ![Irfan Robbani (2022-2024)](/imgs/profile/irfan-robbani.png)

@@ -10,10 +10,10 @@
 - id: interpretability
   name: Interpretability
   icon: magnifier
-  question: How does AI intelligence work?
+  question: How do language models work inside?
   summary: >-
     We break the complex inference of language models down into sequences of
-    simpler, measurable steps, and use them to explain observed behaviour and
+    simpler, measurable steps, and use them to explain observed behavior and
     to guide better practice.
   topics:
     - title: Understanding the mechanisms of in-context learning
@@ -31,14 +31,14 @@
     - title: Internal analysis of multilingual LLMs
       summary: >-
         We study how multilingual language models move between language-specific
-        and shared latent spaces, and identify the neurons that drive these
-        transitions.
+        and shared latent spaces, and show that specific "transfer neurons" play
+        a key role in these transitions.
       image: /imgs/projects/transfer-neurons.png
       image_alt: "Overview of the Transfer Neurons Hypothesis (Tezuka+ EMNLP'25, Figure 1)"
       papers:
         - label: Tezuka+ EMNLP'25
           url: https://aclanthology.org/2025.emnlp-main.1618/
-    - title: Understanding compositional reasoning in VLMs
+    - title: Understanding how VLMs compose task representations
       summary: >-
         We examine how vision–language models represent tasks internally, and
         whether those task representations compose.
@@ -54,8 +54,8 @@
   icon: shield
   question: How can we make AI safe?
   summary: >-
-    We work on making language models trustworthy: removing what they should
-    not know, and knowing when their own answers can be trusted.
+    We work on making language models safe and trustworthy: removing knowledge
+    they should not have, and estimating when their answers can be trusted.
   topics:
     - title: Removing harmful knowledge from LLMs
       summary: >-
@@ -78,7 +78,7 @@
       papers:
         - label: Ishii+ AACL'25
           url: https://aclanthology.org/2025.ijcnlp-long.68/
-    - title: Understanding the mechanisms of metacognition
+    - title: Understanding how language models judge what they know
       summary: >-
         We investigate how language models internally judge whether they know
         something.
@@ -93,8 +93,8 @@
   icon: graph
   question: How can we enhance AI's reasoning?
   summary: >-
-    We build resources and methods that help language models reason logically,
-    and recognise and question flawed reasoning.
+    We build resources and methods that help language models reason logically
+    and identify and question flawed reasoning.
   topics:
     - title: Strengthening comprehension of logical fallacies
       summary: >-
@@ -116,8 +116,8 @@
           url: https://aclanthology.org/2025.ijcnlp-long.157/
     - title: Enhancing logical reasoning via attention mechanisms
       summary: >-
-        We improve chain-of-thought logical reasoning by intervening on the
-        model's attention.
+        We improve chain-of-thought logical reasoning by intervening on
+        attention heads.
       image: /imgs/projects/attention-aware-intervention.png
       image_wide: true
       image_alt: "Attention-aware intervention compared with existing approaches (Nguyen+ EACL'26, Figure 1)"

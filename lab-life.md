@@ -12,28 +12,28 @@ hero:
 
 One important mission of a university research lab is to develop students’ skills. We design lab activities so that students acquire general-purpose skills for problem-finding and problem-solving, on top of expertise in natural language processing research and related areas.
 
-Through the lab activities, students learn how to think critically, how to plan, how to present their work, how to dive into unknown fields, how to program, and how to work as a team. Our motto is that *research is the best on-the-job training* for developing such skills — the founder Prof. Inoue's favorite phrase, learned from his own mentor.
+Through the lab activities, students learn how to think critically, how to plan, how to present their work, how to dive into unknown fields, how to program, and how to work as a team. Our motto is that *research is the best on-the-job training* for developing such skills, a phrase Prof. Inoue learned from his own mentor.
 
 {% include content-section-end.html %}
 
 {% include content-section-start.html id="activities" container_class="prose" title="Activities" %}
 
-Following this policy, the lab runs many types of student-driven activities:
+The lab runs many types of student-driven activities:
 
 - Weekly
   {: .freq}
 
-  **Paper skimming** in Lab Meeting. All lab members gather to discuss recent advancements in NLP research.
+  **Paper skimming** at lab meetings. All lab members gather to discuss recent advances in NLP research.
 
 - Monthly
   {: .freq}
 
-  **Poster session** in Lab Meeting. Members present and discuss their research progress in depth.
+  **Poster sessions** at lab meetings. Members present and discuss their research progress in depth.
 
 - On demand
   {: .freq}
 
-  **Spotlight oral** in Lab Meeting. Members share insights from relatively complete work, offering learning opportunities for everyone.
+  **Spotlight talks** at lab meetings. Members share insights from relatively complete work, offering learning opportunities for everyone.
 
 - Ongoing
   {: .freq}
@@ -51,7 +51,7 @@ Following this policy, the lab runs many types of student-driven activities:
   **Social gatherings.** Welcome and farewell parties, birthdays, year-end and New Year celebrations, and more.
 {: .activities}
 
-On top of these activities, students discuss actively with lab members, come up with new ideas, implement them as computational models, and evaluate them quantitatively and qualitatively. After many trials, they arrive at interesting insights — and then write papers and submit them to academic conferences, refining the ideas through conversations with researchers worldwide.
+Beyond these activities, students carry out research end to end: they discuss ideas with lab members, implement them as computational models, evaluate them quantitatively and qualitatively, and, after many trials, publish their findings at international conferences, refining their ideas through discussions with researchers worldwide.
 
 To help students succeed globally, we use English as the common language in all of these activities.
 

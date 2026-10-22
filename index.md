@@ -18,14 +18,17 @@ hero:
 ---
 
 <section class="about" id="about">
-  <div class="container narrow" markdown="1">
+  <div class="container about-grid">
+    <img class="about-logo" src="{{ '/imgs/rebels_logo.png' | relative_url }}" alt="RebelsNLU logo">
+    <div class="about-text" markdown="1">
 
 <h2 class="title">About</h2>
 
-**RebelsNLU** is an international research lab for Artificial Intelligence (AI) and Natural Language Processing (NLP), run by [Associate Professor Naoya Inoue](https://naoya-i.info/) at [Japan Advanced Institute of Science and Technology (JAIST)](https://www.jaist.ac.jp/english/) (since 2022). RebelsNLU is short for **Re**ading **be**tween the **L**ine**s** for **N**atural **L**anguage **U**nderstanding.
+**RebelsNLU** is an international research lab for Artificial Intelligence (AI) and Natural Language Processing (NLP) at the [Japan Advanced Institute of Science and Technology (JAIST)](https://www.jaist.ac.jp/english/), founded in 2022 and led by [Associate Professor Naoya Inoue](https://naoya-i.info/). Its name is short for **Re**ading **be**tween the **L**ine**s** for **N**atural **L**anguage **U**nderstanding.
 
-We want machines that understand human language the way people do — by reading between the lines and making implicit things explicit. To get there, we study how language models work inside, how to make them safe and trustworthy, and how to strengthen their reasoning.
+Our goal is AI that can read between the lines: infer what a text leaves implicit, in ways we can inspect and trust. We pursue this goal from three directions: understanding how language models work inside, making them safe and trustworthy, and strengthening their reasoning.
 
+  </div>
   </div>
 </section>
 
@@ -46,8 +49,8 @@ We want machines that understand human language the way people do — by reading
 
 <section class="join-band">
   <div class="container">
-    <h2>Want to do research with us?</h2>
-    <p>We welcome students who want to understand, and improve, how AI reasons.</p>
+    <h2>Interested in doing research with us?</h2>
+    <p>We welcome students who want to understand and improve how AI reasons.</p>
     <a class="join-btn" href="{{ '/joinus.html' | relative_url }}">How to join →</a>
   </div>
 </section>

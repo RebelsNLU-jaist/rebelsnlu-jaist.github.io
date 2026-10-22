@@ -43,9 +43,8 @@ hero:
 - 日高昇平, 鳥居拓馬, **井之上直也**, 大関洋平. 自然言語の計算原理の解明による最小言語モデルの開発. JSPS Grant-in-Aid for Scientific Research (KAKENHI 基盤A). 2026/04-2030/03, 31,800,000JPY.
 - 水本正晴, 和泉悠, Nguyen Minh Le, **井之上直也**, 窪田悠介. Cross-Linguistic Semantic Alignment for Universal Philosophical Concepts. JSPS Grant-in-Aid for Scientific Research (KAKENHI 基盤A). 2025/04-2029/03, 44,000,000JPY.
 - 乾健太郎, **井之上直也**, 中川智皓, HEINZERLING BENJAMIN, 吉川 将司. 深い論述理解の計算モデリングと論述学習支援への応用. JSPS Grant-in-Aid for Scientific Research (KAKENHI 基盤A). 22H00524. 2022/04-2027/03, 41,470,000JPY.
-{: .list}
 
-Past grants can be found [here](https://naoya-i.info/activities.html).
+Past grants are listed on [Prof. Inoue's website](https://naoya-i.info/activities.html).
 {: .note}
 
 {% include content-section-end.html %}

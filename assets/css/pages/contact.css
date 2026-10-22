@@ -12,15 +12,6 @@ h2.title{font-size:clamp(1.55rem,3vw,2.1rem)}
 .card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
 .card p{margin:0}
 
-.list{list-style:none;padding:0;margin:1.5rem 0 0}
-.list li{
-  background:#fff;border:1px solid var(--line);border-radius:12px;
-  border-left:3px solid var(--accent);
-  padding:1.1rem 1.3rem;margin-bottom:.8rem;
-  color:#3a465f;font-size:1rem;
-  transition:transform .15s,box-shadow .2s,border-color .2s;
-}
-.list li:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
 
 .email{
   font-family:ui-monospace,SFMono-Regular,Menlo,monospace;

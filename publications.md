@@ -7,7 +7,7 @@ stylesheet: /assets/css/pages/publications.css
 hero:
   title: Publications
   links:
-    - label: International journals/conferences/workshops
+    - label: International Journals/Conferences/Workshops
       href: "#international-journals-conferences-workshops"
       count: 34
     - label: Awards
@@ -16,7 +16,7 @@ hero:
     - label: Review Articles
       href: "#review-articles"
       count: 1
-    - label: Domestic conferences
+    - label: Domestic Conferences
       href: "#domestic-conferences"
       count: 56
     - label: Invited Talks
@@ -30,7 +30,7 @@ hero:
 {% include content-section-start.html id="international-journals-conferences-workshops" %}
 
 
-## International journals/conferences/workshops **34**
+## International Journals/Conferences/Workshops **34**
 {: .title .pub-heading}
 
 1. Dang Huu-Tien, Hoang Thanh-Tung, Anh Tuan Bui, Phuong Minh Nguyen, Le-Minh Nguyen, Naoya Inoue. [Improving LLM Unlearning Robustness via Random Perturbations](https://openreview.net/forum?id=QYw192hTdH). In Transactions on Machine Learning Research (TMLR), April 2026.
@@ -106,7 +106,7 @@ hero:
 {% include content-section-start.html id="domestic-conferences" class="alt" %}
 
 
-## Domestic conferences **56**
+## Domestic Conferences **56**
 {: .title .pub-heading}
 
 1. 趙羽風, 楊昊霖, 峰岸剛基, 井之上直也. [文脈内学習におけるタスク指向情報除去のメカニズム](https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B4-1.pdf). 言語処理学会第32回年次大会発表論文集, 4 pages, March 2026. (若手奨励賞)
@@ -211,7 +211,7 @@ hero:
 
 {% include content-section-start.html id="publication-history" class="tail" %}
 
-See [HERE](https://naoya-i.info/activities) for past publication record before 4/1/2022.
+Publications before April 2022 are listed on [Prof. Inoue's website](https://naoya-i.info/activities).
 {: .note}
 
 {% include content-section-end.html %}

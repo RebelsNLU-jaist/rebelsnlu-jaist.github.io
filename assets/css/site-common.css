@@ -108,6 +108,9 @@ h3.subtitle{
 .prose strong{color:var(--navy-800)}
 .prose a{color:var(--navy-700);font-weight:600;text-decoration:underline;text-decoration-color:rgba(45,212,191,.7);text-underline-offset:.15em;transition:color .15s}
 .prose a:hover{color:var(--accent-strong)}
+.prose ul:not([class]){margin:0 0 1.15rem;padding-left:1.3rem;color:#3a465f;font-size:1.05rem}
+.prose ul:not([class]) li{margin:.4rem 0}
+.prose ul:not([class]) ul{margin:.3rem 0 0}
 
 /* ---------- Jump links ---------- */
 .jump{display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center;list-style:none;padding:0;margin:2rem 0 0;position:relative;z-index:2}

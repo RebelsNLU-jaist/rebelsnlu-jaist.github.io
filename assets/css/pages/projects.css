@@ -6,7 +6,7 @@
 .topic{display:grid;grid-template-columns:1fr;gap:1.6rem;padding:1.6rem 0;border-top:1px solid var(--line)}
 .topic.has-image{grid-template-columns:1fr minmax(0,26rem);align-items:start}
 .topic.has-image.wide{grid-template-columns:1fr}
-.topic.wide .topic-fig{max-width:46rem}
+.topic.wide .topic-fig{max-width:46rem;width:100%;justify-self:center}
 .topic h3{margin:0 0 .45rem;font-size:1.2rem;font-weight:700;color:var(--navy-800)}
 .topic p{margin:0 0 .8rem}
 .papers{display:flex;flex-wrap:wrap;gap:.45rem}
@@ -19,17 +19,6 @@
 .topic-fig{margin:0;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:.8rem}
 .topic-fig img{width:100%;height:auto;border-radius:6px}
 
-/* Grants */
-.list{list-style:none;padding:0;margin:1.5rem 0 0}
-.list li{
-  background:#fff;border:1px solid var(--line);border-radius:12px;
-  padding:1.1rem 1.3rem;margin-bottom:.8rem;color:#3a465f;font-size:1rem;
-  border-left:3px solid var(--accent);
-  transition:transform .15s,box-shadow .2s,border-color .2s;
-}
-.list li:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
-.list strong{color:var(--navy-800)}
-.list a{color:var(--navy-700);font-weight:600}
 .note{margin-top:1.4rem;color:var(--muted);font-size:.98rem}
 .note a{color:var(--navy-700);font-weight:600}
 
